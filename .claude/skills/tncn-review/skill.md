@@ -48,8 +48,9 @@ Số người rơi vào từng bậc dựa trên TNCT tháng trung bình:
 - Nhân viên có chênh lệch lớn giữa thuế đã khấu trừ và thuế phải nộp theo Luật 109
 - Dòng dữ liệu thiếu thông tin quan trọng
 
-## Bước 3 — Trả kết quả trong chat
-Trình bày theo bảng và gạch đầu dòng, không tạo file.
-
-Cuối cùng gợi ý:
-> "Để tạo bộ hồ sơ quyết toán đầy đủ: dùng `/tncn-generator` (từ file CSV) hoặc `/tncn-sheets-sync` (từ Google Sheets)."
+## Bước 3 — Xuất file kết quả
+Chạy script:
+```
+python .claude/skills/tncn-review/scripts/review_tncn.py "<đường_dẫn_file>"
+```
+Kết quả được ghi ra `output/tncn_review_{YYYY-MM-DD}.txt`, không hiển thị trong chat.
