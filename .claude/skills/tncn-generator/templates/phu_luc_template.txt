@@ -1,0 +1,47 @@
+================================================================================
+        PHỤ LỤC BẢNG KÊ CHI TIẾT CÁ NHÂN THUỘC DIỆN KHẤU TRỪ THUẾ
+                     (Mẫu tham chiếu 05-2/BK-QTT-TNCN)
+================================================================================
+
+Kỳ tính thuế: Tháng {thang} / Năm {nam}
+
+THÔNG TIN CÁ NHÂN
+-----------------
+Họ và tên         : {ho_ten}
+Mã số thuế        : {mst}
+Số người phụ thuộc: {nguoi_phu_thuoc} người
+
+CHI TIẾT THU NHẬP
+-----------------
+Thu nhập gộp trong tháng          : {thu_nhap_gop:>15} VND
+Các khoản BHXH, BHYT, BHTN        : {bhxh_bhyt_bhtn:>15} VND
+                                    ---------------
+Thu nhập trước giảm trừ           : {tn_truoc_giam_tru:>15} VND
+
+GIẢM TRỪ GIA CẢNH
+------------------
+Giảm trừ bản thân (11.000.000)    : {giam_tru_ban_than:>15} VND
+Giảm trừ người phụ thuộc          : {giam_tru_phu_thuoc:>15} VND
+  ({nguoi_phu_thuoc} người × 4.400.000 VND)
+                                    ---------------
+Tổng giảm trừ                     : {tong_giam_tru:>15} VND
+
+TÍNH THUẾ
+---------
+Thu nhập chịu thuế                : {tn_chiu_thue:>15} VND
+
+Phân bổ theo bậc thuế lũy tiến:
+  Bậc 1 (đến  5.000.000 × 5%)    : {bac1_thue:>15} VND
+  Bậc 2 (đến 10.000.000 × 10%)   : {bac2_thue:>15} VND
+  Bậc 3 (đến 18.000.000 × 15%)   : {bac3_thue:>15} VND
+  Bậc 4 (đến 32.000.000 × 20%)   : {bac4_thue:>15} VND
+  Bậc 5 (đến 52.000.000 × 25%)   : {bac5_thue:>15} VND
+  Bậc 6 (đến 80.000.000 × 30%)   : {bac6_thue:>15} VND
+  Bậc 7 (trên 80.000.000 × 35%)  : {bac7_thue:>15} VND
+                                    ---------------
+THUẾ TNCN PHẢI NỘP                : {tong_thue:>15} VND
+
+================================================================================
+Ghi chú: Phụ lục được tạo tự động bởi Claude Code skill tncn-generator
+Ngày tạo: {ngay_tao}
+================================================================================

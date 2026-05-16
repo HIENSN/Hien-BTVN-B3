@@ -1,0 +1,55 @@
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập – Tự do – Hạnh phúc
+================================================================================
+         TỜ KHAI QUYẾT TOÁN THUẾ THU NHẬP CÁ NHÂN
+                     Mẫu số: 05/QTT-TNCN
+        (Ban hành kèm theo Thông tư 80/2021/TT-BTC)
+================================================================================
+
+[01] Kỳ tính thuế: Năm {NAM}
+[02] Lần đầu: [X]    Bổ sung lần thứ: [ ]
+
+PHẦN I — THÔNG TIN ĐƠN VỊ TRẢ THU NHẬP
+----------------------------------------
+[03] Tên tổ chức/cá nhân trả thu nhập: {TEN_TO_CHUC}
+[04] Mã số thuế: {MST_TO_CHUC}
+[05] Địa chỉ: {DIA_CHI}
+[06] Quận/huyện: {QUAN_HUYEN}   Tỉnh/TP: {TINH_TP}
+[07] Điện thoại: {DIEN_THOAI}
+
+PHẦN II — THÔNG TIN CHUNG
+--------------------------
+[08] Tổng số cá nhân trả thu nhập trong năm: {TONG_CA_NHAN} người
+     Trong đó:
+       - Có hợp đồng lao động (Phụ lục 01): {SO_NGUOI_PL01} người
+       - Không có hợp đồng lao động (Phụ lục 02): {SO_NGUOI_PL02} người
+
+PHẦN III — SỐ LIỆU TỔNG HỢP
+------------------------------
+[09] Tổng thu nhập chịu thuế đã trả trong năm:
+                                        {TONG_TNCT} VND
+
+[10] Tổng thuế TNCN đã khấu trừ:
+                                        {TONG_THUE_DA_KHAU_TRU} VND
+
+[11] Tổng thuế TNCN phải nộp (tính theo Luật 109/2025/QH15):
+                                        {TONG_THUE_PHAI_NOP} VND
+
+[12] Chênh lệch thuế (= [11] - [10]):
+                                        {CHENH_LECH} VND
+     Trong đó:
+       - Số thuế còn phải nộp thêm:    {SO_CON_NOP} VND
+       - Số thuế nộp thừa (hoàn lại):  {SO_HOAN} VND
+
+PHẦN IV — PHỤ LỤC KÈM THEO
+----------------------------
+[X] 05-1/BK-QTT-TNCN — Phụ lục 01 (có BHXH)
+[X] 05-2/BK-QTT-TNCN — Phụ lục 02 (không BHXH)
+[ ] 05-3/BK-QTT-TNCN — Phụ lục 03 (người phụ thuộc) — chưa có dữ liệu
+
+================================================================================
+Cơ sở pháp lý: Luật Thuế TNCN số 109/2025/QH15 (hiệu lực 01/07/2026)
+                Nghị quyết 110/2025/UBTVQH15 về giảm trừ gia cảnh
+                Thông tư 80/2021/TT-BTC về mẫu biểu khai thuế
+Ngày tạo: {NGAY_TAO}
+================================================================================

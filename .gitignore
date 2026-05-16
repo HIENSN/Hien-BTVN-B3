@@ -1,0 +1,15 @@
+# Google API credentials - KHÔNG commit file này lên GitHub
+credentials.json
+*.json.key
+
+# Temp files từ skill
+output/temp_sheet*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db

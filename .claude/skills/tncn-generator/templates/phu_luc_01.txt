@@ -1,0 +1,36 @@
+================================================================================
+  PHỤ LỤC 01 — BẢNG KÊ CHI TIẾT CÁ NHÂN CÓ HỢP ĐỒNG LAO ĐỘNG
+              (Mẫu 05-1/BK-QTT-TNCN — Thông tư 80/2021/TT-BTC)
+================================================================================
+Tên tổ chức trả thu nhập: {TEN_TO_CHUC}
+MST tổ chức: {MST_TO_CHUC}
+Kỳ quyết toán: Năm {NAM}
+Áp dụng: Luật Thuế TNCN 109/2025/QH15 — Giảm trừ bản thân: 15.500.000 VND/tháng
+--------------------------------------------------------------------------------
+
+STT | Họ và tên       | CCCD/MST   | Tháng | Tổng TN   | BHXH KT  | CĐ KT   | GT gia cảnh | TNCT      | Thuế KT   | Thuế PT   | Chênh lệch
+----|-----------------|------------|-------|-----------|----------|---------|-------------|-----------|-----------|-----------|------------
+{DANH_SACH_PL01}
+
+--------------------------------------------------------------------------------
+TỔNG CỘNG PHỤ LỤC 01:
+  Số cá nhân       : {SO_NGUOI_PL01} người
+  Tổng thu nhập    : {TONG_TN_PL01} VND
+  Tổng BHXH KT     : {TONG_BHXH_PL01} VND
+  Tổng thuế đã KT  : {TONG_THUE_KT_PL01} VND
+  Tổng thuế phải T : {TONG_THUE_PT_PL01} VND
+  Còn nộp thêm     : {TONG_NOP_THEM_PL01} VND
+  Được hoàn        : {TONG_HOAN_PL01} VND
+
+Ghi chú cột:
+  BHXH KT     = BHXH+BHYT+BHTN nhân viên đóng
+  CĐ KT       = Công đoàn khấu trừ
+  GT gia cảnh = Giảm trừ gia cảnh (bản thân + người phụ thuộc)
+  TNCT        = Thu nhập chịu thuế
+  Thuế KT     = Thuế TNCN đã khấu trừ tại nguồn
+  Thuế PT     = Thuế TNCN phải nộp theo Luật 109
+  Chênh lệch  = Thuế PT - Thuế KT (dương: nộp thêm | âm: được hoàn)
+
+================================================================================
+Ngày tạo: {NGAY_TAO}
+================================================================================

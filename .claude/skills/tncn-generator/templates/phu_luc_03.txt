@@ -1,0 +1,24 @@
+================================================================================
+  PHỤ LỤC 03 — BẢNG KÊ NGƯỜI PHỤ THUỘC GIẢM TRỪ GIA CẢNH
+              (Mẫu 05-3/BK-QTT-TNCN — Thông tư 80/2021/TT-BTC)
+================================================================================
+Tên tổ chức trả thu nhập: {TEN_TO_CHUC}
+MST tổ chức: {MST_TO_CHUC}
+Kỳ quyết toán: Năm {NAM}
+Mức giảm trừ người phụ thuộc: 6.200.000 VND/người/tháng (Nghị quyết 110/2025/UBTVQH15)
+--------------------------------------------------------------------------------
+
+STT | Họ tên người nộp thuế | MST/CCCD NNT | Họ tên người phụ thuộc | Mã số NPT | Quan hệ | Số tháng | Số tiền GT
+----|-----------------------|--------------|------------------------|-----------|---------|----------|------------
+    |                       |              | (Chưa có dữ liệu)      |           |         |          |
+
+--------------------------------------------------------------------------------
+Ghi chú:
+  - Phụ lục này để trống do chưa có dữ liệu người phụ thuộc.
+  - Để bổ sung, cần cung cấp: họ tên người phụ thuộc, mã số định danh,
+    quan hệ với người nộp thuế, số tháng được tính giảm trừ trong năm.
+  - Chạy lại skill `/tncn-generator` sau khi có dữ liệu người phụ thuộc.
+
+================================================================================
+Ngày tạo: {NGAY_TAO}
+================================================================================
