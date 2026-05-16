@@ -1,6 +1,6 @@
 # Claude Code Workspace — Quyết toán Thuế TNCN
 
-Workspace cá nhân với 3 Claude Code skills hỗ trợ lập hồ sơ quyết toán thuế TNCN.
+Workspace cá nhân với 4 Claude Code skills hỗ trợ lập hồ sơ quyết toán thuế TNCN.
 Áp dụng: **Luật Thuế TNCN số 109/2025/QH15** (hiệu lực 01/07/2026)
 
 ---
@@ -12,7 +12,8 @@ Workspace cá nhân với 3 Claude Code skills hỗ trợ lập hồ sơ quyết
 ├── commands/
 │   ├── tncn-generator.md
 │   ├── tncn-sheets-sync.md
-│   └── tncn-review.md
+│   ├── tncn-review.md
+│   └── tncn-full.md
 └── skills/
     ├── tncn-generator/          # Skill 1
     │   ├── skill.md
@@ -24,10 +25,14 @@ Workspace cá nhân với 3 Claude Code skills hỗ trợ lập hồ sơ quyết
     │   ├── config.json
     │   └── scripts/
     │       └── fetch_and_update.py
-    └── tncn-review/             # Skill 3
+    ├── tncn-review/             # Skill 3
+    │   ├── skill.md
+    │   └── scripts/
+    │       └── review_tncn.py
+    └── tncn-full/               # Skill 4
         ├── skill.md
         └── scripts/
-            └── review_tncn.py
+            └── run_all.py
 
 05_QTT_TNCN_TT80_2025.xls       # Mẫu tờ khai chính thức (dùng cho Skill 1)
 
@@ -40,13 +45,14 @@ output/
 
 ---
 
-## 3 Skills
+## 4 Skills
 
 | Lệnh | Chức năng | Kết nối ngoài | File phụ |
 |------|-----------|---------------|----------|
-| `/tncn-generator` | Đọc file Excel bảng lương → điền mẫu 05/QTT-TNCN chính thức | Không | `scripts/`, `templates/` |
 | `/tncn-sheets-sync` | Kết nối **Google Sheets** (public URL) → xuất file Excel thô | **Google Sheets** | `scripts/`, `config.json` |
+| `/tncn-generator` | Đọc file Excel bảng lương → điền mẫu 05/QTT-TNCN chính thức | Không | `scripts/`, `templates/` |
 | `/tncn-review` | Phân tích nhanh → báo cáo tổng hợp `.xlsx` | Không | `scripts/` |
+| `/tncn-full` | **Chạy cả 3 skill trên theo thứ tự bằng 1 lệnh** | **Google Sheets** | `scripts/` |
 
 ---
 
@@ -62,6 +68,8 @@ Google Sheets  ──►  /tncn-sheets-sync  ──►  output/bang_luong_from_s
 ```
 
 Mỗi khi dữ liệu Google Sheets thay đổi: chạy lại `/tncn-sheets-sync` → chạy `/tncn-generator` và/hoặc `/tncn-review` để có output cập nhật.
+
+Hoặc dùng **`/tncn-full`** để chạy cả 3 bước chỉ bằng 1 lệnh.
 
 ---
 
