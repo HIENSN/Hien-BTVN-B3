@@ -38,10 +38,16 @@ Tổng thuế = Bậc 1 + Bậc 2 + Bậc 3 + Bậc 4 + Bậc 5
 ## CÁC BƯỚC THỰC HIỆN
 
 ### Bước 1 — Nhận file đầu vào
-Yêu cầu người dùng cung cấp đường dẫn file CSV. Nếu có 2 file (2 sheet xuất riêng), đọc cả hai và gộp lại.
-Đọc bằng Bash: `cat "{đường_dẫn}"`
+Yêu cầu người dùng cung cấp đường dẫn file Excel (.xlsx hoặc .xls) chứa **nhiều sheet bảng lương**. Script tự đọc tất cả sheet trong 1 file.
 
-Các cột có thể gặp trong CSV:
+Chạy bằng Bash:
+```
+python .claude/skills/tncn-generator/scripts/generate_tncn.py "{đường_dẫn_file}"
+```
+
+Đảm bảo file mẫu `05_QTT_TNCN_TT80_2025.xls` nằm trong thư mục gốc project.
+
+Các cột được nhận diện tự động trong mỗi sheet:
 - `Tháng trả lương` — VD: Tháng 1
 - `Họ tên`
 - `Tổng thu nhập` — thu nhập gộp (VND)
