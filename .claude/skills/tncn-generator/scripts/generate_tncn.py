@@ -139,8 +139,8 @@ def aggregate(all_rows):
         gtgc = gv(rec, "Giam tru gia canh", "giam tru")
         if gtgc == 0: gtgc = GIAM_TRU_BAN_THAN
 
-        nv[name]["tn"]      += gv(rec, "Tong thu nhap", "So tien")
-        nv[name]["thue_kt"] += gv(rec, "Thue TNCN da khau tru", "Thue TNCN")
+        nv[name]["tn"]      += gv(rec, "Tổng thu nhập", "Tong thu nhap", "Số tiền", "So tien")
+        nv[name]["thue_kt"] += gv(rec, "Thuế TNCN đã khấu trừ", "Thue TNCN da khau tru", "Thuế TNCN", "Thue TNCN")
         nv[name]["bhxh"]    += bhxh
         nv[name]["cd"]      += gv(rec, "Cong doan")
         nv[name]["gtgc"]    += gtgc
