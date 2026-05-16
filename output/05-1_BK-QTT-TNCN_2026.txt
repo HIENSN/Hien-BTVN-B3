@@ -1,0 +1,126 @@
+================================================================================
+  PHU LUC 01 — BANG KE CA NHAN CO HOP DONG LAO DONG
+  Mau 05-1/BK-QTT-TNCN | Luat 109/2025/QH15
+  Ngay tao: 16/05/2026 10:50
+================================================================================
+STT  Ho va ten                         Tong TN          ThueKhauTru     ThuePhaïNop    ChenhLech
+----+--------------------------------+-----------------+---------------+---------------+-----------
+  1. Bùi Công Đàm                   TN=      3.183.093 | ThuéKT=     318.309 | ThuéPT=     159.154 | CL=    -159.155
+  2. Bùi Hải Yến                    TN=     24.352.421 | ThuéKT=   1.078.952 | ThuéPT=     777.662 | CL=    -301.290
+  3. Bùi Thu Thảo                   TN=     20.900.733 | ThuéKT=   1.210.073 | ThuéPT=     464.673 | CL=    -745.400
+  4. Bùi Thị Thanh Huyền            TN=              0 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+  5. Hoàng Minh Tuyết               TN=      6.013.637 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+  6. Huỳnh Nguyễn Ngọc Nga          TN=     60.787.601 | ThuéKT=   2.967.021 | ThuéPT=     991.583 | CL=  -1.975.438
+  7. Hòa Thị Quỳnh Anh              TN=     30.400.000 | ThuéKT=      72.137 | ThuéPT=           0 | CL=     -72.137
+  8. Hồ Hải Ninh                    TN=     12.123.864 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+  9. Ian Guilherme Merlo Bacin      TN=              0 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 10. Khổng Thị Hòa                  TN=     52.613.968 | ThuéKT=   1.631.397 | ThuéPT=     309.247 | CL=  -1.322.150
+ 11. Kiều Thị Liên Trà              TN=      2.362.250 | ThuéKT=     236.225 | ThuéPT=     118.112 | CL=    -118.113
+ 12. Lâm Huỳnh Hạ Liên              TN=     84.210.691 | ThuéKT=   1.514.112 | ThuéPT=     687.038 | CL=    -827.074
+ 13. Lâm Thị Thu Hà                 TN=      2.879.127 | ThuéKT=     287.913 | ThuéPT=     143.956 | CL=    -143.957
+ 14. Lê Hồng Ngọc                   TN=      6.862.275 | ThuéKT=     686.227 | ThuéPT=     343.113 | CL=    -343.114
+ 15. Lê Mai Phương                  TN=     35.708.698 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 16. Lê Nguyễn Bảo Trân             TN=     53.969.723 | ThuéKT=   1.406.972 | ThuéPT=     377.034 | CL=  -1.029.938
+ 17. Lê Thị Hải Yến                 TN=     10.059.531 | ThuéKT=   1.005.953 | ThuéPT=     505.953 | CL=    -500.000
+ 18. Lê Thị Minh Thuận              TN=      7.100.357 | ThuéKT=     710.035 | ThuéPT=     355.017 | CL=    -355.018
+ 19. Lê Thị Phương Thy              TN=     42.873.915 | ThuéKT=     222.137 | ThuéPT=           0 | CL=    -222.137
+ 20. Lê Thị Trang                   TN=              0 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 21. Lê Trang Nhung                 TN=     70.100.026 | ThuéKT=   3.088.866 | ThuéPT=   2.147.825 | CL=    -941.041
+ 22. Nguyễn Công Minh               TN=     11.300.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 23. Nguyễn Duy Khánh               TN=     11.300.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 24. Nguyễn Duy Phương              TN=              0 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 25. Nguyễn Hoàng Diệp              TN=      1.502.686 | ThuéKT=     150.269 | ThuéPT=      75.134 | CL=     -75.135
+ 26. Nguyễn Hoàng Quý               TN=     11.350.000 | ThuéKT=           0 | ThuéPT=      15.000 | CL=      15.000
+ 27. Nguyễn Huy Thắng               TN=     45.186.629 | ThuéKT=   1.078.784 | ThuéPT=     299.815 | CL=    -778.969
+ 28. Nguyễn Hà Khánh Như            TN=      2.223.415 | ThuéKT=     222.341 | ThuéPT=     111.170 | CL=    -111.171
+ 29. Nguyễn Hà Thanh Thùy           TN=     25.109.389 | ThuéKT=   1.480.939 | ThuéPT=     850.213 | CL=    -630.726
+ 30. Nguyễn Hải Long                TN=     22.402.789 | ThuéKT=     982.416 | ThuéPT=     579.553 | CL=    -402.863
+ 31. Nguyễn Mai Hạnh                TN=              0 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 32. Nguyễn Mỹ Duyên                TN=     35.219.565 | ThuéKT=   1.341.412 | ThuéPT=      47.752 | CL=  -1.293.660
+ 33. Nguyễn Như Cương               TN=      8.300.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 34. Nguyễn Phương Dung             TN=     14.600.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 35. Nguyễn Phương Trúc             TN=     53.894.820 | ThuéKT=   3.301.256 | ThuéPT=     489.015 | CL=  -2.812.241
+ 36. Nguyễn Quỳnh Trang             TN=     33.900.000 | ThuéKT=     494.274 | ThuéPT=           0 | CL=    -494.274
+ 37. Nguyễn Thu Hòa                 TN=      8.300.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 38. Nguyễn Thùy Đoan Nghi          TN=     33.839.535 | ThuéKT=   1.361.453 | ThuéPT=     513.227 | CL=    -848.226
+ 39. Nguyễn Thị Bích Đào            TN=     22.100.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 40. Nguyễn Thị Bắc Giang           TN=      7.600.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 41. Nguyễn Thị Hà                  TN=     22.600.000 | ThuéKT=     172.137 | ThuéPT=           0 | CL=    -172.137
+ 42. Nguyễn Thị Hạnh                TN=     26.069.123 | ThuéKT=   1.019.049 | ThuéPT=     142.730 | CL=    -876.319
+ 43. Nguyễn Thị Hạnh (CTV1)         TN=     21.900.000 | ThuéKT=     122.137 | ThuéPT=           0 | CL=    -122.137
+ 44. Nguyễn Thị Hải Linh            TN=      4.525.865 | ThuéKT=     452.586 | ThuéPT=     226.293 | CL=    -226.293
+ 45. Nguyễn Thị Hồng Hà             TN=     45.334.091 | ThuéKT=   1.672.500 | ThuéPT=           0 | CL=  -1.672.500
+ 46. Nguyễn Thị Khánh Chi           TN=     12.800.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 47. Nguyễn Thị Khánh Huyền         TN=     89.907.905 | ThuéKT=   4.432.194 | ThuéPT=   2.302.888 | CL=  -2.129.306
+ 48. Nguyễn Thị Mai Quỳnh           TN=     18.299.908 | ThuéKT=     322.133 | ThuéPT=     334.632 | CL=      12.499
+ 49. Nguyễn Thị Mỹ Linh             TN=     69.555.296 | ThuéKT=   2.737.667 | ThuéPT=   2.047.224 | CL=    -690.443
+ 50. Nguyễn Thị Ngọc Anh            TN=     23.343.334 | ThuéKT=   1.604.333 | ThuéPT=     673.607 | CL=    -930.726
+ 51. Nguyễn Thị Nhịn                TN=      8.300.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 52. Nguyễn Thị Quỳnh               TN=     40.408.393 | ThuéKT=   1.678.339 | ThuéPT=           0 | CL=  -1.678.339
+ 53. Nguyễn Thị Thanh Thảo          TN=     47.241.694 | ThuéKT=   4.724.169 | ThuéPT=   5.948.338 | CL=   1.224.169
+ 54. Nguyễn Thị Thanh Tâm           TN=              0 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 55. Nguyễn Thị Thu Hà              TN=     17.100.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 56. Nguyễn Thị Thu Trang (CTV1)    TN=     31.532.039 | ThuéKT=   2.323.204 | ThuéPT=   1.492.478 | CL=    -830.726
+ 57. Nguyễn Thị Thu Trang (CTV2)    TN=     95.868.165 | ThuéKT=   4.908.953 | ThuéPT=   4.066.377 | CL=    -842.576
+ 58. Nguyễn Trần Hà Thương          TN=     14.241.829 | ThuéKT=   1.424.183 | ThuéPT=     924.182 | CL=    -500.001
+ 59. Nguyễn thị Khánh Huyền         TN=     13.300.000 | ThuéKT=      72.137 | ThuéPT=      84.637 | CL=      12.500
+ 60. Nguyễn thị Mỹ linh             TN=     15.300.000 | ThuéKT=           0 | ThuéPT=     212.500 | CL=     212.500
+ 61. Nguyễn Đình Vinh               TN=      1.423.054 | ThuéKT=     142.305 | ThuéPT=      71.152 | CL=     -71.153
+ 62. Ngô Anh Nam                    TN=      5.978.261 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 63. Ngô Hà Linh                    TN=     50.104.639 | ThuéKT=   3.700.464 | ThuéPT=   2.189.012 | CL=  -1.511.452
+ 64. Nông Phương Hồng               TN=     40.373.864 | ThuéKT=   1.849.523 | ThuéPT=   1.215.935 | CL=    -633.588
+ 65. Phan Công Dũng                 TN=      8.626.661 | ThuéKT=     862.666 | ThuéPT=     431.333 | CL=    -431.333
+ 66. Phan Lê Hương Quỳnh            TN=     26.600.000 | ThuéKT=      72.137 | ThuéPT=     197.137 | CL=     125.000
+ 67. Phan Minh Tâm                  TN=     17.300.000 | ThuéKT=      52.137 | ThuéPT=      64.637 | CL=      12.500
+ 68. Phan Thị Thu Hà                TN=     32.018.183 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 69. Phùng Thị Hoa                  TN=     48.739.948 | ThuéKT=   4.873.995 | ThuéPT=   6.247.989 | CL=   1.373.994
+ 70. Phạm Anh Phương                TN=     53.274.519 | ThuéKT=     323.863 | ThuéPT=     122.274 | CL=    -201.589
+ 71. Phạm Công Chính                TN=     12.300.000 | ThuéKT=      22.137 | ThuéPT=      34.637 | CL=      12.500
+ 72. Phạm Minh Phương               TN=     10.300.000 | ThuéKT=   6.837.500 | ThuéPT=           0 | CL=  -6.837.500
+ 73. Phạm Mỹ Tâm                    TN=     30.210.396 | ThuéKT=   3.021.040 | ThuéPT=   2.542.079 | CL=    -478.961
+ 74. Phạm Quốc Hưng                 TN=     11.300.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 75. Phạm Thị Hải Chiều             TN=     25.445.455 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 76. Phạm Thị Lộc                   TN=     10.300.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 77. Phạm Thị Ngọc                  TN=     10.300.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 78. Phạm Đăng Hiệp                 TN=     35.700.000 | ThuéKT=     137.500 | ThuéPT=      47.137 | CL=     -90.363
+ 79. Thiều Nguyễn Khánh Linh        TN=      1.308.044 | ThuéKT=     130.804 | ThuéPT=      65.402 | CL=     -65.402
+ 80. Trần Châu Gia Tuấn             TN=     26.838.812 | ThuéKT=   2.683.881 | ThuéPT=   2.183.881 | CL=    -500.000
+ 81. Trần Duy Hưng                  TN=     18.731.818 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 82. Trần Phương Mai                TN=     81.828.520 | ThuéKT=   3.402.852 | ThuéPT=   1.879.224 | CL=  -1.523.628
+ 83. Trần Thị Bích Kiều             TN=     20.600.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 84. Trần Thị Hà                    TN=     36.900.000 | ThuéKT=     122.137 | ThuéPT=           0 | CL=    -122.137
+ 85. Trần Thị Kim Chi               TN=     53.910.548 | ThuéKT=   1.143.192 | ThuéPT=     154.076 | CL=    -989.116
+ 86. Trần Thị Ngọc Ánh              TN=     23.600.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 87. Trần Đình Thị Phương           TN=      9.688.024 | ThuéKT=     968.802 | ThuéPT=     484.401 | CL=    -484.401
+ 88. Trịnh Thị Hồng Nụ              TN=              0 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 89. Trịnh Thị Quỳnh Anh            TN=     29.600.000 | ThuéKT=     294.274 | ThuéPT=     319.274 | CL=      25.000
+ 90. Tô Trúc Quỳnh                  TN=     27.361.305 | ThuéKT=   2.736.131 | ThuéPT=   2.236.130 | CL=    -500.001
+ 91. Võ Hoàng Thảo Nguyên           TN=     34.932.625 | ThuéKT=   1.933.263 | ThuéPT=     671.811 | CL=  -1.261.452
+ 92. Võ Nguyễn Tường Vy             TN=     34.483.543 | ThuéKT=   1.302.764 | ThuéPT=     682.628 | CL=    -620.136
+ 93. Vũ Hà Phương                   TN=     17.746.780 | ThuéKT=     114.678 | ThuéPT=           0 | CL=    -114.678
+ 94. Vũ Ngọc Diệp                   TN=      7.800.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 95. Vũ Quỳnh Mai                   TN=        228.872 | ThuéKT=      22.887 | ThuéPT=      11.443 | CL=     -11.444
+ 96. Vũ Thanh Thanh Nhàn            TN=     49.846.743 | ThuéKT=   1.516.811 | ThuéPT=           0 | CL=  -1.516.811
+ 97. Vũ Thị Tươi                    TN=      7.521.864 | ThuéKT=     752.186 | ThuéPT=     376.093 | CL=    -376.093
+ 98. Vũ Việt Thao                   TN=     30.400.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+ 99. Đinh Ngọc Minh                 TN=     32.600.001 | ThuéKT=     232.137 | ThuéPT=      29.274 | CL=    -202.863
+100. Đinh Thị Bích Thảo             TN=     18.879.888 | ThuéKT=     234.945 | ThuéPT=           0 | CL=    -234.945
+101. Đàm Thị Ánh                    TN=     23.550.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+102. Đào Thị Hoa                    TN=      3.986.894 | ThuéKT=     398.689 | ThuéPT=     199.344 | CL=    -199.345
+103. Đậu Thị Hà Lê                  TN=     31.475.075 | ThuéKT=   3.147.508 | ThuéPT=   2.795.015 | CL=    -352.493
+104. Đặng Mai Anh                   TN=     17.100.001 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+105. Đặng Nguyễn Anh Khoa           TN=     13.193.121 | ThuéKT=   1.319.312 | ThuéPT=     819.312 | CL=    -500.000
+106. Đặng Thị Thu Hà                TN=      5.683.599 | ThuéKT=     568.360 | ThuéPT=     284.179 | CL=    -284.181
+107. Đồng Thị Hồng Nhung            TN=     10.504.899 | ThuéKT=   1.050.490 | ThuéPT=     550.489 | CL=    -500.001
+108. Đỗ Minh Tiến                   TN=     37.635.029 | ThuéKT=     845.776 | ThuéPT=     193.888 | CL=    -651.888
+109. Đỗ Nguyễn Bảo Trân             TN=     29.840.517 | ThuéKT=   1.474.052 | ThuéPT=     331.300 | CL=  -1.142.752
+110. Đỗ Thu Thảo                    TN=      9.427.954 | ThuéKT=     942.795 | ThuéPT=     471.397 | CL=    -471.398
+111. Đỗ Thị Hằng                    TN=     19.600.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+112. Đỗ Thị Ngọc Ánh                TN=     38.147.158 | ThuéKT=   2.784.716 | ThuéPT=     226.995 | CL=  -2.557.721
+113. Đỗ Thị Phương Thảo             TN=     64.134.767 | ThuéKT=   1.787.751 | ThuéPT=     830.574 | CL=    -957.177
+114. Đỗ Thị Quý                     TN=     28.900.000 | ThuéKT=      72.137 | ThuéPT=           0 | CL=     -72.137
+115. Đỗ Thị Thúy Hường              TN=      6.300.000 | ThuéKT=           0 | ThuéPT=           0 | CL=           0
+116. Đỗ thị Quý                     TN=      4.072.621 | ThuéKT=     407.262 | ThuéPT=     203.631 | CL=    -203.631
+================================================================================
+TONG: 116 nguoi | TN=2.830.912.382 | Da KT=108.801.053 | Phai nop=57.980.215
+================================================================================

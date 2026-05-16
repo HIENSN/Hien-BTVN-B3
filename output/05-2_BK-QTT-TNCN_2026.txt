@@ -1,0 +1,237 @@
+PHU LUC 02 — CA NHAN KHONG HOP DONG LAO DONG
+Mau 05-2/BK-QTT-TNCN | Luat 109/2025/QH15 | 16/05/2026 10:51
+================================================================================
+  1. Bùi Công Đàm                   CCCD=03409202     TN=      1.540.000 | KhauTru=     154.000 | PhaïNop=           0
+  2. Bùi Hải Yến                    CCCD=03430500     TN=      5.788.000 | KhauTru=     578.800 | PhaïNop=           0
+  3. Bùi Khánh Chi                  CCCD=00130400     TN=      2.548.000 | KhauTru=     254.800 | PhaïNop=           0
+  4. Bùi Quỳnh Hoa                  CCCD=06630200     TN=      2.931.000 | KhauTru=     293.100 | PhaïNop=           0
+  5. Bùi Thu Thảo                   CCCD=08919201     TN=     18.626.390 | KhauTru=   1.862.639 | PhaïNop=     156.319
+  6. Bùi Thị Diễm Kiều              CCCD=05119601     TN=     11.113.331 | KhauTru=   1.111.331 | PhaïNop=           0
+  7. Bùi Thị Thanh Huyền            CCCD=03619800     TN=     17.905.556 | KhauTru=   1.790.556 | PhaïNop=     120.277
+  8. Bùi Xuân Mai                   CCCD=04230200     TN=        666.667 | KhauTru=      66.667 | PhaïNop=           0
+  9. Bùi Đức Anh                    CCCD=00220400     TN=      3.623.190 | KhauTru=     362.320 | PhaïNop=           0
+ 10. Cao Thị Huyền Trang            CCCD=04219400     TN=      2.680.000 | KhauTru=     268.000 | PhaïNop=           0
+ 11. Chung Khánh Vy                 CCCD=04930701     TN=     17.728.000 | KhauTru=   1.772.800 | PhaïNop=     111.400
+ 12. Dương Thúy Lan Trinh           CCCD=09330200     TN=      8.879.000 | KhauTru=     887.900 | PhaïNop=           0
+ 13. Dương Thị Khánh Huyền          CCCD=06630101     TN=      3.359.000 | KhauTru=     335.900 | PhaïNop=           0
+ 14. Dương Thị Ngọc Huyền           CCCD=08719700     TN=      2.230.000 | KhauTru=     223.000 | PhaïNop=           0
+ 15. Dương Đoàn Quỳnh Anh           CCCD=04619900     TN=      9.445.000 | KhauTru=     944.500 | PhaïNop=           0
+ 16. Hoàng Minh Tuyết               CCCD=06619801     TN=      9.220.000 | KhauTru=     922.000 | PhaïNop=           0
+ 17. Hoàng Phương Chi               CCCD=00130301     TN=      1.783.000 | KhauTru=     178.300 | PhaïNop=           0
+ 18. Hoàng Thị Ngọc Điệp            CCCD=00430400     TN=      2.222.222 | KhauTru=     222.222 | PhaïNop=           0
+ 19. Hoàng Thị Tố Uyên              CCCD=00119502     TN=      1.115.000 | KhauTru=     111.500 | PhaïNop=           0
+ 20. Huỳnh Nguyễn Ngọc Nga          CCCD=05230101     TN=     17.072.500 | KhauTru=   1.707.250 | PhaïNop=      78.625
+ 21. Huỳnh Nguyễn Phương Vy         CCCD=07919502     TN=      4.450.000 | KhauTru=     445.000 | PhaïNop=           0
+ 22. Hòa Thị Quỳnh Anh              CCCD=03430400     TN=     11.844.000 | KhauTru=   1.184.400 | PhaïNop=           0
+ 23. Họ và tên                      CCCD=sỐ cccd      TN=              0 | KhauTru=           0 | PhaïNop=           0
+ 24. Hồ Hải Ninh                    CCCD=00120401     TN=     14.514.445 | KhauTru=   1.451.445 | PhaïNop=           0
+ 25. Hồ Tuấn Anh                    CCCD=00120201     TN=     35.555.555 | KhauTru=   3.555.555 | PhaïNop=   1.505.555
+ 26. Ian Guilherme Merlo Bacin      CCCD=89800891     TN=     73.021.200 | KhauTru=   7.302.120 | PhaïNop=   8.004.240
+ 27. Khổng Thị Hòa                  CCCD=02618901     TN=     79.999.992 | KhauTru=   7.999.992 | PhaïNop=   9.849.997
+ 28. Kiều Thị Liên Trà              CCCD=08730000     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+ 29. Lâm Huỳnh Hạ Liên              CCCD=09630201     TN=    133.316.000 | KhauTru=  13.331.600 | PhaïNop=  26.735.600
+ 30. Lâm Thị Thu Hà                 CCCD=02419900     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+ 31. Lê Hải Dương                   CCCD=00120303     TN=      5.362.319 | KhauTru=     536.232 | PhaïNop=           0
+ 32. Lê Hồng Ngọc                   CCCD=03830400     TN=      9.187.000 | KhauTru=     918.700 | PhaïNop=           0
+ 33. Lê Mai Phương                  CCCD=03819001     TN=     30.261.500 | KhauTru=   3.026.150 | PhaïNop=     976.150
+ 34. Lê Nguyễn Bảo Trân             CCCD=09330300     TN=     25.357.300 | KhauTru=   2.535.730 | PhaïNop=     492.865
+ 35. Lê Thành Long                  CCCD=01409800     TN=      6.688.889 | KhauTru=     668.889 | PhaïNop=           0
+ 36. Lê Thị Diệu Linh               CCCD=04030400     TN=      5.055.556 | KhauTru=     505.556 | PhaïNop=           0
+ 37. Lê Thị Hải Yến                 CCCD=01030400     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+ 38. Lê Thị Minh Thuận              CCCD=05419400     TN=     11.201.000 | KhauTru=   1.120.100 | PhaïNop=           0
+ 39. Lê Thị Phương Thy              CCCD=04819400     TN=     79.876.100 | KhauTru=   7.987.610 | PhaïNop=   9.812.830
+ 40. Lê Thị Thu Thủy                CCCD=02630400     TN=      3.532.609 | KhauTru=     353.261 | PhaïNop=           0
+ 41. Lê Thị Thùy                    CCCD=04530000     TN=      3.979.000 | KhauTru=     397.900 | PhaïNop=           0
+ 42. Lê Thị Trang                   CCCD=00130102     TN=     11.288.000 | KhauTru=   1.128.800 | PhaïNop=           0
+ 43. Lê Trang Nhung                 CCCD=00130203     TN=     38.327.991 | KhauTru=   3.832.799 | PhaïNop=   1.782.799
+ 44. Lê Vũ Quỳnh Hương              CCCD=04930301     TN=      2.144.000 | KhauTru=     214.400 | PhaïNop=           0
+ 45. Lê Yến Nhi                     CCCD=03830300     TN=        663.000 | KhauTru=      66.300 | PhaïNop=           0
+ 46. Lý Thái Sơn                    CCCD=00220600     TN=      6.666.666 | KhauTru=     666.666 | PhaïNop=           0
+ 47. Lăng Thị Hảo                   CCCD=02630400     TN=      4.500.001 | KhauTru=     450.001 | PhaïNop=           0
+ 48. Lưu Thị Ngọc Quỳnh             CCCD=03330400     TN=      2.562.000 | KhauTru=     256.200 | PhaïNop=           0
+ 49. Lương Kiều Thanh               CCCD=02030200     TN=      2.230.000 | KhauTru=     223.000 | PhaïNop=           0
+ 50. Lương Thị Trang                CCCD=03419700     TN=      1.225.000 | KhauTru=     122.500 | PhaïNop=           0
+ 51. Mai Anh Tuấn                   CCCD=03720400     TN=      8.623.189 | KhauTru=     862.319 | PhaïNop=           0
+ 52. Nguyễn Công Minh               CCCD=00109300     TN=      4.444.444 | KhauTru=     444.444 | PhaïNop=           0
+ 53. Nguyễn Duy Khánh               CCCD=06609901     TN=     15.166.665 | KhauTru=   1.516.665 | PhaïNop=           0
+ 54. Nguyễn Duy Phương              CCCD=04409700     TN=      2.097.592 | KhauTru=     209.760 | PhaïNop=           0
+ 55. Nguyễn Hoàng Diệp              CCCD=03619900     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+ 56. Nguyễn Hoàng Quý               CCCD=00120200     TN=      4.046.111 | KhauTru=     404.611 | PhaïNop=           0
+ 57. Nguyễn Huy Hoàng               CCCD=01920500     TN=     14.859.259 | KhauTru=   1.485.926 | PhaïNop=           0
+ 58. Nguyễn Huy Thắng               CCCD=02209800     TN=     22.971.097 | KhauTru=   2.297.111 | PhaïNop=     373.554
+ 59. Nguyễn Hà Khánh Như            CCCD=04630200     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+ 60. Nguyễn Hà Thanh Thùy           CCCD=06619701     TN=      4.036.000 | KhauTru=     403.600 | PhaïNop=           0
+ 61. Nguyễn Hải Long                CCCD=00120000     TN=      3.333.332 | KhauTru=     333.332 | PhaïNop=           0
+ 62. Nguyễn Khánh Linh              CCCD=00119900     TN=        888.888 | KhauTru=      88.888 | PhaïNop=           0
+ 63. Nguyễn Linh Chi                CCCD=03630000     TN=      7.394.000 | KhauTru=     739.400 | PhaïNop=           0
+ 64. Nguyễn Linh Chi CTV1           CCCD=04230500     TN=      3.750.000 | KhauTru=     375.000 | PhaïNop=           0
+ 65. Nguyễn Linh Giang              CCCD=00130500     TN=      4.202.900 | KhauTru=     420.291 | PhaïNop=           0
+ 66. Nguyễn Mai Hạnh                CCCD=00818600     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+ 67. Nguyễn Minh Anh                CCCD=03830301     TN=      2.500.000 | KhauTru=     250.000 | PhaïNop=           0
+ 68. Nguyễn Mỹ Duyên                CCCD=05230101     TN=      6.644.800 | KhauTru=     664.480 | PhaïNop=           0
+ 69. Nguyễn Mỹ Thảo                 CCCD=00130301     TN=      3.333.333 | KhauTru=     333.333 | PhaïNop=           0
+ 70. Nguyễn Nguyên Thảo             CCCD=07530001     TN=      1.714.000 | KhauTru=     171.400 | PhaïNop=           0
+ 71. Nguyễn Ngô An Thư              CCCD=07530101     TN=      4.483.000 | KhauTru=     448.300 | PhaïNop=           0
+ 72. Nguyễn Ngọc An Trâm            CCCD=00130600     TN=      4.396.135 | KhauTru=     439.613 | PhaïNop=           0
+ 73. Nguyễn Ngọc Bảo Trinh          CCCD=05630200     TN=        620.000 | KhauTru=      62.000 | PhaïNop=           0
+ 74. Nguyễn Ngọc Lâm                CCCD=00116100     TN=      2.380.000 | KhauTru=     238.000 | PhaïNop=           0
+ 75. Nguyễn Ngọc Phước              CCCD=04520100     TN=        352.000 | KhauTru=      35.200 | PhaïNop=           0
+ 76. Nguyễn Như Cương               CCCD=00108902     TN=     34.999.999 | KhauTru=   3.499.999 | PhaïNop=   1.449.999
+ 77. Nguyễn Như Phương              CCCD=00119801     TN=      2.000.000 | KhauTru=     200.000 | PhaïNop=           0
+ 78. Nguyễn Nhật Anh                CCCD=03520300     TN=      8.888.889 | KhauTru=     888.889 | PhaïNop=           0
+ 79. Nguyễn Nhật Hoàng              CCCD=05230000     TN=        462.000 | KhauTru=      46.200 | PhaïNop=           0
+ 80. Nguyễn Phương Dung             CCCD=03330200     TN=     11.111.112 | KhauTru=   1.111.112 | PhaïNop=           0
+ 81. Nguyễn Phương Nhi              CCCD=04830400     TN=      9.628.400 | KhauTru=     962.840 | PhaïNop=           0
+ 82. Nguyễn Phương Trúc             CCCD=04930300     TN=     83.446.100 | KhauTru=   8.344.610 | PhaïNop=  10.883.830
+ 83. Nguyễn Quỳnh Trang             CCCD=03130000     TN=     15.565.000 | KhauTru=   1.556.500 | PhaïNop=       3.250
+ 84. Nguyễn Sơn Long                CCCD=03709001     TN=     18.844.445 | KhauTru=   1.884.445 | PhaïNop=     167.222
+ 85. Nguyễn Thanh Sang              CCCD=08709200     TN=      2.000.000 | KhauTru=     200.000 | PhaïNop=           0
+ 86. Nguyễn Thu Hòa                 CCCD=03030100     TN=      1.526.000 | KhauTru=     152.600 | PhaïNop=           0
+ 87. Nguyễn Thu Thảo                CCCD=01930000     TN=     10.189.000 | KhauTru=   1.018.900 | PhaïNop=           0
+ 88. Nguyễn Thái Hồng Ngọc          CCCD=07519700     TN=      3.735.000 | KhauTru=     373.500 | PhaïNop=           0
+ 89. Nguyễn Thùy Đoan Nghi          CCCD=07530000     TN=     26.361.500 | KhauTru=   2.636.150 | PhaïNop=     586.150
+ 90. Nguyễn Thị Bích Đào            CCCD=03719301     TN=      2.733.000 | KhauTru=     273.300 | PhaïNop=           0
+ 91. Nguyễn Thị Bắc Giang           CCCD=04030500     TN=     24.014.500 | KhauTru=   2.401.450 | PhaïNop=     425.725
+ 92. Nguyễn Thị Hà                  CCCD=03430100     TN=      7.031.000 | KhauTru=     703.100 | PhaïNop=           0
+ 93. Nguyễn Thị Hường               CCCD=03419300     TN=     16.801.333 | KhauTru=   1.680.133 | PhaïNop=      65.066
+ 94. Nguyễn Thị Hạnh                CCCD=03819400     TN=     14.819.000 | KhauTru=   1.481.900 | PhaïNop=           0
+ 95. Nguyễn Thị Hạnh (CTV1)         CCCD=00119604     TN=      3.619.000 | KhauTru=     361.900 | PhaïNop=           0
+ 96. Nguyễn Thị Hải Linh            CCCD=04530000     TN=     12.958.000 | KhauTru=   1.295.800 | PhaïNop=           0
+ 97. Nguyễn Thị Hồng Hà             CCCD=06830100     TN=     52.486.000 | KhauTru=   5.248.600 | PhaïNop=   3.897.200
+ 98. Nguyễn Thị Khánh Chi           CCCD=04030200     TN=      3.544.000 | KhauTru=     354.400 | PhaïNop=           0
+ 99. Nguyễn Thị Khánh Huyền         CCCD=06630101     TN=     47.272.000 | KhauTru=   4.727.200 | PhaïNop=   2.854.400
+100. Nguyễn Thị Kim Thoa            CCCD=08730101     TN=      2.225.000 | KhauTru=     222.500 | PhaïNop=           0
+101. Nguyễn Thị Mai                 CCCD=02619001     TN=      2.222.222 | KhauTru=     222.222 | PhaïNop=           0
+102. Nguyễn Thị Mai Quỳnh           CCCD=00830000     TN=     23.333.332 | KhauTru=   2.333.332 | PhaïNop=     391.666
+103. Nguyễn Thị Minh Huê            CCCD=07930202     TN=      3.225.000 | KhauTru=     322.500 | PhaïNop=           0
+104. Nguyễn Thị Mỹ Linh             CCCD=03330300     TN=     19.041.400 | KhauTru=   1.904.140 | PhaïNop=     177.070
+105. Nguyễn Thị Ngọc Anh            CCCD=03030600     TN=     38.683.600 | KhauTru=   3.868.360 | PhaïNop=   1.818.360
+106. Nguyễn Thị Như Quỳnh (CTV1)    CCCD=00119602     TN=      3.134.000 | KhauTru=     313.400 | PhaïNop=           0
+107. Nguyễn Thị Như Quỳnh (CTV2)    CCCD=05130100     TN=      1.130.000 | KhauTru=     113.000 | PhaïNop=           0
+108. Nguyễn Thị Nhịn                CCCD=08319101     TN=        500.000 | KhauTru=      50.000 | PhaïNop=           0
+109. Nguyễn Thị Nữ                  CCCD=04030401     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+110. Nguyễn Thị Quỳnh               CCCD=02718700     TN=    139.280.100 | KhauTru=  13.928.010 | PhaïNop=  28.823.035
+111. Nguyễn Thị Thanh Thảo          CCCD=06019700     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+112. Nguyễn Thị Thanh Tâm           CCCD=02719800     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+113. Nguyễn Thị Thu Hà              CCCD=03030400     TN=     11.666.667 | KhauTru=   1.166.667 | PhaïNop=           0
+114. Nguyễn Thị Thu Trang (CTV1)    CCCD=07030300     TN=     26.704.000 | KhauTru=   2.670.400 | PhaïNop=     620.400
+115. Nguyễn Thị Thu Trang (CTV2)    CCCD=04030001     TN=     86.878.700 | KhauTru=   8.687.870 | PhaïNop=  11.913.610
+116. Nguyễn Thị Thúy An             CCCD=03319201     TN=      3.350.000 | KhauTru=     335.000 | PhaïNop=           0
+117. Nguyễn Thị Thơm                CCCD=05219500     TN=      5.166.666 | KhauTru=     516.666 | PhaïNop=           0
+118. Nguyễn Thị Yến Nhi             CCCD=05119601     TN=      1.635.000 | KhauTru=     163.500 | PhaïNop=           0
+119. Nguyễn Trần Hà Thương          CCCD=04230400     TN=      6.835.000 | KhauTru=     683.500 | PhaïNop=           0
+120. Nguyễn Tuấn Kiệt               CCCD=03620000     TN=      7.898.421 | KhauTru=     789.841 | PhaïNop=           0
+121. Nguyễn thị Khánh Huyền         CCCD=06630101     TN=      4.300.000 | KhauTru=     430.000 | PhaïNop=           0
+122. Nguyễn thị Mỹ linh             CCCD=03330300     TN=      1.298.000 | KhauTru=     129.800 | PhaïNop=           0
+123. Nguyễn Đào Yến Nhi             CCCD=05830000     TN=        900.000 | KhauTru=      90.000 | PhaïNop=           0
+124. Nguyễn Đình Vinh               CCCD=00109901     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+125. Ngô Anh Nam                    CCCD=03709100     TN=      6.111.111 | KhauTru=     611.111 | PhaïNop=           0
+126. Ngô Hà Linh                    CCCD=03430301     TN=     15.728.889 | KhauTru=   1.572.889 | PhaïNop=      11.444
+127. Ngô Ngọc Diệp                  CCCD=00630400     TN=      1.884.058 | KhauTru=     188.406 | PhaïNop=           0
+128. Ngô Thái Bảo Ngọc              CCCD=07919700     TN=      3.340.000 | KhauTru=     334.000 | PhaïNop=           0
+129. Ngô Thúy Quỳnh                 CCCD=03130600     TN=      3.333.334 | KhauTru=     333.334 | PhaïNop=           0
+130. Ngô Văn Hào                    CCCD=03820100     TN=      2.870.000 | KhauTru=     287.000 | PhaïNop=           0
+131. Nông Phương Hồng               CCCD=02019000     TN=     15.816.500 | KhauTru=   1.581.650 | PhaïNop=      15.825
+132. Phan Công Dũng                 CCCD=04020501     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+133. Phan Lê Hương Quỳnh            CCCD=05230300     TN=      4.033.000 | KhauTru=     403.300 | PhaïNop=           0
+134. Phan Minh Tâm                  CCCD=04030000     TN=        568.000 | KhauTru=      56.800 | PhaïNop=           0
+135. Phan Nguyễn Trường Quyến       CCCD=07730300     TN=     18.943.000 | KhauTru=   1.894.300 | PhaïNop=     172.150
+136. Phan Ngân Hà                   CCCD=04430500     TN=      3.890.000 | KhauTru=     389.000 | PhaïNop=           0
+137. Phan Thùy Trâm                 CCCD=04030700     TN=      6.914.000 | KhauTru=     691.400 | PhaïNop=           0
+138. Phan Thị Thu Hà                CCCD=03030000     TN=     16.588.332 | KhauTru=   1.658.833 | PhaïNop=      54.416
+139. Phan Thị Xuân Mai              CCCD=03330400     TN=     26.543.300 | KhauTru=   2.654.330 | PhaïNop=     604.330
+140. Phan Tùng Chi                  CCCD=04030401     TN=      5.652.174 | KhauTru=     565.217 | PhaïNop=           0
+141. Phan Văn Tấn                   CCCD=04820100     TN=      3.150.000 | KhauTru=     315.000 | PhaïNop=           0
+142. Phan Vũ Thùy Anh               CCCD=01530400     TN=      3.623.190 | KhauTru=     362.320 | PhaïNop=           0
+143. Phùng Thị Hoa                  CCCD=00119104     TN=      1.460.000 | KhauTru=     146.000 | PhaïNop=           0
+144. Phạm Anh Phương                CCCD=03619300     TN=    143.784.600 | KhauTru=  14.378.459 | PhaïNop=  30.399.610
+145. Phạm Bùi Hà Chi                CCCD=02630400     TN=      2.833.334 | KhauTru=     283.334 | PhaïNop=           0
+146. Phạm Công Chính                CCCD=00120001     TN=      3.888.888 | KhauTru=     388.888 | PhaïNop=           0
+147. Phạm Cẩm Ly                    CCCD=04030100     TN=      1.698.000 | KhauTru=     169.800 | PhaïNop=           0
+148. Phạm Minh Huyền                CCCD=03830200     TN=      5.783.000 | KhauTru=     578.300 | PhaïNop=           0
+149. Phạm Minh Phương               CCCD=03030301     TN=     11.319.000 | KhauTru=   1.131.900 | PhaïNop=           0
+150. Phạm Minh Đức                  CCCD=03309500     TN=      5.555.556 | KhauTru=     555.556 | PhaïNop=           0
+151. Phạm Mỹ Hoa                    CCCD=03430401     TN=      4.888.889 | KhauTru=     488.889 | PhaïNop=           0
+152. Phạm Mỹ Tâm                    CCCD=04230401     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+153. Phạm Quang Thắng               CCCD=03008900     TN=        770.000 | KhauTru=      70.000 | PhaïNop=           0
+154. Phạm Quốc Hưng                 CCCD=02420500     TN=      6.219.800 | KhauTru=     621.980 | PhaïNop=           0
+155. Phạm Thành Đạt                 CCCD=04020001     TN=        162.222 | KhauTru=      16.222 | PhaïNop=           0
+156. Phạm Thùy Linh Nga             CCCD=03419300     TN=      2.225.000 | KhauTru=     222.500 | PhaïNop=           0
+157. Phạm Thị Hải Chiều             CCCD=03730001     TN=     17.919.000 | KhauTru=   1.791.900 | PhaïNop=     120.950
+158. Phạm Thị Lộc                   CCCD=03619302     TN=     77.600.000 | KhauTru=   7.760.000 | PhaïNop=   9.130.000
+159. Phạm Thị Ngọc                  CCCD=03630201     TN=      9.525.000 | KhauTru=     952.500 | PhaïNop=           0
+160. Phạm Thị Như Tuyết             CCCD=07230400     TN=      2.891.000 | KhauTru=     289.100 | PhaïNop=           0
+161. Phạm Thị Phương Thảo           CCCD=03130401     TN=      4.782.609 | KhauTru=     478.261 | PhaïNop=           0
+162. Phạm Thị Thanh Bình            CCCD=00130501     TN=      6.884.058 | KhauTru=     688.406 | PhaïNop=           0
+163. Phạm Đăng Hiệp                 CCCD=02720200     TN=     70.761.400 | KhauTru=   7.076.140 | PhaïNop=   7.552.280
+164. Quản Phương Linh               CCCD=02519900     TN=      2.800.000 | KhauTru=     280.000 | PhaïNop=           0
+165. Thiều Nguyễn Khánh Linh        CCCD=07930102     TN=      2.097.592 | KhauTru=     209.760 | PhaïNop=           0
+166. Thiệu Quang Tường              CCCD=03509300     TN=     11.111.110 | KhauTru=   1.111.110 | PhaïNop=           0
+167. Thân Lê Bảo Duyên              CCCD=05430100     TN=      2.603.000 | KhauTru=     260.300 | PhaïNop=           0
+168. Thân Minh Duy Khang            CCCD=07909603     TN=      2.780.000 | KhauTru=     278.000 | PhaïNop=           0
+169. Trương Văn Đắc                 CCCD=05209801     TN=      1.824.445 | KhauTru=     182.445 | PhaïNop=           0
+170. Trầm Ngọc Yến Vy               CCCD=07930302     TN=      4.433.000 | KhauTru=     443.300 | PhaïNop=           0
+171. Trần Châu Gia Tuấn             CCCD=08220501     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+172. Trần Duy Hưng                  CCCD=07520300     TN=      8.645.000 | KhauTru=     864.500 | PhaïNop=           0
+173. Trần Khánh Phương              CCCD=07930101     TN=      5.931.800 | KhauTru=     593.180 | PhaïNop=           0
+174. Trần Phương Mai                CCCD=03619601     TN=     15.000.000 | KhauTru=   1.500.000 | PhaïNop=           0
+175. Trần Thị Bích Kiều             CCCD=05430400     TN=      4.590.600 | KhauTru=     459.060 | PhaïNop=           0
+176. Trần Thị Bích Phượng           CCCD=00119002     TN=      1.670.000 | KhauTru=     167.000 | PhaïNop=           0
+177. Trần Thị Hà                    CCCD=00130404     TN=     59.877.000 | KhauTru=   5.987.700 | PhaïNop=   5.375.400
+178. Trần Thị Kim Chi               CCCD=05230101     TN=     29.342.300 | KhauTru=   2.934.230 | PhaïNop=     884.230
+179. Trần Thị Ngọc Ánh              CCCD=04230300     TN=      3.039.000 | KhauTru=     303.900 | PhaïNop=           0
+180. Trần Thị Thanh Hà              CCCD=03130301     TN=      2.239.000 | KhauTru=     223.900 | PhaïNop=           0
+181. Trần Thị Thúy Hiền             CCCD=00130402     TN=     61.867.600 | KhauTru=   6.186.760 | PhaïNop=   5.773.520
+182. Trần Thị Thơm                  CCCD=04930200     TN=      4.195.184 | KhauTru=     419.520 | PhaïNop=           0
+183. Trần Tú Quyên                  CCCD=09630200     TN=      1.255.000 | KhauTru=     125.500 | PhaïNop=           0
+184. Trần Đình Thị Phương           CCCD=04630300     TN=     10.212.000 | KhauTru=   1.021.200 | PhaïNop=           0
+185. Trịnh Thị Hồng Nụ              CCCD=03819701     TN=     15.313.100 | KhauTru=   1.531.310 | PhaïNop=           0
+186. Trịnh Thị Phương Lâm           CCCD=01419700     TN=      1.000.000 | KhauTru=     100.000 | PhaïNop=           0
+187. Trịnh Thị Quỳnh Anh            CCCD=01930300     TN=      1.247.000 | KhauTru=     124.700 | PhaïNop=           0
+188. Tô Khánh Huyền                 CCCD=03430400     TN=     42.646.772 | KhauTru=   4.264.678 | PhaïNop=   2.214.677
+189. Tô Trúc Quỳnh                  CCCD=03130100     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+190. Võ Hoàng Thảo Nguyên           CCCD=04930300     TN=     36.709.150 | KhauTru=   3.670.915 | PhaïNop=   1.620.915
+191. Võ Nguyễn Tường Vy             CCCD=06019800     TN=     35.617.000 | KhauTru=   3.561.700 | PhaïNop=   1.511.700
+192. Vũ Diệu Huyền                  CCCD=02230200     TN=      2.709.000 | KhauTru=     270.900 | PhaïNop=           0
+193. Vũ Hà Phương                   CCCD=04619500     TN=     52.833.900 | KhauTru=   5.283.390 | PhaïNop=   3.966.780
+194. Vũ Linh Hương                  CCCD=00130003     TN=     18.840.000 | KhauTru=   1.884.000 | PhaïNop=     167.000
+195. Vũ Ngọc Diệp                   CCCD=03430301     TN=      3.451.500 | KhauTru=     345.150 | PhaïNop=           0
+196. Vũ Quỳnh Mai                   CCCD=02430500     TN=     17.517.000 | KhauTru=   1.751.700 | PhaïNop=     100.850
+197. Vũ Quỳnh Trang                 CCCD=00130402     TN=     11.971.000 | KhauTru=   1.197.100 | PhaïNop=           0
+198. Vũ Quỳnh Trang CTV1            CCCD=00130601     TN=        750.000 | KhauTru=      75.000 | PhaïNop=           0
+199. Vũ Thanh Thanh Nhàn            CCCD=01719600     TN=     23.944.800 | KhauTru=   2.394.480 | PhaïNop=     422.240
+200. Vũ Thị Hoài                    CCCD=03019501     TN=      3.350.000 | KhauTru=     335.000 | PhaïNop=           0
+201. Vũ Thị Tươi                    CCCD=02719900     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+202. Vũ Tiểu Ngọc                   CCCD=03419700     TN=      1.534.000 | KhauTru=     153.400 | PhaïNop=           0
+203. Vũ Việt Thao                   CCCD=02509200     TN=     10.632.902 | KhauTru=   1.063.291 | PhaïNop=           0
+204. Đinh Ngọc Minh                 CCCD=03020001     TN=     10.196.000 | KhauTru=   1.019.600 | PhaïNop=           0
+205. Đinh Phương Linh               CCCD=03130000     TN=      1.734.000 | KhauTru=     173.400 | PhaïNop=           0
+206. Đinh Thị Bích Thảo             CCCD=07930100     TN=      8.828.000 | KhauTru=     882.800 | PhaïNop=           0
+207. Đinh Thị Minh Ngọc             CCCD=03630301     TN=      3.012.000 | KhauTru=     301.200 | PhaïNop=           0
+208. Đoàn Thị Minh Phương           CCCD=03430200     TN=      5.703.000 | KhauTru=     570.300 | PhaïNop=           0
+209. Đàm Thị Ánh                    CCCD=00130304     TN=     33.558.000 | KhauTru=   3.355.800 | PhaïNop=   1.305.800
+210. Đàm Uyên Thúy Linh             CCCD=06819601     TN=      2.780.000 | KhauTru=     278.000 | PhaïNop=           0
+211. Đào Thị Hoa                    CCCD=02419500     TN=     28.840.278 | KhauTru=   2.884.028 | PhaïNop=     834.027
+212. Đào Thị Minh Thu               CCCD=02630300     TN=         88.889 | KhauTru=       8.889 | PhaïNop=           0
+213. Đậu Thị Hà Lê                  CCCD=04030001     TN=     14.054.000 | KhauTru=   1.405.400 | PhaïNop=           0
+214. Đặng Mai Anh                   CCCD=04030201     TN=      6.350.000 | KhauTru=     635.000 | PhaïNop=           0
+215. Đặng Nguyễn Anh Khoa           CCCD=06009700     TN=      5.243.980 | KhauTru=     524.400 | PhaïNop=           0
+216. Đặng Nữ Huyền Trang            CCCD=05230300     TN=      2.966.000 | KhauTru=     296.600 | PhaïNop=           0
+217. Đặng Thảo Anh                  CCCD=03330300     TN=        296.000 | KhauTru=      29.600 | PhaïNop=           0
+218. Đặng Thị Thu Hà                CCCD=03419600     TN=      4.195.184 | KhauTru=     419.520 | PhaïNop=           0
+219. Đặng Thị Thu Hà CTV1           CCCD=03419701     TN=        444.444 | KhauTru=      44.444 | PhaïNop=           0
+220. Đặng Thị Tố Nữ                 CCCD=05119501     TN=      8.333.333 | KhauTru=     833.333 | PhaïNop=           0
+221. Đồng Thị Hồng Nhung            CCCD=03630200     TN=      9.585.667 | KhauTru=     958.567 | PhaïNop=           0
+222. Đỗ Hạnh Trang                  CCCD=00130130     TN=      1.462.000 | KhauTru=     146.200 | PhaïNop=           0
+223. Đỗ Minh Tiến                   CCCD=07520001     TN=     33.919.912 | KhauTru=   3.391.992 | PhaïNop=   1.341.991
+224. Đỗ Nguyễn Bảo Trân             CCCD=04630100     TN=     32.244.698 | KhauTru=   3.224.470 | PhaïNop=   1.174.469
+225. Đỗ Thu Thảo                    CCCD=03830301     TN=      2.047.080 | KhauTru=     204.708 | PhaïNop=           0
+226. Đỗ Thị Hằng                    CCCD=03319500     TN=      9.914.500 | KhauTru=     991.450 | PhaïNop=           0
+227. Đỗ Thị Ngọc Ánh                CCCD=03330400     TN=     19.966.000 | KhauTru=   1.996.600 | PhaïNop=     223.300
+228. Đỗ Thị Phương Thảo             CCCD=03730000     TN=     17.446.000 | KhauTru=   1.744.600 | PhaïNop=      97.300
+229. Đỗ Thị Quý                     CCCD=03019500     TN=     44.532.500 | KhauTru=   4.453.250 | PhaïNop=   2.403.250
+230. Đỗ Thị Thúy Hường              CCCD=02630100     TN=      1.730.000 | KhauTru=     173.000 | PhaïNop=           0
+231. Đỗ thị Quý                     CCCD=03019500     TN=      3.478.500 | KhauTru=     347.850 | PhaïNop=           0
+================================================================================
+TONG: 231 nguoi | TN=3.096.094.774 | Da KT=309.602.505 | Phai nop=201.555.648
+================================================================================

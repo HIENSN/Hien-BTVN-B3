@@ -1,0 +1,24 @@
+========================================
+    CLAUDE CODE CHAT HISTORY
+    Skill: tncn-generator
+    Ngay: 16/05/2026 10:51
+========================================
+LICH SU THAO TAC:
+  Input : output/temp_sheet1.csv (265 dong)
+          output/temp_sheet2.csv (941 dong)
+
+KET QUA XU LY:
+  Phu luc 01: 116 nhan vien co BHXH
+  Phu luc 02: 231 nhan vien khong BHXH
+
+  Tong thu nhap     : 5.927.007.156 VND
+  Thue da khau tru  : 418.403.558 VND
+  Thue phai nop(L109): 259.535.863 VND
+  Chenh lech        : -158.867.695 VND
+
+FILE DA TAO:
+  output/05_QTT-TNCN_2026.txt
+  output/05-1_BK-QTT-TNCN_2026.txt
+  output/05-2_BK-QTT-TNCN_2026.txt
+  output/05-3_BK-QTT-TNCN_2026.txt
+========================================
