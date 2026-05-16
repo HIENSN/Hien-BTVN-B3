@@ -1,56 +1,51 @@
 ---
 name: tncn-review
-description: Phân tích nhanh bảng lương và trả thông tin tổng quan thuế TNCN theo Luật 109/2025/QH15 ngay trong chat, không tạo file
+description: Phân tích nhanh bảng lương, xuất file tổng quan thuế TNCN dạng .xlsx theo Luật 109/2025/QH15
 ---
 
 ## Mục đích
-Xem nhanh tình hình thuế TNCN của toàn bộ nhân sự mà không cần tạo hồ sơ đầy đủ. Hữu ích để kiểm tra trước khi quyết toán hoặc phát hiện bất thường.
+Xem nhanh tình hình thuế TNCN toàn bộ nhân sự mà không cần tạo hồ sơ đầy đủ.
+Hữu ích để kiểm tra trước khi quyết toán hoặc phát hiện bất thường.
 
 ## Quy định áp dụng — Luật 109/2025/QH15
 - Giảm trừ bản thân: 15.500.000 VND/tháng
 - Giảm trừ người phụ thuộc: 6.200.000 VND/người/tháng
 - Biểu thuế 5 bậc: 5% / 10% / 20% / 30% / 35%
 
-## Bước 1 — Nhận dữ liệu
-Người dùng cung cấp một trong hai cách:
-- Đường dẫn file CSV → đọc bằng Bash: `cat "{đường_dẫn}"`
-- Paste nội dung bảng trực tiếp vào chat
+## Cách dùng
 
-Nếu có 2 file (2 sheet), đọc và gộp cả hai.
+### Bước 1 — Nhận file đầu vào
+Yêu cầu người dùng cung cấp đường dẫn file Excel.
 
-## Bước 2 — Phân tích
-
-**A. Tổng quan nhân sự**
-- Tổng số nhân viên (unique theo Họ tên)
-- Số người có BHXH (Phụ lục 01) vs không BHXH (Phụ lục 02)
-- Kỳ dữ liệu: từ tháng nào đến tháng nào
-
-**B. Chỉ số tài chính**
-- Tổng thu nhập đã chi trả
-- Tổng BHXH đã khấu trừ
-- Tổng thuế TNCN đã khấu trừ tại nguồn
-- Tổng thuế TNCN phải nộp theo Luật 109 (tính lại lũy tiến 5 bậc)
-- Chênh lệch: còn phải nộp thêm hay được hoàn?
-
-**C. Phân bổ theo bậc thuế (Luật 109)**
-Số người rơi vào từng bậc dựa trên TNCT tháng trung bình:
-- Không phải nộp (TNCT ≤ 0)
-- Bậc 1 (TNCT ≤ 10 triệu/tháng)
-- Bậc 2 (TNCT 10–30 triệu/tháng)
-- Bậc 3 (TNCT 30–60 triệu/tháng)
-- Bậc 4-5 (TNCT trên 60 triệu/tháng)
-
-**D. Top & Bottom**
-- Top 3 người đóng thuế nhiều nhất
-- 3 người có thu nhập thấp nhất
-
-**E. Cảnh báo bất thường**
-- Nhân viên có chênh lệch lớn giữa thuế đã khấu trừ và thuế phải nộp theo Luật 109
-- Dòng dữ liệu thiếu thông tin quan trọng
-
-## Bước 3 — Xuất file kết quả
-Chạy script:
+**Nếu đã chạy `/tncn-sheets-sync` trước đó**, mặc định dùng:
 ```
-python .claude/skills/tncn-review/scripts/review_tncn.py "<đường_dẫn_file>"
+output/bang_luong_from_sheets.xlsx
 ```
-Kết quả được ghi ra `output/tncn_review_{YYYY-MM-DD}.txt`, không hiển thị trong chat.
+
+### Bước 2 — Chạy script
+```
+python .claude/skills/tncn-review/scripts/review_tncn.py "output/bang_luong_from_sheets.xlsx"
+```
+
+### Bước 3 — Output
+File được ghi ra (không hiển thị trong chat):
+```
+output/tncn_review_{YYYY-MM-DD}.xlsx
+```
+
+Nội dung gồm 5 mục:
+- **A.** Tổng quan nhân sự (tổng, PL01, PL02)
+- **B.** Chỉ số tài chính (tổng thu nhập, BHXH, thuế đã KT, thuế phải nộp, chênh lệch)
+- **C.** Phân bổ bậc thuế theo TNCT trung bình/kỳ
+- **D.** Top 3 đóng thuế nhiều nhất / 3 thu nhập thấp nhất
+- **E.** Cảnh báo bất thường (chênh lệch > 5.000.000 VND)
+
+## Flow kết hợp với các skill khác
+```
+/tncn-sheets-sync  →  output/bang_luong_from_sheets.xlsx
+                              │
+             ┌────────────────┴────────────────┐
+             ▼                                 ▼
+     /tncn-generator                    /tncn-review
+  QuyetToanTNCN_2026.xls         tncn_review_YYYY-MM-DD.xlsx
+```

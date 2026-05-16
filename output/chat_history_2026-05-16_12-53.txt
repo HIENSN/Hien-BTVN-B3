@@ -1,0 +1,27 @@
+============================================================
+  CLAUDE CODE — CHAT HISTORY
+  Skill: tncn-generator
+============================================================
+Thoi gian    : 16/05/2026 12:53
+File dau vao : output\bang_luong_from_sheets.xlsx
+Luat thue    : Luat 109/2025/QH15
+Nam tinh thue: 2026
+
+KET QUA XU LY:
+  Phu luc 01 (co BHXH)    :    78 nguoi
+  Phu luc 02 (khong BHXH) :   152 nguoi
+  Tong nhan su            :   230 nguoi
+
+CHI SO TAI CHINH:
+  Tong thu nhap da tra     :          5.927.007.156 VND
+  Thue TNCN da khau tru   :            418.403.558 VND
+  Thue TNCN phai nop (L109):            461.675.731 VND
+  Chenh lech              :             43.272.173 VND
+
+FILE DA TAO:
+  output\QuyetToanTNCN_2026.xls
+    Sheet To khai chinh : 05/QTT-TNCN
+    Sheet Phu luc 01   : 05-1/BK-TNCN (78 nguoi co BHXH)
+    Sheet Phu luc 02   : 05-2/BK-TNCN (152 nguoi khong BHXH)
+    Sheet Phu luc 03   : 05-3/BK-TNCN (de trong)
+============================================================
