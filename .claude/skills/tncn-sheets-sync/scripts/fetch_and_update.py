@@ -1,11 +1,21 @@
 """
-Fetch income data from both Google Sheets and save as CSV files.
+Fetch income data from public Google Sheets and save as CSV files.
+No credentials required — sheet must be shared as "Anyone with the link".
 Run: python .claude/skills/tncn-sheets-sync/scripts/fetch_and_update.py
 """
 import json
-import csv
 import sys
+import io
 from pathlib import Path
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8")
+
+try:
+    import urllib.request
+except ImportError:
+    print("ERROR: urllib not available")
+    sys.exit(1)
 
 CONFIG_PATH = Path(".claude/skills/tncn-sheets-sync/config.json")
 
@@ -15,70 +25,40 @@ def load_config():
         return json.load(f)
 
 
-def get_sheets_service(credentials_file):
+def fetch_sheet_as_csv(spreadsheet_id, gid, output_path):
+    url = f"https://docs.google.com/spreadsheets/d/{spreadsheet_id}/export?format=csv&gid={gid}"
+    print(f"Đang tải: gid={gid} ...")
+
     try:
-        from googleapiclient.discovery import build
-        from google.oauth2.service_account import Credentials
-    except ImportError:
-        print("ERROR: Chạy lệnh sau để cài thư viện:")
-        print("  pip install google-api-python-client google-auth")
-        sys.exit(1)
-
-    if not Path(credentials_file).exists():
-        print(f"ERROR: Không tìm thấy credentials tại '{credentials_file}'")
-        print("Xem hướng dẫn trong config.json")
-        sys.exit(1)
-
-    scopes = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
-    creds = Credentials.from_service_account_file(credentials_file, scopes=scopes)
-    return build("sheets", "v4", credentials=creds)
-
-
-def fetch_sheet(service, spreadsheet_id, range_name, output_path):
-    result = (
-        service.spreadsheets()
-        .values()
-        .get(spreadsheetId=spreadsheet_id, range=range_name)
-        .execute()
-    )
-    rows = result.get("values", [])
-
-    if not rows:
-        print(f"WARNING: Sheet '{range_name}' trống.")
+        with urllib.request.urlopen(url) as response:
+            if response.status != 200:
+                print(f"ERROR: HTTP {response.status}")
+                return 0
+            content = response.read().decode("utf-8-sig")
+    except Exception as e:
+        print(f"ERROR: Không tải được sheet (gid={gid}): {e}")
+        print("Kiểm tra lại: sheet đã được share 'Anyone with the link'?")
         return 0
 
     Path(output_path).parent.mkdir(exist_ok=True)
-    with open(output_path, "w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.writer(f)
-        writer.writerows(rows)
+    with open(output_path, "w", encoding="utf-8-sig") as f:
+        f.write(content)
 
+    rows = content.strip().split("\n")
     data_rows = len(rows) - 1
-    print(f"OK: {range_name} → {output_path} ({data_rows} dòng dữ liệu)")
+    print(f"OK: {data_rows} dòng dữ liệu → {output_path}")
     return data_rows
 
 
 if __name__ == "__main__":
     config = load_config()
+    sid = config["spreadsheet_id"]
+    out = config["output_dir"]
 
-    if config["spreadsheet_id"] == "YOUR_SPREADSHEET_ID_HERE":
-        print("ERROR: Chưa điền spreadsheet_id trong config.json")
-        sys.exit(1)
+    print(f"Spreadsheet ID: {sid}")
 
-    print(f"Kết nối Google Sheets: {config['spreadsheet_id']}")
-    service = get_sheets_service(config["credentials_file"])
+    count1 = fetch_sheet_as_csv(sid, config["sheet1_gid"], f"{out}/temp_sheet1.csv")
+    count2 = fetch_sheet_as_csv(sid, config["sheet2_gid"], f"{out}/temp_sheet2.csv")
 
-    count1 = fetch_sheet(
-        service,
-        config["spreadsheet_id"],
-        config["sheet1_range"],
-        f"{config['output_dir']}/temp_sheet1.csv"
-    )
-    count2 = fetch_sheet(
-        service,
-        config["spreadsheet_id"],
-        config["sheet2_range"],
-        f"{config['output_dir']}/temp_sheet2.csv"
-    )
-
-    print(f"\nHoàn thành. Tổng cộng {count1 + count2} dòng từ 2 sheet.")
-    print("Tiếp theo: Claude sẽ xử lý dữ liệu và tạo hồ sơ quyết toán TNCN.")
+    print(f"\nHoàn thành. Tổng {count1 + count2} dòng từ 2 sheet.")
+    print("Claude sẽ xử lý dữ liệu và tạo hồ sơ quyết toán TNCN.")

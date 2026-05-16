@@ -1,20 +1,10 @@
 {
   "spreadsheet_id": "1Ux1aaL2q9A73HTKpBQEOoari5F5tltI5J8-j65mlCmM",
-  "sheet1_gid": "SHEET1_GID_HERE",
+  "sheet1_gid": "0",
   "sheet2_gid": "1758432323",
-  "sheet1_range": "Sheet1!A1:Z1000",
-  "sheet2_range": "Sheet2!A1:Z1000",
-  "credentials_file": ".claude/skills/tncn-sheets-sync/credentials.json",
   "output_dir": "output",
   "tax_law": "Luật 109/2025/QH15",
   "giam_tru_ban_than": 15500000,
   "giam_tru_phu_thuoc": 6200000,
-  "setup_guide": [
-    "1. Vào https://console.cloud.google.com → Tạo project mới",
-    "2. APIs & Services → Enable Google Sheets API",
-    "3. Credentials → Service Account → Tạo key JSON",
-    "4. Đặt file key vào .claude/skills/tncn-sheets-sync/ đổi tên thành credentials.json",
-    "5. Google Sheet → Share → paste email service account → Viewer",
-    "6. Điền sheet1_gid: xem trên URL khi click vào sheet 1 (?gid=...)"
-  ]
+  "note": "Sheet phải được share 'Anyone with the link - Viewer'. Không cần credentials."
 }
