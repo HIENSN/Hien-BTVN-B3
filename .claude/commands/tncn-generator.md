@@ -1,1 +1,1 @@
-Làm theo đúng hướng dẫn trong file `.claude/skills/tncn-generator/skill.md`.
+Làm theo đúng hướng dẫn trong file `.claude/skills/tncn-generator/SKILL.md`.

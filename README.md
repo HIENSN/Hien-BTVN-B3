@@ -16,21 +16,21 @@ Workspace cá nhân với 4 Claude Code skills hỗ trợ lập hồ sơ quyết
 │   └── tncn-full.md
 └── skills/
     ├── tncn-generator/          # Skill 1
-    │   ├── skill.md
+    │   ├── SKILL.md
     │   ├── scripts/
     │   │   └── generate_tncn.py
     │   └── templates/
     ├── tncn-sheets-sync/        # Skill 2
-    │   ├── skill.md
+    │   ├── SKILL.md
     │   ├── config.json
     │   └── scripts/
     │       └── fetch_and_update.py
     ├── tncn-review/             # Skill 3
-    │   ├── skill.md
+    │   ├── SKILL.md
     │   └── scripts/
     │       └── review_tncn.py
     └── tncn-full/               # Skill 4
-        ├── skill.md
+        ├── SKILL.md
         └── scripts/
             └── run_all.py
 

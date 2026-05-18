@@ -1,1 +1,1 @@
-Làm theo đúng hướng dẫn trong file `.claude/skills/tncn-sheets-sync/skill.md`.
+Làm theo đúng hướng dẫn trong file `.claude/skills/tncn-sheets-sync/SKILL.md`.
