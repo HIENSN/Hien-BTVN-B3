@@ -1,0 +1,41 @@
+SESSION: 9b19f68a-5e07-4f1b-9e19-a57acac04e0f
+TIME: 2026-05-16_11-12
+============================================================
+
+[USER]
+<command-message>tncn-generator</command-message>
+<command-name>/tncn-generator</command-name>
+
+[CLAUDE]
+Tôi đang đọc các template để chuẩn bị tạo hồ sơ quyết toán TNCN.
+
+[CLAUDE]
+Đã đọc xong các template. Bây giờ tôi cần file CSV bảng lương từ bạn.
+
+---
+
+Vui lòng cung cấp **đường dẫn đến file CSV bảng lương** (hoặc 2 file nếu có 2 sheet xuất riêng).
+
+Ví dụ:
+```
+D:\Data\bang_luong_2025.csv
+```
+
+Nếu chưa có file mẫu, bạn có thể dùng file demo trong thư mục `output/` của dự án — tôi có thể đọc file nào đó đã có sẵn. Bạn muốn dùng file nào?
+
+[USER]
+<command-message>tncn-generator</command-message>
+<command-name>/tncn-generator</command-name>
+<command-args>https://docs.google.com/spreadsheets/d/1Ux1aaL2q9A73HTKpBQEOoari5F5tltI5J8-j65mlCmM/edit?gid=0#gid=0</command-args>
+
+[CLAUDE]
+Tôi sẽ tải dữ liệu từ Google Sheets bằng cách chuyển đổi sang CSV export URL.
+
+[CLAUDE]
+Đã có dữ liệu đầy đủ. Bây giờ tôi sẽ viết script Python để xử lý và tạo các file output.
+
+[CLAUDE]
+Dừng lại. Tôi sẽ dùng file demo có sẵn trong `output/`.
+
+[CLAUDE]
+Sheet 2 có cấu trúc khác (hiệu quả/bonus, taxed 10%). Viết script Python để xử lý cả 2 file.

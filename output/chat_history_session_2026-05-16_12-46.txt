@@ -1,0 +1,253 @@
+SESSION: ea15ae2e-760f-44df-970e-a73e25f4847f
+TIME: 2026-05-16_12-46
+============================================================
+
+[USER]
+<command-message>tncn-review</command-message>
+<command-name>/tncn-review</command-name>
+
+[CLAUDE]
+Chào! Skill `/tncn-review` đã sẵn sàng — tôi sẽ phân tích nhanh tình hình thuế TNCN theo **Luật 109/2025/QH15** và trả kết quả ngay trong chat.
+
+**Bạn cung cấp dữ liệu theo một trong hai cách:**
+
+1. **Đường dẫn file CSV** — ví dụ: `D:\bảng_lương\luong_2025.csv`
+2. **Paste nội dung bảng** trực tiếp vào chat
+
+Nếu có 2 sheet (Phụ lục 01 và 02 riêng), cung cấp cả hai đường dẫn hoặc paste cả hai.
+
+[USER]
+D:\Học Claude code\Skill\output\temp_sheet1.csv và D:\Học Claude code\Skill\output\temp_sheet2.csv
+
+[CLAUDE]
+Đọc cả hai file cùng lúc.
+
+[CLAUDE]
+Đã có dữ liệu, tôi sẽ chạy script Python để phân tích toàn bộ dữ liệu theo Luật 109.
+
+[CLAUDE]
+Dữ liệu đã được phân tích hoàn toàn. Dưới đây là kết quả:
+
+---
+
+## Báo cáo Tổng quan Thuế TNCN — Luật 109/2025/QH15
+
+---
+
+### A. Tổng quan nhân sự
+
+| Chỉ tiêu | Số lượng |
+|---|---|
+| **Tổng nhân viên (unique, 2 sheet)** | **230 người** |
+| Người có dữ liệu BHXH (Sheet 1 – Phụ lục 01) | 78 người |
+| Người chỉ có ở Sheet 2 (Phụ lục 02) | 121 người |
+| Người xuất hiện ở cả 2 sheet | 109 người |
+
+**Kỳ dữ liệu:**
+- Sheet 1: Tháng 1, Tháng 2, Quý 4 (lương cứng + lương hiệu quả — *dữ liệu năm chưa đầy đủ*)
+- Sheet 2: **Đầy đủ 12 tháng** (01/2025 → 12/2025, Phụ lục 02, khấu lưu 10%)
+
+---
+
+### B. Chỉ số tài chính
+
+| Chỉ tiêu | Số tiền |
+|---|---:|
+| **Tổng thu nhập đã chi trả** | **5.927.007.156 VND** |
+| — Sheet 1 (lương cứng + hiệu quả) | 2.830.912.382 VND |
+| — Sheet 2 (Phụ lục 02) | 3.096.094.774 VND |
+| Tổng BHXH đã khấu trừ | 92.977.080 VND |
+| Tổng thuế TNCN đã khấu trừ tại nguồn | 418.403.558 VND |
+| — Sheet 1 | 108.801.053 VND |
+| — Sheet 2 | 309.602.505 VND |
+| **Tổng thuế TNCN theo Luật 109** | **400.811.521 VND** |
+| ✅ **Chênh lệch: ĐƯỢC HOÀN** | **17.592.037 VND** |
+
+> *Phương pháp: Lương cứng tính lại theo biểu lũy tiến 5 bậc với giảm trừ bản thân 15,5 triệu/tháng. Lương hiệu quả và Sheet 2 giữ nguyên khấu lưu 10%.*
+
+---
+
+### C. Phân bổ theo bậc thuế (Luật 109 — Lương cứng, 81 người)
+
+| Bậc | Điều kiện (TNCT/tháng TB) | Số người |
+|---|---|---:|
+| Không phải nộp | TNCT ≤ 0 | **80** |
+| Bậc 1 — 5% | ≤ 10 triệu | **1** |
+| Bậc 2 — 10% | 10–30 triệu | 0 |
+| Bậc 3 — 20% | 30–60 triệu | 0 |
+| Bậc 4-5 — 30-35% | > 60 triệu | 0 |
+
+> **Nhận xét:** Với giảm trừ bản thân tăng từ 11 triệu → 15,5 triệu/tháng, hầu hết nhân viên lương cứng 8–25 triệu/tháng sẽ có TNCT âm → **không phát sinh thuế từ lương cứng**. Thuế chủ yếu đến từ Sheet 2 (Phụ lục 02 — 309,6 triệu VND).
+
+---
+
+### D. Top & Bottom
+
+**Top 3 đóng thuế nhiều nhất (Luật 109):**
+
+| Tên | Thuế Luật 109 | Thu nhập |
+|---|---:|---:|
+| Lâm Huỳnh Hạ Liên | 15.017.342 | 217.526.691 |
+| Nguyễn Thị Quỳnh | 14.798.849 | 179.688.493 |
+| Phạm Anh Phương | 14.455.911 | 197.059.119 |
+
+**3 người thu nhập thấp nhất:**
+
+| Tên | Tổng thu nhập |
+|---|---:|
+| Đào Thị Minh Thu | 88.889 |
+| Phạm Thành Đạt | 162.222 |
+| Đặng Thảo Anh | 296.000 |
+
+---
+
+### E. Cảnh báo bất thường
+
+4 người có chênh lệch thuế > 1 triệu VND — tất cả đều **ĐÃ KHẤU TRỪ QUÁ MỨC** (được hoàn):
+
+| Tên | Đã khấu trừ | Luật 109 | Chênh lệch |
+|---|---:|---:|---:|
+| Phạm Minh Phương | 7.969.400 | 1.131.900 | **-6.837.500** |
+| Nguyễn Phương Trúc | 11.645.866 | 9.403.729 | **-2.242.137** |
+| Nguyễn Thị Hồng Hà | 6.921.100 | 5.248.600 | **-1.672.500** |
+| Nguyễn Mỹ Duyên | 2.005.892 | 664.480 | **-1.341.412** |
+
+> ⚠ **Đặc biệt chú ý Phạm Minh Phương:** thuế đã khấu trừ tại Sheet 1 (6.837.500 VND) trên thu nhập 10.300.000 VND có tỷ lệ bất thường (~66%). Cần kiểm tra lại dữ liệu nguồn.
+
+---
+
+> **Tạo bộ hồ sơ quyết toán đầy đủ:** dùng `/tncn-generator` (từ file CSV) hoặc `/tncn-sheets-sync` (từ Google Sheets).
+
+[USER]
+<command-message>tncn-generator</command-message>
+<command-name>/tncn-generator</command-name>
+
+[CLAUDE]
+Để tạo bộ hồ sơ quyết toán, tôi cần kiểm tra script và templates trước.
+
+[CLAUDE]
+Script đã sẵn sàng. Tôi cần kiểm tra thêm template và packages trước khi chạy.
+
+[CLAUDE]
+Template và packages đều sẵn sàng. Skill này nhận file **Excel (.xlsx/.xls)** chứa nhiều sheet bảng lương.
+
+**Bạn cung cấp đường dẫn file đầu vào:**
+
+- Nếu có file Excel gốc (có nhiều sheet), cung cấp đường dẫn đó
+- Nếu chỉ có 2 file CSV (`temp_sheet1.csv` + `temp_sheet2.csv`) đã dùng ở bước trước, tôi sẽ điều chỉnh script để xử lý cả hai
+
+Bạn muốn dùng file nào?
+
+[USER]
+& 'd:\Học Claude code\Skill\Form bảng thu nhập học Claude code.xlsx'
+
+[CLAUDE]
+Chạy script với file Excel đã cung cấp.
+
+[CLAUDE]
+File output đang bị khóa — có thể đang mở trong Excel. Tôi đổi tên file output và chạy lại.
+
+[CLAUDE]
+File cũ đang bị khóa. Tôi sẽ xoá và chạy lại.
+
+[CLAUDE]
+Hoàn thành. Tôi đọc chat history để tóm tắt kết quả.
+
+[CLAUDE]
+Bộ hồ sơ đã được tạo thành công. Đây là tóm tắt:
+
+---
+
+## Kết quả `/tncn-generator` — Luật 109/2025/QH15
+
+**File đầu vào:** `Form bảng thu nhập học Claude code.xlsx` (2 sheet: Tổng thu nhập + CTV)
+
+### Kết quả xử lý
+
+| Chỉ tiêu | Số liệu |
+|---|---:|
+| Phụ lục 01 — có BHXH | **78 người** |
+| Phụ lục 02 — không BHXH | **152 người** |
+| **Tổng nhân sự** | **230 người** |
+
+### Chỉ số tài chính
+
+| Chỉ tiêu | Số tiền |
+|---|---:|
+| Tổng thu nhập đã chi trả | 5.927.007.156 VND |
+| Thuế TNCN đã khấu trừ | 418.403.558 VND |
+| Thuế TNCN phải nộp (Luật 109) | 461.675.731 VND |
+| **Chênh lệch: CÒN PHẢI NỘP THÊM** | **43.272.173 VND** |
+
+### File output đã tạo
+
+**`output/QuyetToanTNCN_2026.xls`** gồm 4 sheet:
+
+| Sheet | Nội dung |
+|---|---|
+| `Tờ khai` | 05/QTT-TNCN — Tờ khai tổng hợp |
+| `05-1_BK-TNCN` | Phụ lục 01 — 78 người có BHXH |
+| `05-2_BK-TNCN` | Phụ lục 02 — 152 người không BHXH |
+| `05-3_BK-TNCN` | Phụ lục 03 — Người phụ thuộc (để trống) |
+
+> **Lưu ý:** Kết quả dùng giảm trừ gia cảnh từ dữ liệu gốc (cột trong Excel). Nếu muốn cập nhật giảm trừ bản thân từ 11 triệu → 15,5 triệu/tháng theo Luật 109, hãy cập nhật cột `Giảm trừ gia cảnh` trong file Excel đầu vào trước khi chạy lại.
+
+[USER]
+<command-message>tncn-sheets-sync</command-message>
+<command-name>/tncn-sheets-sync</command-name>
+
+[CLAUDE]
+Kiểm tra script trước khi chạy.
+
+[CLAUDE]
+Config sẵn sàng. Tôi kiểm tra dữ liệu cũ để so sánh sau khi fetch, rồi chạy script.
+
+[CLAUDE]
+Lưu data cũ để so sánh, rồi fetch dữ liệu mới từ Google Sheets.
+
+[CLAUDE]
+Fetch thành công (Sheet 1: 266 dòng, Sheet 2: 941 dòng). Giờ tôi xử lý và tạo bộ hồ sơ .txt.
+
+[CLAUDE]
+Đồng bộ và tạo hồ sơ thành công. Đây là báo cáo đầy đủ:
+
+---
+
+## Kết quả `/tncn-sheets-sync` — 16/05/2026 12:43
+
+**Nguồn:** Google Sheets (gid=0 + gid=1758432323) — 266 + 941 dòng
+
+---
+
+### So sánh với lần chạy trước
+
+| Chỉ tiêu | Trước | Sau | Thay đổi |
+|---|---:|---:|:---:|
+| Tổng nhân viên | 230 | 230 | — |
+| Thu nhập đã trả | 5.927.007.156 | 5.927.007.156 | +0 |
+| Thuế đã khấu trừ | 418.403.558 | 418.403.558 | +0 |
+| Thuế Luật 109 | 400.811.521 | 400.811.519 | ~0 (làm tròn) |
+
+> Không có thay đổi nhân sự. *(2 tên "bị xóa" là header row CSV — không phải nhân viên thật.)*
+
+---
+
+### Kết quả quyết toán
+
+| | Phụ lục 01 (78 người có BHXH) | Phụ lục 02 (152 người không BHXH) | Tổng |
+|---|---:|---:|---:|
+| Thuế đã khấu trừ | — | — | 418.403.558 |
+| Thuế Luật 109 | — | — | 400.811.519 |
+| **✅ Được hoàn** | **17.592.039** | **0** | **17.592.039 VND** |
+
+---
+
+### File output đã tạo trong `output/`
+
+| File | Nội dung |
+|---|---|
+| `05_QTT-TNCN_2026.txt` | Tờ khai tổng hợp 05/QTT-TNCN |
+| `05-1_BK-QTT-TNCN_2026.txt` | Phụ lục 01 — 78 người có BHXH |
+| `05-2_BK-QTT-TNCN_2026.txt` | Phụ lục 02 — 152 người không BHXH |
+| `05-3_BK-QTT-TNCN_2026.txt` | Phụ lục 03 — Người phụ thuộc (để trống) |
+| `chat_history_2026-05-16_12-43.txt` | Lịch sử xử lý |
