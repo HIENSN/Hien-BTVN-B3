@@ -1,0 +1,82 @@
+============================================================
+  BAO CAO QUYET TOAN THUE TNCN
+  Agent: bao-cao-thue
+  Ngay lap: 20/05/2026
+============================================================
+
+KY BAO CAO : Thang 5 / Nam 2026
+CAN CU PHAP LY: Luat so 109/2025/QH15
+
+------------------------------------------------------------
+I. SO NHAN SU
+------------------------------------------------------------
+  Phu luc 01 (co BHXH — co hop dong lao dong) :   78 nguoi
+  Phu luc 02 (khong BHXH — CTV/khong HDD)     :  152 nguoi
+  Tong nhan su toan cong ty                    :  230 nguoi
+
+------------------------------------------------------------
+II. CHI SO TAI CHINH TONG HOP
+------------------------------------------------------------
+  Tong thu nhap chiu thue da tra :   5.927.007.156 VND
+  Thue TNCN da khau tru          :     418.403.558 VND
+  Thue TNCN phai nop (L109)      :     461.675.731 VND
+  Chenh lech (phai nop them)     :      43.272.173 VND
+
+  Ghi chu: Chenh lech duong (+) = cong ty con phai nop bo sung.
+           Doanh nghiep can kiem tra lai de dam bao tuan thu dung han.
+
+------------------------------------------------------------
+III. DANH SACH FILE DA XUAT
+------------------------------------------------------------
+  1. output/bang_luong_from_sheets.xlsx
+     -> Du lieu tho tu Google Sheets (Sheet 'Tong thu nhap' + Sheet 'CTV')
+     -> Nguon: https://docs.google.com/spreadsheets/d/1Ux1aaL2q9A73HTKpBQEOoari5F5tltI5J8-j65mlCmM
+
+  2. output/QuyetToanTNCN_2026.xls
+     -> To khai quyet toan chinh thuc mau 05/QTT-TNCN
+     -> Sheet To khai chinh : 05/QTT-TNCN
+     -> Sheet Phu luc 01    : 05-1/BK-TNCN (78 nguoi co BHXH)
+     -> Sheet Phu luc 02    : 05-2/BK-TNCN (152 nguoi khong BHXH)
+     -> Sheet Phu luc 03    : 05-3/BK-TNCN (de trong)
+
+  3. output/tncn_review_2026-05-16.xlsx
+     -> Bao cao tong hop nhanh (tncn-review)
+
+  4. output/QuyetToanTNCN_2026.xml
+     -> File XML khai bao dien tu (tncn-to-xml)
+     -> Phien ban: 1.0 | NgayXuat: 2026-05-20T16:45:08
+     -> Cau truc: ThongTinChung + ToKhaiChinh + PhuLuc01 + PhuLuc02
+
+  5. output/agent_bao_cao_thue_2026-05.txt
+     -> File nay — Bao cao tom tat ket qua quyet toan
+
+------------------------------------------------------------
+IV. DEADLINE NOP BAO CAO
+------------------------------------------------------------
+  Theo Luat 109/2025/QH15 va Thong tu 80/2021/TT-BTC:
+
+  - Deadline nop To khai quyet toan 05/QTT-TNCN:
+    -> Chua qua 90 ngay ke tu ngay ket thuc nam tinh thue
+    -> Nam tinh thue 2026: deadline nop la ngay 31/03/2027
+
+  - Deadline nop thue con phai nop:
+    -> Cung thoi han voi viec nop to khai: 31/03/2027
+    -> Neu co chenh lech 43.272.173 VND phai nop bo sung truoc ngay nay.
+
+  - Khai thang (khi co khau tru thue hang thang):
+    -> Nop truoc ngay 20 cua thang tiep theo.
+
+------------------------------------------------------------
+V. KHUYEN NGHI
+------------------------------------------------------------
+  1. Kiem tra lai 43.272.173 VND chenh lech — xac dinh nguyen nhan
+     (sai sot khau tru hang thang vs tinh thue nam).
+  2. Dang ky ma so thue cho NLD chua co MST truoc khi nop quyet toan.
+  3. Gui thong bao quyet toan ca nhan cho tung NV truoc 30/06/2026.
+  4. Luu tru ho so quyet toan it nhat 10 nam theo quy dinh.
+
+============================================================
+  Pipeline thuc hien: tncn-sheets-sync -> tncn-generator
+                       -> tncn-review -> tncn-to-xml
+  Luat ap dung       : Luat so 109/2025/QH15
+============================================================

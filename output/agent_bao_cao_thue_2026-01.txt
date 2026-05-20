@@ -1,0 +1,53 @@
+============================================================
+  BAO CAO THUE TNCN — KY THANG 1/2026
+  Agent: bao-cao-thue | Ngay tao: 20/05/2026
+  Can cu: Luat so 109/2025/QH15
+============================================================
+
+A. KY BAO CAO
+  Ky tinh thue : Thang 1/2026 (nam quyet toan 2026)
+  Nam tinh thue: 2026
+  Nguon du lieu: Google Sheets (cap nhat moi nhat)
+
+B. NHAN SU
+  Phu luc PL01 (co BHXH — HD lao dong):    78 nguoi
+  Phu luc PL02 (khong BHXH — CTV/khac) : 152 nguoi
+  Tong nhan su trong ky                  : 230 nguoi
+
+C. CHI SO TAI CHINH (theo XML khai bao dien tu)
+  Tong thu nhap chiu thue                :   5.927.007.156 VND
+  Thue TNCN da khau tru tai nguon        :     418.403.558 VND
+  Thue TNCN phai nop theo Luat 109/L109  :     186.327.346 VND
+  Chenh lech (am = duoc hoan / khong phai nop them):  -232.076.212 VND
+
+  Ghi chu chenh lech:
+    Do thue da khau tru (418 trieu) > thue phai nop theo L109 (186 trieu),
+    DN co the quyet toan de HOAN thue hoac BU TRON sang nam sau cho NLD.
+
+D. DANH SACH 5 FILE OUTPUT
+  1. output/bang_luong_from_sheets.xlsx   — Du lieu tho tu Google Sheets (PL01: 265 dong, PL02: 940 dong)
+  2. output/QuyetToanTNCN_2026.xls        — To khai chinh thuc 05/QTT-TNCN (PL01, PL02, PL03)
+  3. output/tncn_review_2026-05-20.xlsx   — Bao cao tong hop nhanh (phan bo bac thue, top/bottom)
+  4. output/QuyetToanTNCN_2026.xml        — XML khai bao dien tu (chuan iXML/HTKK)
+  5. output/chat_history_2026-05-20_18-05.txt — Lich su xu ly va ket qua chi tiet
+
+E. DEADLINE NOP QUYET TOAN
+  To chuc nop thay (DN quyet toan thay NLD) : cuoi thang 3/2027
+    (Cu the: ngay cuoi cung thang 3/2027, neu trung ngay nghi thi chuyen sang ngay lam viec ke tiep)
+  Ca nhan tu nop (NLD tu quyet toan rieng)  : cuoi thang 4/2027
+
+F. CANH BAO BAT THUONG
+  1 truong hop canh bao (|chenh lech| > 5.000.000 VND):
+    - Pham Minh Phuong: Thue da KT = 6.837.500 VND, Chenh lech = -6.837.500 VND
+    (Khong co phat sinh thue bo sung, nhung de nghi kiem tra lai ky thuc te KT)
+
+G. PHAN BO BAC THUE (theo TNCT trung binh/ky)
+  Khong nop thue (TNCT <= 0)     :  48 nguoi
+  Bac 1 (TNCT <= 10 trieu)       :  57 nguoi
+  Bac 2 (TNCT 10-30 trieu)       :   7 nguoi
+  Bac 3 (TNCT 30-60 trieu)       :   4 nguoi
+  Bac 4-5 (TNCT > 60 trieu)      :   0 nguoi
+
+============================================================
+  END OF REPORT
+============================================================

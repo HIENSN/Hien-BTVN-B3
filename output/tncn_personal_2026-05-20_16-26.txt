@@ -1,0 +1,14 @@
+KET QUA TINH THUE TNCN CA NHAN 2026
+Luat so 109/2025/QH15 -- 20/05/2026 16:26
+
+Tong thu nhap chiu thue : 300.000.000 d
+Bao hiem bat buoc       : 0 d
+Giam tru gia canh       : 186.000.000 d
+  (Ban than 186.000.000 d + 0 NTP x 74.400.000 d)
+Thu nhap tinh thue      : 114.000.000 d
+THUE TNCN PHAI NOP      : 5.700.000 d
+Thue suat hieu dung     : 1.90%
+Thu nhap sau thue (NET) : 294.300.000 d
+
+PHAN TICH THEO BAC:
+  Bac 1 (5%) -- Den 120 trieu: TN = 114.000.000 d, Thue = 5.700.000 d

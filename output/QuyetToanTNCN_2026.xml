@@ -1,0 +1,2338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Quyet toan thue TNCN | Luat 109/2025/QH15 | tncn-to-xml skill -->
+<HoSoQuyetToanTNCN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" phienBan="1.0">
+  <ThongTinChung>
+    <MauSo>05/QTT-TNCN</MauSo>
+    <TenMau>To khai quyet toan thue TNCN</TenMau>
+    <NamTinhThue>2026</NamTinhThue>
+    <NgayXuatXML>2026-05-20T18:06:03</NgayXuatXML>
+    <CanCuPhapLy>Luat so 109/2025/QH15</CanCuPhapLy>
+    <GiamTruBanThan>15500000</GiamTruBanThan>
+    <GiamTruPhuThuoc>6200000</GiamTruPhuThuoc>
+  </ThongTinChung>
+  <ToKhaiChinh>
+    <TongSoNLD>230</TongSoNLD>
+    <SoNLDCoHopDong>78</SoNLDCoHopDong>
+    <SoNLDKhongHopDong>152</SoNLDKhongHopDong>
+    <TongThuNhapChiuThue>5927007156</TongThuNhapChiuThue>
+    <TongThueKhauTru>418403558</TongThueKhauTru>
+    <TongThuePNop>186327346</TongThuePNop>
+    <ChenhLech>-232076212</ChenhLech>
+  </ToKhaiChinh>
+  <PhuLuc01_CoHopDong>
+    <TenPhuLuc>05-1/BK-TNCN — NLD co hop dong lao dong</TenPhuLuc>
+    <SoNguoi>78</SoNguoi>
+    <NguoiNopThue>
+      <STT>1</STT>
+      <HoTen>Bùi Hải Yến</HoTen>
+      <MST />
+      <CCCD>03430500</CCCD>
+      <TongThuNhap>30140421</TongThuNhap>
+      <BHXHKhauTru>525798</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>18564623</ThuNhapTinhThue>
+      <ThueKhauTru>1657752</ThueKhauTru>
+      <ThuePNop>928231</ThuePNop>
+      <ThueThua>729521</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>2</STT>
+      <HoTen>Bùi Thu Thảo</HoTen>
+      <MST />
+      <CCCD>08919201</CCCD>
+      <TongThuNhap>39527123</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>27919867</ThuNhapTinhThue>
+      <ThueKhauTru>3072712</ThueKhauTru>
+      <ThuePNop>1395993</ThuePNop>
+      <ThueThua>1676719</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>3</STT>
+      <HoTen>Hoàng Minh Tuyết</HoTen>
+      <MST />
+      <CCCD>06619801</CCCD>
+      <TongThuNhap>15233637</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>3626381</ThuNhapTinhThue>
+      <ThueKhauTru>922000</ThueKhauTru>
+      <ThuePNop>181319</ThuePNop>
+      <ThueThua>740681</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>4</STT>
+      <HoTen>Huỳnh Nguyễn Ngọc Nga</HoTen>
+      <MST />
+      <CCCD>05230101</CCCD>
+      <TongThuNhap>77860101</TongThuNhap>
+      <BHXHKhauTru>1671768</BHXHKhauTru>
+      <GiamTruGiaCanh>44000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>31988333</ThuNhapTinhThue>
+      <ThueKhauTru>4674271</ThueKhauTru>
+      <ThuePNop>1599416</ThuePNop>
+      <ThueThua>3074855</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>5</STT>
+      <HoTen>Hòa Thị Quỳnh Anh</HoTen>
+      <MST />
+      <CCCD>03430400</CCCD>
+      <TongThuNhap>42244000</TongThuNhap>
+      <BHXHKhauTru>1671768</BHXHKhauTru>
+      <GiamTruGiaCanh>33000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>7422232</ThuNhapTinhThue>
+      <ThueKhauTru>1256537</ThueKhauTru>
+      <ThuePNop>371111</ThuePNop>
+      <ThueThua>885426</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>6</STT>
+      <HoTen>Hồ Hải Ninh</HoTen>
+      <MST />
+      <CCCD>00120401</CCCD>
+      <TongThuNhap>26638309</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>3981053</ThuNhapTinhThue>
+      <ThueKhauTru>1451445</ThueKhauTru>
+      <ThuePNop>199052</ThuePNop>
+      <ThueThua>1252393</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>7</STT>
+      <HoTen>Khổng Thị Hòa</HoTen>
+      <MST />
+      <CCCD>02618901</CCCD>
+      <TongThuNhap>132613960</TongThuNhap>
+      <BHXHKhauTru>2229024</BHXHKhauTru>
+      <GiamTruGiaCanh>44000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>86184936</ThuNhapTinhThue>
+      <ThueKhauTru>9631389</ThueKhauTru>
+      <ThuePNop>4309246</ThuePNop>
+      <ThueThua>5322143</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>8</STT>
+      <HoTen>Lâm Huỳnh Hạ Liên</HoTen>
+      <MST />
+      <CCCD>09630201</CCCD>
+      <TongThuNhap>217526691</TongThuNhap>
+      <BHXHKhauTru>1640310</BHXHKhauTru>
+      <GiamTruGiaCanh>70400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>145186381</ThuNhapTinhThue>
+      <ThueKhauTru>14845712</ThueKhauTru>
+      <ThuePNop>8518638</ThuePNop>
+      <ThueThua>6327074</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>9</STT>
+      <HoTen>Lê Mai Phương</HoTen>
+      <MST />
+      <CCCD>03819001</CCCD>
+      <TongThuNhap>65970198</TongThuNhap>
+      <BHXHKhauTru>2229024</BHXHKhauTru>
+      <GiamTruGiaCanh>55000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>8491174</ThuNhapTinhThue>
+      <ThueKhauTru>3026150</ThueKhauTru>
+      <ThuePNop>424558</ThuePNop>
+      <ThueThua>2601592</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>10</STT>
+      <HoTen>Lê Nguyễn Bảo Trân</HoTen>
+      <MST />
+      <CCCD>09330300</CCCD>
+      <TongThuNhap>79327023</TongThuNhap>
+      <BHXHKhauTru>2229024</BHXHKhauTru>
+      <GiamTruGiaCanh>44000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>32897999</ThuNhapTinhThue>
+      <ThueKhauTru>3942702</ThueKhauTru>
+      <ThuePNop>1644899</ThuePNop>
+      <ThueThua>2297803</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>11</STT>
+      <HoTen>Lê Thị Phương Thy</HoTen>
+      <MST />
+      <CCCD>04819400</CCCD>
+      <TongThuNhap>122750015</TongThuNhap>
+      <BHXHKhauTru>2229024</BHXHKhauTru>
+      <GiamTruGiaCanh>55000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>65270991</ThuNhapTinhThue>
+      <ThueKhauTru>8209747</ThueKhauTru>
+      <ThuePNop>3263549</ThuePNop>
+      <ThueThua>4946198</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>12</STT>
+      <HoTen>Lê Trang Nhung</HoTen>
+      <MST />
+      <CCCD>00130203</CCCD>
+      <TongThuNhap>108428017</TongThuNhap>
+      <BHXHKhauTru>1671768</BHXHKhauTru>
+      <GiamTruGiaCanh>41800000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>64806249</ThuNhapTinhThue>
+      <ThueKhauTru>6921665</ThueKhauTru>
+      <ThuePNop>3240312</ThuePNop>
+      <ThueThua>3681353</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>13</STT>
+      <HoTen>Nguyễn Công Minh</HoTen>
+      <MST />
+      <CCCD>00109300</CCCD>
+      <TongThuNhap>15744444</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>15400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>0</ThuNhapTinhThue>
+      <ThueKhauTru>444444</ThueKhauTru>
+      <ThuePNop>0</ThuePNop>
+      <ThueThua>444444</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>14</STT>
+      <HoTen>Nguyễn Duy Khánh</HoTen>
+      <MST />
+      <CCCD>06609901</CCCD>
+      <TongThuNhap>26466665</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>14859409</ThuNhapTinhThue>
+      <ThueKhauTru>1516665</ThueKhauTru>
+      <ThuePNop>742970</ThuePNop>
+      <ThueThua>773695</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>15</STT>
+      <HoTen>Nguyễn Huy Thắng</HoTen>
+      <MST />
+      <CCCD>02209800</CCCD>
+      <TongThuNhap>68157726</TongThuNhap>
+      <BHXHKhauTru>1640310</BHXHKhauTru>
+      <GiamTruGiaCanh>37400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>28967416</ThuNhapTinhThue>
+      <ThueKhauTru>3375895</ThueKhauTru>
+      <ThuePNop>1448370</ThuePNop>
+      <ThueThua>1927525</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>16</STT>
+      <HoTen>Nguyễn Hà Thanh Thùy</HoTen>
+      <MST />
+      <CCCD>06619701</CCCD>
+      <TongThuNhap>29145389</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>17538133</ThuNhapTinhThue>
+      <ThueKhauTru>1884539</ThueKhauTru>
+      <ThuePNop>876906</ThuePNop>
+      <ThueThua>1007633</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>17</STT>
+      <HoTen>Nguyễn Hải Long</HoTen>
+      <MST />
+      <CCCD>00120000</CCCD>
+      <TongThuNhap>25736121</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>14128865</ThuNhapTinhThue>
+      <ThueKhauTru>1315748</ThueKhauTru>
+      <ThuePNop>706443</ThuePNop>
+      <ThueThua>609305</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>18</STT>
+      <HoTen>Nguyễn Mỹ Duyên</HoTen>
+      <MST />
+      <CCCD>05230101</CCCD>
+      <TongThuNhap>41864365</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>33000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>7599853</ThuNhapTinhThue>
+      <ThueKhauTru>2005892</ThueKhauTru>
+      <ThuePNop>379992</ThuePNop>
+      <ThueThua>1625900</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>19</STT>
+      <HoTen>Nguyễn Như Cương</HoTen>
+      <MST />
+      <CCCD>00108902</CCCD>
+      <TongThuNhap>43299999</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>31692743</ThuNhapTinhThue>
+      <ThueKhauTru>3499999</ThueKhauTru>
+      <ThuePNop>1584637</ThuePNop>
+      <ThueThua>1915362</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>20</STT>
+      <HoTen>Nguyễn Phương Dung</HoTen>
+      <MST />
+      <CCCD>03330200</CCCD>
+      <TongThuNhap>25711112</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>3053856</ThuNhapTinhThue>
+      <ThueKhauTru>1111112</ThueKhauTru>
+      <ThuePNop>152692</ThuePNop>
+      <ThueThua>958420</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>21</STT>
+      <HoTen>Nguyễn Phương Trúc</HoTen>
+      <MST />
+      <CCCD>04930300</CCCD>
+      <TongThuNhap>137340920</TongThuNhap>
+      <BHXHKhauTru>2164512</BHXHKhauTru>
+      <GiamTruGiaCanh>41800000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>93226408</ThuNhapTinhThue>
+      <ThueKhauTru>11645866</ThueKhauTru>
+      <ThuePNop>4661320</ThuePNop>
+      <ThueThua>6984546</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>22</STT>
+      <HoTen>Nguyễn Quỳnh Trang</HoTen>
+      <MST />
+      <CCCD>03130000</CCCD>
+      <TongThuNhap>49465000</TongThuNhap>
+      <BHXHKhauTru>1671768</BHXHKhauTru>
+      <GiamTruGiaCanh>33000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>14643232</ThuNhapTinhThue>
+      <ThueKhauTru>2050774</ThueKhauTru>
+      <ThuePNop>732161</ThuePNop>
+      <ThueThua>1318613</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>23</STT>
+      <HoTen>Nguyễn Thu Hòa</HoTen>
+      <MST />
+      <CCCD>03030100</CCCD>
+      <TongThuNhap>9826000</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>0</ThuNhapTinhThue>
+      <ThueKhauTru>152600</ThueKhauTru>
+      <ThuePNop>0</ThuePNop>
+      <ThueThua>152600</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>24</STT>
+      <HoTen>Nguyễn Thùy Đoan Nghi</HoTen>
+      <MST />
+      <CCCD>07530000</CCCD>
+      <TongThuNhap>60201035</TongThuNhap>
+      <BHXHKhauTru>1607256</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>36493779</ThuNhapTinhThue>
+      <ThueKhauTru>3997603</ThueKhauTru>
+      <ThuePNop>1824688</ThuePNop>
+      <ThueThua>2172915</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>25</STT>
+      <HoTen>Nguyễn Thị Bích Đào</HoTen>
+      <MST />
+      <CCCD>03719301</CCCD>
+      <TongThuNhap>24833000</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>1618488</ThuNhapTinhThue>
+      <ThueKhauTru>273300</ThueKhauTru>
+      <ThuePNop>80924</ThuePNop>
+      <ThueThua>192376</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>26</STT>
+      <HoTen>Nguyễn Thị Bắc Giang</HoTen>
+      <MST />
+      <CCCD>04030500</CCCD>
+      <TongThuNhap>31614500</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>20007244</ThuNhapTinhThue>
+      <ThueKhauTru>2401450</ThueKhauTru>
+      <ThuePNop>1000362</ThuePNop>
+      <ThueThua>1401088</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>27</STT>
+      <HoTen>Nguyễn Thị Hà</HoTen>
+      <MST />
+      <CCCD>03430100</CCCD>
+      <TongThuNhap>29631000</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>6416488</ThuNhapTinhThue>
+      <ThueKhauTru>875237</ThueKhauTru>
+      <ThuePNop>320824</ThuePNop>
+      <ThueThua>554413</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>28</STT>
+      <HoTen>Nguyễn Thị Hạnh</HoTen>
+      <MST />
+      <CCCD>03819400</CCCD>
+      <TongThuNhap>40888123</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>17673611</ThuNhapTinhThue>
+      <ThueKhauTru>2500949</ThueKhauTru>
+      <ThuePNop>883680</ThuePNop>
+      <ThueThua>1617269</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>29</STT>
+      <HoTen>Nguyễn Thị Hạnh (CTV1)</HoTen>
+      <MST />
+      <CCCD>00119604</CCCD>
+      <TongThuNhap>25519000</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>2304488</ThuNhapTinhThue>
+      <ThueKhauTru>484037</ThueKhauTru>
+      <ThuePNop>115224</ThuePNop>
+      <ThueThua>368813</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>30</STT>
+      <HoTen>Nguyễn Thị Hồng Hà</HoTen>
+      <MST />
+      <CCCD>06830100</CCCD>
+      <TongThuNhap>97820091</TongThuNhap>
+      <BHXHKhauTru>2100000</BHXHKhauTru>
+      <GiamTruGiaCanh>50600000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>44970091</ThuNhapTinhThue>
+      <ThueKhauTru>6921100</ThueKhauTru>
+      <ThuePNop>2248504</ThuePNop>
+      <ThueThua>4672596</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>31</STT>
+      <HoTen>Nguyễn Thị Khánh Chi</HoTen>
+      <MST />
+      <CCCD>04030200</CCCD>
+      <TongThuNhap>16344000</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>15400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>336744</ThuNhapTinhThue>
+      <ThueKhauTru>354400</ThueKhauTru>
+      <ThuePNop>16837</ThuePNop>
+      <ThueThua>337563</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>32</STT>
+      <HoTen>Nguyễn Thị Khánh Huyền</HoTen>
+      <MST />
+      <CCCD>06630101</CCCD>
+      <TongThuNhap>137179905</TongThuNhap>
+      <BHXHKhauTru>2229024</BHXHKhauTru>
+      <GiamTruGiaCanh>59400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>75300881</ThuNhapTinhThue>
+      <ThueKhauTru>9159394</ThueKhauTru>
+      <ThuePNop>3765044</ThuePNop>
+      <ThueThua>5394350</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>33</STT>
+      <HoTen>Nguyễn Thị Mai Quỳnh</HoTen>
+      <MST />
+      <CCCD>00830000</CCCD>
+      <TongThuNhap>41633240</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>30025984</ThuNhapTinhThue>
+      <ThueKhauTru>2655465</ThueKhauTru>
+      <ThuePNop>1501299</ThuePNop>
+      <ThueThua>1154166</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>34</STT>
+      <HoTen>Nguyễn Thị Mỹ Linh</HoTen>
+      <MST />
+      <CCCD>03330300</CCCD>
+      <TongThuNhap>88596696</TongThuNhap>
+      <BHXHKhauTru>2133054</BHXHKhauTru>
+      <GiamTruGiaCanh>41800000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>44513642</ThuNhapTinhThue>
+      <ThueKhauTru>4641807</ThueKhauTru>
+      <ThuePNop>2225682</ThuePNop>
+      <ThueThua>2416125</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>35</STT>
+      <HoTen>Nguyễn Thị Ngọc Anh</HoTen>
+      <MST />
+      <CCCD>03030600</CCCD>
+      <TongThuNhap>62026934</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>50419678</ThuNhapTinhThue>
+      <ThueKhauTru>5472693</ThueKhauTru>
+      <ThuePNop>2520983</ThuePNop>
+      <ThueThua>2951710</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>36</STT>
+      <HoTen>Nguyễn Thị Nhịn</HoTen>
+      <MST />
+      <CCCD>08319101</CCCD>
+      <TongThuNhap>8800000</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>0</ThuNhapTinhThue>
+      <ThueKhauTru>50000</ThueKhauTru>
+      <ThuePNop>0</ThuePNop>
+      <ThueThua>50000</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>37</STT>
+      <HoTen>Nguyễn Thị Quỳnh</HoTen>
+      <MST />
+      <CCCD>02718700</CCCD>
+      <TongThuNhap>179688493</TongThuNhap>
+      <BHXHKhauTru>1607256</BHXHKhauTru>
+      <GiamTruGiaCanh>41800000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>136131237</ThuNhapTinhThue>
+      <ThueKhauTru>15606349</ThueKhauTru>
+      <ThuePNop>7613123</ThuePNop>
+      <ThueThua>7993226</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>38</STT>
+      <HoTen>Nguyễn Thị Thu Hà</HoTen>
+      <MST />
+      <CCCD>03030400</CCCD>
+      <TongThuNhap>28766667</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>5552155</ThuNhapTinhThue>
+      <ThueKhauTru>1166667</ThueKhauTru>
+      <ThuePNop>277607</ThuePNop>
+      <ThueThua>889060</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>39</STT>
+      <HoTen>Nguyễn Thị Thu Trang (CTV1)</HoTen>
+      <MST />
+      <CCCD>07030300</CCCD>
+      <TongThuNhap>58236039</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>46628783</ThuNhapTinhThue>
+      <ThueKhauTru>4993604</ThueKhauTru>
+      <ThuePNop>2331439</ThuePNop>
+      <ThueThua>2662165</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>40</STT>
+      <HoTen>Nguyễn Thị Thu Trang (CTV2)</HoTen>
+      <MST />
+      <CCCD>04030001</CCCD>
+      <TongThuNhap>182746865</TongThuNhap>
+      <BHXHKhauTru>2786280</BHXHKhauTru>
+      <GiamTruGiaCanh>55000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>124710585</ThuNhapTinhThue>
+      <ThueKhauTru>13596823</ThueKhauTru>
+      <ThuePNop>6471058</ThuePNop>
+      <ThueThua>7125765</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>41</STT>
+      <HoTen>Nguyễn thị Khánh Huyền</HoTen>
+      <MST />
+      <CCCD>06630101</CCCD>
+      <TongThuNhap>17600000</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>5992744</ThuNhapTinhThue>
+      <ThueKhauTru>502137</ThueKhauTru>
+      <ThuePNop>299637</ThuePNop>
+      <ThueThua>202500</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>42</STT>
+      <HoTen>Ngô Hà Linh</HoTen>
+      <MST />
+      <CCCD>03430301</CCCD>
+      <TongThuNhap>65833528</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>42619016</ThuNhapTinhThue>
+      <ThueKhauTru>5273353</ThueKhauTru>
+      <ThuePNop>2130950</ThuePNop>
+      <ThueThua>3142403</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>43</STT>
+      <HoTen>Nông Phương Hồng</HoTen>
+      <MST />
+      <CCCD>02019000</CCCD>
+      <TongThuNhap>56190364</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>32975852</ThuNhapTinhThue>
+      <ThueKhauTru>3431173</ThueKhauTru>
+      <ThuePNop>1648792</ThuePNop>
+      <ThueThua>1782381</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>44</STT>
+      <HoTen>Phan Lê Hương Quỳnh</HoTen>
+      <MST />
+      <CCCD>05230300</CCCD>
+      <TongThuNhap>30633000</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>7975744</ThuNhapTinhThue>
+      <ThueKhauTru>475437</ThueKhauTru>
+      <ThuePNop>398787</ThuePNop>
+      <ThueThua>76650</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>45</STT>
+      <HoTen>Phan Minh Tâm</HoTen>
+      <MST />
+      <CCCD>04030000</CCCD>
+      <TongThuNhap>17868000</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>15400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>1860744</ThuNhapTinhThue>
+      <ThueKhauTru>108937</ThueKhauTru>
+      <ThuePNop>93037</ThuePNop>
+      <ThueThua>15900</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>46</STT>
+      <HoTen>Phan Thị Thu Hà</HoTen>
+      <MST />
+      <CCCD>03030000</CCCD>
+      <TongThuNhap>48606515</TongThuNhap>
+      <BHXHKhauTru>2229024</BHXHKhauTru>
+      <GiamTruGiaCanh>44000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>2177491</ThuNhapTinhThue>
+      <ThueKhauTru>1658833</ThueKhauTru>
+      <ThuePNop>108874</ThuePNop>
+      <ThueThua>1549959</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>47</STT>
+      <HoTen>Phạm Anh Phương</HoTen>
+      <MST />
+      <CCCD>03619300</CCCD>
+      <TongThuNhap>197059119</TongThuNhap>
+      <BHXHKhauTru>2229024</BHXHKhauTru>
+      <GiamTruGiaCanh>48400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>146230095</ThuNhapTinhThue>
+      <ThueKhauTru>14702322</ThueKhauTru>
+      <ThuePNop>8623009</ThuePNop>
+      <ThueThua>6079313</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>48</STT>
+      <HoTen>Phạm Công Chính</HoTen>
+      <MST />
+      <CCCD>00120001</CCCD>
+      <TongThuNhap>16188888</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>4581632</ThuNhapTinhThue>
+      <ThueKhauTru>411025</ThueKhauTru>
+      <ThuePNop>229081</ThuePNop>
+      <ThueThua>181944</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>49</STT>
+      <HoTen>Phạm Minh Phương</HoTen>
+      <MST />
+      <CCCD>03030301</CCCD>
+      <TongThuNhap>21619000</TongThuNhap>
+      <BHXHKhauTru>1050000</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>9519000</ThuNhapTinhThue>
+      <ThueKhauTru>7969400</ThueKhauTru>
+      <ThuePNop>475950</ThuePNop>
+      <ThueThua>7493450</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>50</STT>
+      <HoTen>Phạm Quốc Hưng</HoTen>
+      <MST />
+      <CCCD>02420500</CCCD>
+      <TongThuNhap>17519800</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>5912544</ThuNhapTinhThue>
+      <ThueKhauTru>621980</ThueKhauTru>
+      <ThuePNop>295627</ThuePNop>
+      <ThueThua>326353</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>51</STT>
+      <HoTen>Phạm Thị Hải Chiều</HoTen>
+      <MST />
+      <CCCD>03730001</CCCD>
+      <TongThuNhap>43364455</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>37400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>4699943</ThuNhapTinhThue>
+      <ThueKhauTru>1791900</ThueKhauTru>
+      <ThuePNop>234997</ThuePNop>
+      <ThueThua>1556903</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>52</STT>
+      <HoTen>Phạm Thị Lộc</HoTen>
+      <MST />
+      <CCCD>03619302</CCCD>
+      <TongThuNhap>87900000</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>76292744</ThuNhapTinhThue>
+      <ThueKhauTru>7760000</ThueKhauTru>
+      <ThuePNop>3814637</ThuePNop>
+      <ThueThua>3945363</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>53</STT>
+      <HoTen>Phạm Thị Ngọc</HoTen>
+      <MST />
+      <CCCD>03630201</CCCD>
+      <TongThuNhap>19825000</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>8217744</ThuNhapTinhThue>
+      <ThueKhauTru>952500</ThueKhauTru>
+      <ThuePNop>410887</ThuePNop>
+      <ThueThua>541613</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>54</STT>
+      <HoTen>Phạm Đăng Hiệp</HoTen>
+      <MST />
+      <CCCD>02720200</CCCD>
+      <TongThuNhap>106461400</TongThuNhap>
+      <BHXHKhauTru>1607256</BHXHKhauTru>
+      <GiamTruGiaCanh>33000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>71704144</ThuNhapTinhThue>
+      <ThueKhauTru>7213640</ThueKhauTru>
+      <ThuePNop>3585207</ThuePNop>
+      <ThueThua>3628433</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>55</STT>
+      <HoTen>Trần Duy Hưng</HoTen>
+      <MST />
+      <CCCD>07520300</CCCD>
+      <TongThuNhap>27376818</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>4719562</ThuNhapTinhThue>
+      <ThueKhauTru>864500</ThueKhauTru>
+      <ThuePNop>235978</ThuePNop>
+      <ThueThua>628522</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>56</STT>
+      <HoTen>Trần Phương Mai</HoTen>
+      <MST />
+      <CCCD>03619601</CCCD>
+      <TongThuNhap>96828520</TongThuNhap>
+      <BHXHKhauTru>2786280</BHXHKhauTru>
+      <GiamTruGiaCanh>55000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>38792240</ThuNhapTinhThue>
+      <ThueKhauTru>4902852</ThueKhauTru>
+      <ThuePNop>1939612</ThuePNop>
+      <ThueThua>2963240</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>57</STT>
+      <HoTen>Trần Thị Bích Kiều</HoTen>
+      <MST />
+      <CCCD>05430400</CCCD>
+      <TongThuNhap>25190600</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>1976088</ThuNhapTinhThue>
+      <ThueKhauTru>459060</ThueKhauTru>
+      <ThuePNop>98804</ThuePNop>
+      <ThueThua>360256</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>58</STT>
+      <HoTen>Trần Thị Hà</HoTen>
+      <MST />
+      <CCCD>00130404</CCCD>
+      <TongThuNhap>96777000</TongThuNhap>
+      <BHXHKhauTru>1671768</BHXHKhauTru>
+      <GiamTruGiaCanh>37400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>57555232</ThuNhapTinhThue>
+      <ThueKhauTru>6109837</ThueKhauTru>
+      <ThuePNop>2877761</ThuePNop>
+      <ThueThua>3232076</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>59</STT>
+      <HoTen>Trần Thị Kim Chi</HoTen>
+      <MST />
+      <CCCD>05230101</CCCD>
+      <TongThuNhap>83252848</TongThuNhap>
+      <BHXHKhauTru>2229024</BHXHKhauTru>
+      <GiamTruGiaCanh>48400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>32423824</ThuNhapTinhThue>
+      <ThueKhauTru>4077422</ThueKhauTru>
+      <ThuePNop>1621191</ThuePNop>
+      <ThueThua>2456231</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>60</STT>
+      <HoTen>Trần Thị Ngọc Ánh</HoTen>
+      <MST />
+      <CCCD>04230300</CCCD>
+      <TongThuNhap>26639000</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>52800000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>0</ThuNhapTinhThue>
+      <ThueKhauTru>303900</ThueKhauTru>
+      <ThuePNop>0</ThuePNop>
+      <ThueThua>303900</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>61</STT>
+      <HoTen>Trịnh Thị Quỳnh Anh</HoTen>
+      <MST />
+      <CCCD>01930300</CCCD>
+      <TongThuNhap>30847000</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>7632488</ThuNhapTinhThue>
+      <ThueKhauTru>418974</ThueKhauTru>
+      <ThuePNop>381624</ThuePNop>
+      <ThueThua>37350</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>62</STT>
+      <HoTen>Võ Hoàng Thảo Nguyên</HoTen>
+      <MST />
+      <CCCD>04930300</CCCD>
+      <TongThuNhap>71641775</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>48427263</ThuNhapTinhThue>
+      <ThueKhauTru>5604178</ThueKhauTru>
+      <ThuePNop>2421363</ThuePNop>
+      <ThueThua>3182815</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>63</STT>
+      <HoTen>Võ Nguyễn Tường Vy</HoTen>
+      <MST />
+      <CCCD>06019800</CCCD>
+      <TongThuNhap>70100543</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>47443287</ThuNhapTinhThue>
+      <ThueKhauTru>4864464</ThueKhauTru>
+      <ThuePNop>2372164</ThuePNop>
+      <ThueThua>2492300</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>64</STT>
+      <HoTen>Vũ Hà Phương</HoTen>
+      <MST />
+      <CCCD>04619500</CCCD>
+      <TongThuNhap>70580680</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>47366168</ThuNhapTinhThue>
+      <ThueKhauTru>5398068</ThueKhauTru>
+      <ThuePNop>2368308</ThuePNop>
+      <ThueThua>3029760</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>65</STT>
+      <HoTen>Vũ Ngọc Diệp</HoTen>
+      <MST />
+      <CCCD>03430301</CCCD>
+      <TongThuNhap>11251500</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>0</ThuNhapTinhThue>
+      <ThueKhauTru>345150</ThueKhauTru>
+      <ThuePNop>0</ThuePNop>
+      <ThueThua>345150</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>66</STT>
+      <HoTen>Vũ Thanh Thanh Nhàn</HoTen>
+      <MST />
+      <CCCD>01719600</CCCD>
+      <TongThuNhap>73791543</TongThuNhap>
+      <BHXHKhauTru>2229024</BHXHKhauTru>
+      <GiamTruGiaCanh>48400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>22962519</ThuNhapTinhThue>
+      <ThueKhauTru>3911291</ThueKhauTru>
+      <ThuePNop>1148125</ThuePNop>
+      <ThueThua>2763166</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>67</STT>
+      <HoTen>Vũ Việt Thao</HoTen>
+      <MST />
+      <CCCD>02509200</CCCD>
+      <TongThuNhap>41032902</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>37400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>2368390</ThuNhapTinhThue>
+      <ThueKhauTru>1063291</ThueKhauTru>
+      <ThuePNop>118419</ThuePNop>
+      <ThueThua>944872</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>68</STT>
+      <HoTen>Đinh Ngọc Minh</HoTen>
+      <MST />
+      <CCCD>03020001</CCCD>
+      <TongThuNhap>42796001</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>30800000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>10781489</ThuNhapTinhThue>
+      <ThueKhauTru>1251737</ThueKhauTru>
+      <ThuePNop>539074</ThuePNop>
+      <ThueThua>712663</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>69</STT>
+      <HoTen>Đinh Thị Bích Thảo</HoTen>
+      <MST />
+      <CCCD>07930100</CCCD>
+      <TongThuNhap>27707888</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>5050632</ThuNhapTinhThue>
+      <ThueKhauTru>1117745</ThueKhauTru>
+      <ThuePNop>252531</ThuePNop>
+      <ThueThua>865214</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>70</STT>
+      <HoTen>Đàm Thị Ánh</HoTen>
+      <MST />
+      <CCCD>00130304</CCCD>
+      <TongThuNhap>57108000</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>33000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>22843488</ThuNhapTinhThue>
+      <ThueKhauTru>3355800</ThueKhauTru>
+      <ThuePNop>1142174</ThuePNop>
+      <ThueThua>2213626</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>71</STT>
+      <HoTen>Đặng Mai Anh</HoTen>
+      <MST />
+      <CCCD>04030201</CCCD>
+      <TongThuNhap>23450001</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>235489</ThuNhapTinhThue>
+      <ThueKhauTru>635000</ThueKhauTru>
+      <ThuePNop>11774</ThuePNop>
+      <ThueThua>623226</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>72</STT>
+      <HoTen>Đỗ Minh Tiến</HoTen>
+      <MST />
+      <CCCD>07520001</CCCD>
+      <TongThuNhap>71554941</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>33000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>37797685</ThuNhapTinhThue>
+      <ThueKhauTru>4237768</ThueKhauTru>
+      <ThuePNop>1889884</ThuePNop>
+      <ThueThua>2347884</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>73</STT>
+      <HoTen>Đỗ Nguyễn Bảo Trân</HoTen>
+      <MST />
+      <CCCD>04630100</CCCD>
+      <TongThuNhap>62085215</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>38870703</ThuNhapTinhThue>
+      <ThueKhauTru>4698522</ThueKhauTru>
+      <ThuePNop>1943535</ThuePNop>
+      <ThueThua>2754987</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>74</STT>
+      <HoTen>Đỗ Thị Hằng</HoTen>
+      <MST />
+      <CCCD>03319500</CCCD>
+      <TongThuNhap>29514500</TongThuNhap>
+      <BHXHKhauTru>1114512</BHXHKhauTru>
+      <GiamTruGiaCanh>22000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>6299988</ThuNhapTinhThue>
+      <ThueKhauTru>991450</ThueKhauTru>
+      <ThuePNop>314999</ThuePNop>
+      <ThueThua>676451</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>75</STT>
+      <HoTen>Đỗ Thị Ngọc Ánh</HoTen>
+      <MST />
+      <CCCD>03330400</CCCD>
+      <TongThuNhap>58113158</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>33000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>24505902</ThuNhapTinhThue>
+      <ThueKhauTru>4781316</ThueKhauTru>
+      <ThuePNop>1225295</ThuePNop>
+      <ThueThua>3556021</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>76</STT>
+      <HoTen>Đỗ Thị Phương Thảo</HoTen>
+      <MST />
+      <CCCD>03730000</CCCD>
+      <TongThuNhap>81580767</TongThuNhap>
+      <BHXHKhauTru>2229024</BHXHKhauTru>
+      <GiamTruGiaCanh>48400000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>30751743</ThuNhapTinhThue>
+      <ThueKhauTru>3532351</ThueKhauTru>
+      <ThuePNop>1537587</ThuePNop>
+      <ThueThua>1994764</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>77</STT>
+      <HoTen>Đỗ Thị Quý</HoTen>
+      <MST />
+      <CCCD>03019500</CCCD>
+      <TongThuNhap>73432500</TongThuNhap>
+      <BHXHKhauTru>1671768</BHXHKhauTru>
+      <GiamTruGiaCanh>33000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>38610732</ThuNhapTinhThue>
+      <ThueKhauTru>4525387</ThueKhauTru>
+      <ThuePNop>1930536</ThuePNop>
+      <ThueThua>2594851</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>78</STT>
+      <HoTen>Đỗ Thị Thúy Hường</HoTen>
+      <MST />
+      <CCCD>02630100</CCCD>
+      <TongThuNhap>8030000</TongThuNhap>
+      <BHXHKhauTru>557256</BHXHKhauTru>
+      <GiamTruGiaCanh>11000000</GiamTruGiaCanh>
+      <ThuNhapTinhThue>0</ThuNhapTinhThue>
+      <ThueKhauTru>173000</ThueKhauTru>
+      <ThuePNop>0</ThuePNop>
+      <ThueThua>173000</ThueThua>
+      <ThueCon>0</ThueCon>
+    </NguoiNopThue>
+  </PhuLuc01_CoHopDong>
+  <PhuLuc02_KhongHopDong>
+    <TenPhuLuc>05-2/BK-TNCN — CTV, khong hop dong lao dong</TenPhuLuc>
+    <SoNguoi>152</SoNguoi>
+    <NguoiNopThue>
+      <STT>1</STT>
+      <HoTen>Bùi Công Đàm</HoTen>
+      <MST />
+      <CCCD>03409202</CCCD>
+      <TongThuNhap>4723093</TongThuNhap>
+      <ThueKhauTru>472309</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>2</STT>
+      <HoTen>Bùi Khánh Chi</HoTen>
+      <MST />
+      <CCCD>00130400</CCCD>
+      <TongThuNhap>2548000</TongThuNhap>
+      <ThueKhauTru>254800</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>3</STT>
+      <HoTen>Bùi Quỳnh Hoa</HoTen>
+      <MST />
+      <CCCD>06630200</CCCD>
+      <TongThuNhap>2931000</TongThuNhap>
+      <ThueKhauTru>293100</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>4</STT>
+      <HoTen>Bùi Thị Diễm Kiều</HoTen>
+      <MST />
+      <CCCD>05119601</CCCD>
+      <TongThuNhap>11113331</TongThuNhap>
+      <ThueKhauTru>1111331</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>5</STT>
+      <HoTen>Bùi Thị Thanh Huyền</HoTen>
+      <MST />
+      <CCCD>03619800</CCCD>
+      <TongThuNhap>17905556</TongThuNhap>
+      <ThueKhauTru>1790556</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>6</STT>
+      <HoTen>Bùi Xuân Mai</HoTen>
+      <MST />
+      <CCCD>04230200</CCCD>
+      <TongThuNhap>666667</TongThuNhap>
+      <ThueKhauTru>66667</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>7</STT>
+      <HoTen>Bùi Đức Anh</HoTen>
+      <MST />
+      <CCCD>00220400</CCCD>
+      <TongThuNhap>3623190</TongThuNhap>
+      <ThueKhauTru>362320</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>8</STT>
+      <HoTen>Cao Thị Huyền Trang</HoTen>
+      <MST />
+      <CCCD>04219400</CCCD>
+      <TongThuNhap>2680000</TongThuNhap>
+      <ThueKhauTru>268000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>9</STT>
+      <HoTen>Chung Khánh Vy</HoTen>
+      <MST />
+      <CCCD>04930701</CCCD>
+      <TongThuNhap>17728000</TongThuNhap>
+      <ThueKhauTru>1772800</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>10</STT>
+      <HoTen>Dương Thúy Lan Trinh</HoTen>
+      <MST />
+      <CCCD>09330200</CCCD>
+      <TongThuNhap>8879000</TongThuNhap>
+      <ThueKhauTru>887900</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>11</STT>
+      <HoTen>Dương Thị Khánh Huyền</HoTen>
+      <MST />
+      <CCCD>06630101</CCCD>
+      <TongThuNhap>3359000</TongThuNhap>
+      <ThueKhauTru>335900</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>12</STT>
+      <HoTen>Dương Thị Ngọc Huyền</HoTen>
+      <MST />
+      <CCCD>08719700</CCCD>
+      <TongThuNhap>2230000</TongThuNhap>
+      <ThueKhauTru>223000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>13</STT>
+      <HoTen>Dương Đoàn Quỳnh Anh</HoTen>
+      <MST />
+      <CCCD>04619900</CCCD>
+      <TongThuNhap>9445000</TongThuNhap>
+      <ThueKhauTru>944500</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>14</STT>
+      <HoTen>Hoàng Phương Chi</HoTen>
+      <MST />
+      <CCCD>00130301</CCCD>
+      <TongThuNhap>1783000</TongThuNhap>
+      <ThueKhauTru>178300</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>15</STT>
+      <HoTen>Hoàng Thị Ngọc Điệp</HoTen>
+      <MST />
+      <CCCD>00430400</CCCD>
+      <TongThuNhap>2222222</TongThuNhap>
+      <ThueKhauTru>222222</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>16</STT>
+      <HoTen>Hoàng Thị Tố Uyên</HoTen>
+      <MST />
+      <CCCD>00119502</CCCD>
+      <TongThuNhap>1115000</TongThuNhap>
+      <ThueKhauTru>111500</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>17</STT>
+      <HoTen>Huỳnh Nguyễn Phương Vy</HoTen>
+      <MST />
+      <CCCD>07919502</CCCD>
+      <TongThuNhap>4450000</TongThuNhap>
+      <ThueKhauTru>445000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>18</STT>
+      <HoTen>Hồ Tuấn Anh</HoTen>
+      <MST />
+      <CCCD>00120201</CCCD>
+      <TongThuNhap>35555555</TongThuNhap>
+      <ThueKhauTru>3555555</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>19</STT>
+      <HoTen>Ian Guilherme Merlo Bacin</HoTen>
+      <MST />
+      <CCCD>89800891</CCCD>
+      <TongThuNhap>73021200</TongThuNhap>
+      <ThueKhauTru>7302120</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>20</STT>
+      <HoTen>Kiều Thị Liên Trà</HoTen>
+      <MST />
+      <CCCD>08730000</CCCD>
+      <TongThuNhap>7606230</TongThuNhap>
+      <ThueKhauTru>760625</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>21</STT>
+      <HoTen>Lâm Thị Thu Hà</HoTen>
+      <MST />
+      <CCCD>02419900</CCCD>
+      <TongThuNhap>8123107</TongThuNhap>
+      <ThueKhauTru>812313</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>22</STT>
+      <HoTen>Lê Hải Dương</HoTen>
+      <MST />
+      <CCCD>00120303</CCCD>
+      <TongThuNhap>5362319</TongThuNhap>
+      <ThueKhauTru>536232</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>23</STT>
+      <HoTen>Lê Hồng Ngọc</HoTen>
+      <MST />
+      <CCCD>03830400</CCCD>
+      <TongThuNhap>16049275</TongThuNhap>
+      <ThueKhauTru>1604927</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>24</STT>
+      <HoTen>Lê Thành Long</HoTen>
+      <MST />
+      <CCCD>01409800</CCCD>
+      <TongThuNhap>6688889</TongThuNhap>
+      <ThueKhauTru>668889</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>25</STT>
+      <HoTen>Lê Thị Diệu Linh</HoTen>
+      <MST />
+      <CCCD>04030400</CCCD>
+      <TongThuNhap>5055556</TongThuNhap>
+      <ThueKhauTru>505556</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>26</STT>
+      <HoTen>Lê Thị Hải Yến</HoTen>
+      <MST />
+      <CCCD>01030400</CCCD>
+      <TongThuNhap>15303511</TongThuNhap>
+      <ThueKhauTru>1530353</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>27</STT>
+      <HoTen>Lê Thị Minh Thuận</HoTen>
+      <MST />
+      <CCCD>05419400</CCCD>
+      <TongThuNhap>18301357</TongThuNhap>
+      <ThueKhauTru>1830135</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>28</STT>
+      <HoTen>Lê Thị Thu Thủy</HoTen>
+      <MST />
+      <CCCD>02630400</CCCD>
+      <TongThuNhap>3532609</TongThuNhap>
+      <ThueKhauTru>353261</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>29</STT>
+      <HoTen>Lê Thị Thùy</HoTen>
+      <MST />
+      <CCCD>04530000</CCCD>
+      <TongThuNhap>3979000</TongThuNhap>
+      <ThueKhauTru>397900</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>30</STT>
+      <HoTen>Lê Thị Trang</HoTen>
+      <MST />
+      <CCCD>00130102</CCCD>
+      <TongThuNhap>11288000</TongThuNhap>
+      <ThueKhauTru>1128800</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>31</STT>
+      <HoTen>Lê Vũ Quỳnh Hương</HoTen>
+      <MST />
+      <CCCD>04930301</CCCD>
+      <TongThuNhap>2144000</TongThuNhap>
+      <ThueKhauTru>214400</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>32</STT>
+      <HoTen>Lê Yến Nhi</HoTen>
+      <MST />
+      <CCCD>03830300</CCCD>
+      <TongThuNhap>663000</TongThuNhap>
+      <ThueKhauTru>66300</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>33</STT>
+      <HoTen>Lý Thái Sơn</HoTen>
+      <MST />
+      <CCCD>00220600</CCCD>
+      <TongThuNhap>6666666</TongThuNhap>
+      <ThueKhauTru>666666</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>34</STT>
+      <HoTen>Lăng Thị Hảo</HoTen>
+      <MST />
+      <CCCD>02630400</CCCD>
+      <TongThuNhap>4500001</TongThuNhap>
+      <ThueKhauTru>450001</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>35</STT>
+      <HoTen>Lưu Thị Ngọc Quỳnh</HoTen>
+      <MST />
+      <CCCD>03330400</CCCD>
+      <TongThuNhap>2562000</TongThuNhap>
+      <ThueKhauTru>256200</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>36</STT>
+      <HoTen>Lương Kiều Thanh</HoTen>
+      <MST />
+      <CCCD>02030200</CCCD>
+      <TongThuNhap>2230000</TongThuNhap>
+      <ThueKhauTru>223000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>37</STT>
+      <HoTen>Lương Thị Trang</HoTen>
+      <MST />
+      <CCCD>03419700</CCCD>
+      <TongThuNhap>1225000</TongThuNhap>
+      <ThueKhauTru>122500</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>38</STT>
+      <HoTen>Mai Anh Tuấn</HoTen>
+      <MST />
+      <CCCD>03720400</CCCD>
+      <TongThuNhap>8623189</TongThuNhap>
+      <ThueKhauTru>862319</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>39</STT>
+      <HoTen>Nguyễn Duy Phương</HoTen>
+      <MST />
+      <CCCD>04409700</CCCD>
+      <TongThuNhap>2097592</TongThuNhap>
+      <ThueKhauTru>209760</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>40</STT>
+      <HoTen>Nguyễn Hoàng Diệp</HoTen>
+      <MST />
+      <CCCD>03619900</CCCD>
+      <TongThuNhap>6746666</TongThuNhap>
+      <ThueKhauTru>674669</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>41</STT>
+      <HoTen>Nguyễn Hoàng Quý</HoTen>
+      <MST />
+      <CCCD>00120200</CCCD>
+      <TongThuNhap>15396111</TongThuNhap>
+      <ThueKhauTru>404611</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>42</STT>
+      <HoTen>Nguyễn Huy Hoàng</HoTen>
+      <MST />
+      <CCCD>01920500</CCCD>
+      <TongThuNhap>14859259</TongThuNhap>
+      <ThueKhauTru>1485926</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>43</STT>
+      <HoTen>Nguyễn Hà Khánh Như</HoTen>
+      <MST />
+      <CCCD>04630200</CCCD>
+      <TongThuNhap>7467395</TongThuNhap>
+      <ThueKhauTru>746741</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>44</STT>
+      <HoTen>Nguyễn Khánh Linh</HoTen>
+      <MST />
+      <CCCD>00119900</CCCD>
+      <TongThuNhap>888888</TongThuNhap>
+      <ThueKhauTru>88888</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>45</STT>
+      <HoTen>Nguyễn Linh Chi</HoTen>
+      <MST />
+      <CCCD>03630000</CCCD>
+      <TongThuNhap>7394000</TongThuNhap>
+      <ThueKhauTru>739400</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>46</STT>
+      <HoTen>Nguyễn Linh Chi CTV1</HoTen>
+      <MST />
+      <CCCD>04230500</CCCD>
+      <TongThuNhap>3750000</TongThuNhap>
+      <ThueKhauTru>375000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>47</STT>
+      <HoTen>Nguyễn Linh Giang</HoTen>
+      <MST />
+      <CCCD>00130500</CCCD>
+      <TongThuNhap>4202900</TongThuNhap>
+      <ThueKhauTru>420291</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>48</STT>
+      <HoTen>Nguyễn Mai Hạnh</HoTen>
+      <MST />
+      <CCCD>00818600</CCCD>
+      <TongThuNhap>5243980</TongThuNhap>
+      <ThueKhauTru>524400</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>49</STT>
+      <HoTen>Nguyễn Minh Anh</HoTen>
+      <MST />
+      <CCCD>03830301</CCCD>
+      <TongThuNhap>2500000</TongThuNhap>
+      <ThueKhauTru>250000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>50</STT>
+      <HoTen>Nguyễn Mỹ Thảo</HoTen>
+      <MST />
+      <CCCD>00130301</CCCD>
+      <TongThuNhap>3333333</TongThuNhap>
+      <ThueKhauTru>333333</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>51</STT>
+      <HoTen>Nguyễn Nguyên Thảo</HoTen>
+      <MST />
+      <CCCD>07530001</CCCD>
+      <TongThuNhap>1714000</TongThuNhap>
+      <ThueKhauTru>171400</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>52</STT>
+      <HoTen>Nguyễn Ngô An Thư</HoTen>
+      <MST />
+      <CCCD>07530101</CCCD>
+      <TongThuNhap>4483000</TongThuNhap>
+      <ThueKhauTru>448300</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>53</STT>
+      <HoTen>Nguyễn Ngọc An Trâm</HoTen>
+      <MST />
+      <CCCD>00130600</CCCD>
+      <TongThuNhap>4396135</TongThuNhap>
+      <ThueKhauTru>439613</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>54</STT>
+      <HoTen>Nguyễn Ngọc Bảo Trinh</HoTen>
+      <MST />
+      <CCCD>05630200</CCCD>
+      <TongThuNhap>620000</TongThuNhap>
+      <ThueKhauTru>62000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>55</STT>
+      <HoTen>Nguyễn Ngọc Lâm</HoTen>
+      <MST />
+      <CCCD>00116100</CCCD>
+      <TongThuNhap>2380000</TongThuNhap>
+      <ThueKhauTru>238000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>56</STT>
+      <HoTen>Nguyễn Ngọc Phước</HoTen>
+      <MST />
+      <CCCD>04520100</CCCD>
+      <TongThuNhap>352000</TongThuNhap>
+      <ThueKhauTru>35200</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>57</STT>
+      <HoTen>Nguyễn Như Phương</HoTen>
+      <MST />
+      <CCCD>00119801</CCCD>
+      <TongThuNhap>2000000</TongThuNhap>
+      <ThueKhauTru>200000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>58</STT>
+      <HoTen>Nguyễn Nhật Anh</HoTen>
+      <MST />
+      <CCCD>03520300</CCCD>
+      <TongThuNhap>8888889</TongThuNhap>
+      <ThueKhauTru>888889</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>59</STT>
+      <HoTen>Nguyễn Nhật Hoàng</HoTen>
+      <MST />
+      <CCCD>05230000</CCCD>
+      <TongThuNhap>462000</TongThuNhap>
+      <ThueKhauTru>46200</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>60</STT>
+      <HoTen>Nguyễn Phương Nhi</HoTen>
+      <MST />
+      <CCCD>04830400</CCCD>
+      <TongThuNhap>9628400</TongThuNhap>
+      <ThueKhauTru>962840</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>61</STT>
+      <HoTen>Nguyễn Sơn Long</HoTen>
+      <MST />
+      <CCCD>03709001</CCCD>
+      <TongThuNhap>18844445</TongThuNhap>
+      <ThueKhauTru>1884445</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>62</STT>
+      <HoTen>Nguyễn Thanh Sang</HoTen>
+      <MST />
+      <CCCD>08709200</CCCD>
+      <TongThuNhap>2000000</TongThuNhap>
+      <ThueKhauTru>200000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>63</STT>
+      <HoTen>Nguyễn Thu Thảo</HoTen>
+      <MST />
+      <CCCD>01930000</CCCD>
+      <TongThuNhap>10189000</TongThuNhap>
+      <ThueKhauTru>1018900</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>64</STT>
+      <HoTen>Nguyễn Thái Hồng Ngọc</HoTen>
+      <MST />
+      <CCCD>07519700</CCCD>
+      <TongThuNhap>3735000</TongThuNhap>
+      <ThueKhauTru>373500</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>65</STT>
+      <HoTen>Nguyễn Thị Hường</HoTen>
+      <MST />
+      <CCCD>03419300</CCCD>
+      <TongThuNhap>16801333</TongThuNhap>
+      <ThueKhauTru>1680133</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>66</STT>
+      <HoTen>Nguyễn Thị Hải Linh</HoTen>
+      <MST />
+      <CCCD>04530000</CCCD>
+      <TongThuNhap>17483865</TongThuNhap>
+      <ThueKhauTru>1748386</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>67</STT>
+      <HoTen>Nguyễn Thị Kim Thoa</HoTen>
+      <MST />
+      <CCCD>08730101</CCCD>
+      <TongThuNhap>2225000</TongThuNhap>
+      <ThueKhauTru>222500</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>68</STT>
+      <HoTen>Nguyễn Thị Mai</HoTen>
+      <MST />
+      <CCCD>02619001</CCCD>
+      <TongThuNhap>2222222</TongThuNhap>
+      <ThueKhauTru>222222</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>69</STT>
+      <HoTen>Nguyễn Thị Minh Huê</HoTen>
+      <MST />
+      <CCCD>07930202</CCCD>
+      <TongThuNhap>3225000</TongThuNhap>
+      <ThueKhauTru>322500</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>70</STT>
+      <HoTen>Nguyễn Thị Như Quỳnh (CTV1)</HoTen>
+      <MST />
+      <CCCD>00119602</CCCD>
+      <TongThuNhap>3134000</TongThuNhap>
+      <ThueKhauTru>313400</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>71</STT>
+      <HoTen>Nguyễn Thị Như Quỳnh (CTV2)</HoTen>
+      <MST />
+      <CCCD>05130100</CCCD>
+      <TongThuNhap>1130000</TongThuNhap>
+      <ThueKhauTru>113000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>72</STT>
+      <HoTen>Nguyễn Thị Nữ</HoTen>
+      <MST />
+      <CCCD>04030401</CCCD>
+      <TongThuNhap>5243980</TongThuNhap>
+      <ThueKhauTru>524400</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>73</STT>
+      <HoTen>Nguyễn Thị Thanh Thảo</HoTen>
+      <MST />
+      <CCCD>06019700</CCCD>
+      <TongThuNhap>52485674</TongThuNhap>
+      <ThueKhauTru>5248569</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>74</STT>
+      <HoTen>Nguyễn Thị Thanh Tâm</HoTen>
+      <MST />
+      <CCCD>02719800</CCCD>
+      <TongThuNhap>5243980</TongThuNhap>
+      <ThueKhauTru>524400</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>75</STT>
+      <HoTen>Nguyễn Thị Thúy An</HoTen>
+      <MST />
+      <CCCD>03319201</CCCD>
+      <TongThuNhap>3350000</TongThuNhap>
+      <ThueKhauTru>335000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>76</STT>
+      <HoTen>Nguyễn Thị Thơm</HoTen>
+      <MST />
+      <CCCD>05219500</CCCD>
+      <TongThuNhap>5166666</TongThuNhap>
+      <ThueKhauTru>516666</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>77</STT>
+      <HoTen>Nguyễn Thị Yến Nhi</HoTen>
+      <MST />
+      <CCCD>05119601</CCCD>
+      <TongThuNhap>1635000</TongThuNhap>
+      <ThueKhauTru>163500</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>78</STT>
+      <HoTen>Nguyễn Trần Hà Thương</HoTen>
+      <MST />
+      <CCCD>04230400</CCCD>
+      <TongThuNhap>21076829</TongThuNhap>
+      <ThueKhauTru>2107683</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>79</STT>
+      <HoTen>Nguyễn Tuấn Kiệt</HoTen>
+      <MST />
+      <CCCD>03620000</CCCD>
+      <TongThuNhap>7898421</TongThuNhap>
+      <ThueKhauTru>789841</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>80</STT>
+      <HoTen>Nguyễn thị Mỹ linh</HoTen>
+      <MST />
+      <CCCD>03330300</CCCD>
+      <TongThuNhap>16598000</TongThuNhap>
+      <ThueKhauTru>129800</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>81</STT>
+      <HoTen>Nguyễn Đào Yến Nhi</HoTen>
+      <MST />
+      <CCCD>05830000</CCCD>
+      <TongThuNhap>900000</TongThuNhap>
+      <ThueKhauTru>90000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>82</STT>
+      <HoTen>Nguyễn Đình Vinh</HoTen>
+      <MST />
+      <CCCD>00109901</CCCD>
+      <TongThuNhap>6667034</TongThuNhap>
+      <ThueKhauTru>666705</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>83</STT>
+      <HoTen>Ngô Anh Nam</HoTen>
+      <MST />
+      <CCCD>03709100</CCCD>
+      <TongThuNhap>12089372</TongThuNhap>
+      <ThueKhauTru>611111</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>84</STT>
+      <HoTen>Ngô Ngọc Diệp</HoTen>
+      <MST />
+      <CCCD>00630400</CCCD>
+      <TongThuNhap>1884058</TongThuNhap>
+      <ThueKhauTru>188406</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>85</STT>
+      <HoTen>Ngô Thái Bảo Ngọc</HoTen>
+      <MST />
+      <CCCD>07919700</CCCD>
+      <TongThuNhap>3340000</TongThuNhap>
+      <ThueKhauTru>334000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>86</STT>
+      <HoTen>Ngô Thúy Quỳnh</HoTen>
+      <MST />
+      <CCCD>03130600</CCCD>
+      <TongThuNhap>3333334</TongThuNhap>
+      <ThueKhauTru>333334</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>87</STT>
+      <HoTen>Ngô Văn Hào</HoTen>
+      <MST />
+      <CCCD>03820100</CCCD>
+      <TongThuNhap>2870000</TongThuNhap>
+      <ThueKhauTru>287000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>88</STT>
+      <HoTen>Phan Công Dũng</HoTen>
+      <MST />
+      <CCCD>04020501</CCCD>
+      <TongThuNhap>13870641</TongThuNhap>
+      <ThueKhauTru>1387066</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>89</STT>
+      <HoTen>Phan Nguyễn Trường Quyến</HoTen>
+      <MST />
+      <CCCD>07730300</CCCD>
+      <TongThuNhap>18943000</TongThuNhap>
+      <ThueKhauTru>1894300</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>90</STT>
+      <HoTen>Phan Ngân Hà</HoTen>
+      <MST />
+      <CCCD>04430500</CCCD>
+      <TongThuNhap>3890000</TongThuNhap>
+      <ThueKhauTru>389000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>91</STT>
+      <HoTen>Phan Thùy Trâm</HoTen>
+      <MST />
+      <CCCD>04030700</CCCD>
+      <TongThuNhap>6914000</TongThuNhap>
+      <ThueKhauTru>691400</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>92</STT>
+      <HoTen>Phan Thị Xuân Mai</HoTen>
+      <MST />
+      <CCCD>03330400</CCCD>
+      <TongThuNhap>26543300</TongThuNhap>
+      <ThueKhauTru>2654330</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>93</STT>
+      <HoTen>Phan Tùng Chi</HoTen>
+      <MST />
+      <CCCD>04030401</CCCD>
+      <TongThuNhap>5652174</TongThuNhap>
+      <ThueKhauTru>565217</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>94</STT>
+      <HoTen>Phan Văn Tấn</HoTen>
+      <MST />
+      <CCCD>04820100</CCCD>
+      <TongThuNhap>3150000</TongThuNhap>
+      <ThueKhauTru>315000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>95</STT>
+      <HoTen>Phan Vũ Thùy Anh</HoTen>
+      <MST />
+      <CCCD>01530400</CCCD>
+      <TongThuNhap>3623190</TongThuNhap>
+      <ThueKhauTru>362320</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>96</STT>
+      <HoTen>Phùng Thị Hoa</HoTen>
+      <MST />
+      <CCCD>00119104</CCCD>
+      <TongThuNhap>50199948</TongThuNhap>
+      <ThueKhauTru>5019995</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>97</STT>
+      <HoTen>Phạm Bùi Hà Chi</HoTen>
+      <MST />
+      <CCCD>02630400</CCCD>
+      <TongThuNhap>2833334</TongThuNhap>
+      <ThueKhauTru>283334</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>98</STT>
+      <HoTen>Phạm Cẩm Ly</HoTen>
+      <MST />
+      <CCCD>04030100</CCCD>
+      <TongThuNhap>1698000</TongThuNhap>
+      <ThueKhauTru>169800</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>99</STT>
+      <HoTen>Phạm Minh Huyền</HoTen>
+      <MST />
+      <CCCD>03830200</CCCD>
+      <TongThuNhap>5783000</TongThuNhap>
+      <ThueKhauTru>578300</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>100</STT>
+      <HoTen>Phạm Minh Đức</HoTen>
+      <MST />
+      <CCCD>03309500</CCCD>
+      <TongThuNhap>5555556</TongThuNhap>
+      <ThueKhauTru>555556</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>101</STT>
+      <HoTen>Phạm Mỹ Hoa</HoTen>
+      <MST />
+      <CCCD>03430401</CCCD>
+      <TongThuNhap>4888889</TongThuNhap>
+      <ThueKhauTru>488889</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>102</STT>
+      <HoTen>Phạm Mỹ Tâm</HoTen>
+      <MST />
+      <CCCD>04230401</CCCD>
+      <TongThuNhap>35454376</TongThuNhap>
+      <ThueKhauTru>3545440</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>103</STT>
+      <HoTen>Phạm Quang Thắng</HoTen>
+      <MST />
+      <CCCD>03008900</CCCD>
+      <TongThuNhap>770000</TongThuNhap>
+      <ThueKhauTru>70000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>104</STT>
+      <HoTen>Phạm Thành Đạt</HoTen>
+      <MST />
+      <CCCD>04020001</CCCD>
+      <TongThuNhap>162222</TongThuNhap>
+      <ThueKhauTru>16222</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>105</STT>
+      <HoTen>Phạm Thùy Linh Nga</HoTen>
+      <MST />
+      <CCCD>03419300</CCCD>
+      <TongThuNhap>2225000</TongThuNhap>
+      <ThueKhauTru>222500</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>106</STT>
+      <HoTen>Phạm Thị Như Tuyết</HoTen>
+      <MST />
+      <CCCD>07230400</CCCD>
+      <TongThuNhap>2891000</TongThuNhap>
+      <ThueKhauTru>289100</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>107</STT>
+      <HoTen>Phạm Thị Phương Thảo</HoTen>
+      <MST />
+      <CCCD>03130401</CCCD>
+      <TongThuNhap>4782609</TongThuNhap>
+      <ThueKhauTru>478261</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>108</STT>
+      <HoTen>Phạm Thị Thanh Bình</HoTen>
+      <MST />
+      <CCCD>00130501</CCCD>
+      <TongThuNhap>6884058</TongThuNhap>
+      <ThueKhauTru>688406</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>109</STT>
+      <HoTen>Quản Phương Linh</HoTen>
+      <MST />
+      <CCCD>02519900</CCCD>
+      <TongThuNhap>2800000</TongThuNhap>
+      <ThueKhauTru>280000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>110</STT>
+      <HoTen>Thiều Nguyễn Khánh Linh</HoTen>
+      <MST />
+      <CCCD>07930102</CCCD>
+      <TongThuNhap>3405636</TongThuNhap>
+      <ThueKhauTru>340564</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>111</STT>
+      <HoTen>Thiệu Quang Tường</HoTen>
+      <MST />
+      <CCCD>03509300</CCCD>
+      <TongThuNhap>11111110</TongThuNhap>
+      <ThueKhauTru>1111110</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>112</STT>
+      <HoTen>Thân Lê Bảo Duyên</HoTen>
+      <MST />
+      <CCCD>05430100</CCCD>
+      <TongThuNhap>2603000</TongThuNhap>
+      <ThueKhauTru>260300</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>113</STT>
+      <HoTen>Thân Minh Duy Khang</HoTen>
+      <MST />
+      <CCCD>07909603</CCCD>
+      <TongThuNhap>2780000</TongThuNhap>
+      <ThueKhauTru>278000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>114</STT>
+      <HoTen>Trương Văn Đắc</HoTen>
+      <MST />
+      <CCCD>05209801</CCCD>
+      <TongThuNhap>1824445</TongThuNhap>
+      <ThueKhauTru>182445</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>115</STT>
+      <HoTen>Trầm Ngọc Yến Vy</HoTen>
+      <MST />
+      <CCCD>07930302</CCCD>
+      <TongThuNhap>4433000</TongThuNhap>
+      <ThueKhauTru>443300</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>116</STT>
+      <HoTen>Trần Châu Gia Tuấn</HoTen>
+      <MST />
+      <CCCD>08220501</CCCD>
+      <TongThuNhap>32082792</TongThuNhap>
+      <ThueKhauTru>3208281</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>117</STT>
+      <HoTen>Trần Khánh Phương</HoTen>
+      <MST />
+      <CCCD>07930101</CCCD>
+      <TongThuNhap>5931800</TongThuNhap>
+      <ThueKhauTru>593180</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>118</STT>
+      <HoTen>Trần Thị Bích Phượng</HoTen>
+      <MST />
+      <CCCD>00119002</CCCD>
+      <TongThuNhap>1670000</TongThuNhap>
+      <ThueKhauTru>167000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>119</STT>
+      <HoTen>Trần Thị Thanh Hà</HoTen>
+      <MST />
+      <CCCD>03130301</CCCD>
+      <TongThuNhap>2239000</TongThuNhap>
+      <ThueKhauTru>223900</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>120</STT>
+      <HoTen>Trần Thị Thúy Hiền</HoTen>
+      <MST />
+      <CCCD>00130402</CCCD>
+      <TongThuNhap>61867600</TongThuNhap>
+      <ThueKhauTru>6186760</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>121</STT>
+      <HoTen>Trần Thị Thơm</HoTen>
+      <MST />
+      <CCCD>04930200</CCCD>
+      <TongThuNhap>4195184</TongThuNhap>
+      <ThueKhauTru>419520</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>122</STT>
+      <HoTen>Trần Tú Quyên</HoTen>
+      <MST />
+      <CCCD>09630200</CCCD>
+      <TongThuNhap>1255000</TongThuNhap>
+      <ThueKhauTru>125500</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>123</STT>
+      <HoTen>Trần Đình Thị Phương</HoTen>
+      <MST />
+      <CCCD>04630300</CCCD>
+      <TongThuNhap>19900024</TongThuNhap>
+      <ThueKhauTru>1990002</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>124</STT>
+      <HoTen>Trịnh Thị Hồng Nụ</HoTen>
+      <MST />
+      <CCCD>03819701</CCCD>
+      <TongThuNhap>15313100</TongThuNhap>
+      <ThueKhauTru>1531310</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>125</STT>
+      <HoTen>Trịnh Thị Phương Lâm</HoTen>
+      <MST />
+      <CCCD>01419700</CCCD>
+      <TongThuNhap>1000000</TongThuNhap>
+      <ThueKhauTru>100000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>126</STT>
+      <HoTen>Tô Khánh Huyền</HoTen>
+      <MST />
+      <CCCD>03430400</CCCD>
+      <TongThuNhap>42646772</TongThuNhap>
+      <ThueKhauTru>4264678</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>127</STT>
+      <HoTen>Tô Trúc Quỳnh</HoTen>
+      <MST />
+      <CCCD>03130100</CCCD>
+      <TongThuNhap>32605285</TongThuNhap>
+      <ThueKhauTru>3260531</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>128</STT>
+      <HoTen>Vũ Diệu Huyền</HoTen>
+      <MST />
+      <CCCD>02230200</CCCD>
+      <TongThuNhap>2709000</TongThuNhap>
+      <ThueKhauTru>270900</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>129</STT>
+      <HoTen>Vũ Linh Hương</HoTen>
+      <MST />
+      <CCCD>00130003</CCCD>
+      <TongThuNhap>18840000</TongThuNhap>
+      <ThueKhauTru>1884000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>130</STT>
+      <HoTen>Vũ Quỳnh Mai</HoTen>
+      <MST />
+      <CCCD>02430500</CCCD>
+      <TongThuNhap>17745872</TongThuNhap>
+      <ThueKhauTru>1774587</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>131</STT>
+      <HoTen>Vũ Quỳnh Trang</HoTen>
+      <MST />
+      <CCCD>00130402</CCCD>
+      <TongThuNhap>11971000</TongThuNhap>
+      <ThueKhauTru>1197100</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>132</STT>
+      <HoTen>Vũ Quỳnh Trang CTV1</HoTen>
+      <MST />
+      <CCCD>00130601</CCCD>
+      <TongThuNhap>750000</TongThuNhap>
+      <ThueKhauTru>75000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>133</STT>
+      <HoTen>Vũ Thị Hoài</HoTen>
+      <MST />
+      <CCCD>03019501</CCCD>
+      <TongThuNhap>3350000</TongThuNhap>
+      <ThueKhauTru>335000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>134</STT>
+      <HoTen>Vũ Thị Tươi</HoTen>
+      <MST />
+      <CCCD>02719900</CCCD>
+      <TongThuNhap>12765844</TongThuNhap>
+      <ThueKhauTru>1276586</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>135</STT>
+      <HoTen>Vũ Tiểu Ngọc</HoTen>
+      <MST />
+      <CCCD>03419700</CCCD>
+      <TongThuNhap>1534000</TongThuNhap>
+      <ThueKhauTru>153400</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>136</STT>
+      <HoTen>Đinh Phương Linh</HoTen>
+      <MST />
+      <CCCD>03130000</CCCD>
+      <TongThuNhap>1734000</TongThuNhap>
+      <ThueKhauTru>173400</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>137</STT>
+      <HoTen>Đinh Thị Minh Ngọc</HoTen>
+      <MST />
+      <CCCD>03630301</CCCD>
+      <TongThuNhap>3012000</TongThuNhap>
+      <ThueKhauTru>301200</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>138</STT>
+      <HoTen>Đoàn Thị Minh Phương</HoTen>
+      <MST />
+      <CCCD>03430200</CCCD>
+      <TongThuNhap>5703000</TongThuNhap>
+      <ThueKhauTru>570300</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>139</STT>
+      <HoTen>Đàm Uyên Thúy Linh</HoTen>
+      <MST />
+      <CCCD>06819601</CCCD>
+      <TongThuNhap>2780000</TongThuNhap>
+      <ThueKhauTru>278000</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>140</STT>
+      <HoTen>Đào Thị Hoa</HoTen>
+      <MST />
+      <CCCD>02419500</CCCD>
+      <TongThuNhap>32827172</TongThuNhap>
+      <ThueKhauTru>3282717</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>141</STT>
+      <HoTen>Đào Thị Minh Thu</HoTen>
+      <MST />
+      <CCCD>02630300</CCCD>
+      <TongThuNhap>88889</TongThuNhap>
+      <ThueKhauTru>8889</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>142</STT>
+      <HoTen>Đậu Thị Hà Lê</HoTen>
+      <MST />
+      <CCCD>04030001</CCCD>
+      <TongThuNhap>45529075</TongThuNhap>
+      <ThueKhauTru>4552908</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>143</STT>
+      <HoTen>Đặng Nguyễn Anh Khoa</HoTen>
+      <MST />
+      <CCCD>06009700</CCCD>
+      <TongThuNhap>18437101</TongThuNhap>
+      <ThueKhauTru>1843712</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>144</STT>
+      <HoTen>Đặng Nữ Huyền Trang</HoTen>
+      <MST />
+      <CCCD>05230300</CCCD>
+      <TongThuNhap>2966000</TongThuNhap>
+      <ThueKhauTru>296600</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>145</STT>
+      <HoTen>Đặng Thảo Anh</HoTen>
+      <MST />
+      <CCCD>03330300</CCCD>
+      <TongThuNhap>296000</TongThuNhap>
+      <ThueKhauTru>29600</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>146</STT>
+      <HoTen>Đặng Thị Thu Hà</HoTen>
+      <MST />
+      <CCCD>03419600</CCCD>
+      <TongThuNhap>9878783</TongThuNhap>
+      <ThueKhauTru>987880</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>147</STT>
+      <HoTen>Đặng Thị Thu Hà CTV1</HoTen>
+      <MST />
+      <CCCD>03419701</CCCD>
+      <TongThuNhap>444444</TongThuNhap>
+      <ThueKhauTru>44444</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>148</STT>
+      <HoTen>Đặng Thị Tố Nữ</HoTen>
+      <MST />
+      <CCCD>05119501</CCCD>
+      <TongThuNhap>8333333</TongThuNhap>
+      <ThueKhauTru>833333</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>149</STT>
+      <HoTen>Đồng Thị Hồng Nhung</HoTen>
+      <MST />
+      <CCCD>03630200</CCCD>
+      <TongThuNhap>20090566</TongThuNhap>
+      <ThueKhauTru>2009057</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>150</STT>
+      <HoTen>Đỗ Hạnh Trang</HoTen>
+      <MST />
+      <CCCD>00130130</CCCD>
+      <TongThuNhap>1462000</TongThuNhap>
+      <ThueKhauTru>146200</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>151</STT>
+      <HoTen>Đỗ Thu Thảo</HoTen>
+      <MST />
+      <CCCD>03830301</CCCD>
+      <TongThuNhap>11475034</TongThuNhap>
+      <ThueKhauTru>1147503</ThueKhauTru>
+    </NguoiNopThue>
+    <NguoiNopThue>
+      <STT>152</STT>
+      <HoTen>Đỗ thị Quý</HoTen>
+      <MST />
+      <CCCD>03019500</CCCD>
+      <TongThuNhap>7551121</TongThuNhap>
+      <ThueKhauTru>755112</ThueKhauTru>
+    </NguoiNopThue>
+  </PhuLuc02_KhongHopDong>
+</HoSoQuyetToanTNCN>

@@ -1,0 +1,111 @@
+============================================================
+  TU VAN CA NHAN — PHAM DANG HIEP
+  Agent: tu-van-ca-nhan | Ngay tao: 20/05/2026
+  Can cu: Luat so 109/2025/QH15 | NQ 110/2025/UBTVQH15
+============================================================
+
+A. THONG TIN CA NHAN
+  Ho ten        : Pham Dang Hiep
+  So CCCD       : 02720200
+  So ky luong   : 4 ky (sheet Tong thu nhap) + 8 ky (sheet CTV)
+                  Tong: 12 ban ghi du lieu trong nam
+  Sheet nguon   :
+    - Sheet "Tong thu nhap" (gid=0)  : 4 dong (luong chinh, co BHXH Thang 1-2 + Quy 4)
+    - Sheet "CTV" (gid=1758432323)   : 8 dong (thu nhap CTV thang 01.25 den 08.25)
+
+B. THONG TIN TAI CHINH (nam 2026, cong don)
+
+  --- Sheet Tong thu nhap ---
+    Thang 1 (luong cung)  : 20.300.000 VND | BHXH: 1.050.000 VND
+    Thang 1 (phan bo sung):  7.100.000 VND | BHXH: 0 VND
+    Thang 2 (luong cung)  :  8.300.000 VND | BHXH:   557.256 VND
+    Quy 4 (luong hieu qua):          0 VND | BHXH: 0 VND
+    Tong sheet nay        : 35.700.000 VND | BHXH: 1.607.256 VND
+
+  --- Sheet CTV (thu nhap phat sinh) ---
+    Thang 01.25           :  3.437.000 VND
+    Thang 02.25           :  2.308.000 VND
+    Thang 03.25           :  3.949.000 VND
+    Thang 04.25           :  6.117.000 VND
+    Thang 05.25           : 15.942.100 VND
+    Thang 06.25           : 16.500.300 VND
+    Thang 07.25           : 11.526.000 VND
+    Thang 08.25           : 10.982.000 VND
+    Tong sheet nay        : 70.761.400 VND | BHXH: 0 VND
+
+  --- TONG CONG ---
+  Tong thu nhap chiu thue nam 2026  : 106.461.400 VND
+  Tong BHXH bat buoc da khau tru    :   1.607.256 VND
+  So nguoi phu thuoc dang ky        : 0
+
+C. TINH THUE TNCN (Luat 109/2025/QH15, 0 NPT)
+  Tong thu nhap                     : 106.461.400 VND
+  Tru: BHXH bat buoc                :   1.607.256 VND
+  Tru: Giam tru ban than (15,5tr/th) : 186.000.000 VND
+  Tru: Giam tru NPT (0 x 6,2tr/th)  :           0 VND
+  --------------------------------------------------------
+  Thu nhap tinh thue                :           0 VND
+  (Am: 106.461.400 - 1.607.256 - 186.000.000 = -81.145.856 -> tinh bang 0)
+  --------------------------------------------------------
+  THUE TNCN PHAI NOP                :           0 VND
+  Thu nhap sau thue NET             : 104.854.144 VND
+  (NET = Thu nhap - BHXH = 106.461.400 - 1.607.256)
+
+D. TRA LOI CAU HOI VE GIAM TRU GIA CANH
+  (Trich tu ket qua tra cuu Luat 109/2025/QH15 + NQ 110/2025/UBTVQH15)
+
+  Muc giam tru hien hanh (ap dung tu ky tinh thue 2026):
+  +--------------------------------------------+-----------------+-----------------+
+  | Khoan giam tru                             | Muc / thang     | Muc / nam       |
+  +--------------------------------------------+-----------------+-----------------+
+  | Giam tru cho ban than nguoi nop thue       | 15.500.000 d    | 186.000.000 d   |
+  | Giam tru cho moi nguoi phu thuoc (NPT)     |  6.200.000 d    |  74.400.000 d   |
+  +--------------------------------------------+-----------------+-----------------+
+
+  Ngoai ra con duoc giam tru them:
+  * Bao hiem bat buoc: BHXH (8%) + BHYT (1,5%) + BHTN (1%) = 10,5% luong dong BH
+  * Quy huu tri tu nguyen: toi da 1.000.000 dong/thang
+  * Dong gop tu thien / nhan dao / khuyen hoc (can chung tu hop le)
+
+  Doi tuong duoc tinh la NPT:
+  * Con duoi 18 tuoi; con tu 18 tuoi bi khuyet tat / dang hoc DH-CD (TN <= 1tr/th)
+  * Vo/chong khong co kha nang lao dong hoac thu nhap <= 1.000.000 dong/thang
+  * Cha me de, cha me vo/chong, cha me nuoi hop phap: ngoai tuoi lao dong hoac khuyet tat
+  * Anh chi em ruot, ong ba, co di chu bac, chau ruot phai nuoi duong truc tiep
+
+  Luu y quan trong:
+  * Moi nguoi phu thuoc CHI DUOC giam tru MOT LAN cho mot nguoi nop thue trong nam.
+
+E. LOI TU VAN: CO NEN DANG KY NGUOI PHU THUOC KHONG?
+
+  KET LUAN: Khong can thiet — khong anh huong den so thue phai nop.
+
+  Giai thich:
+    Thu nhap tinh thue cua anh Pham Dang Hiep hien tai la AM (gia tri am 81 trieu),
+    ngay ca khi chua co NPT nao. Giam tru ban than (186 trieu/nam) da du lon de
+    toan bo thu nhap 106 trieu khong chiu thue.
+
+  Neu co 1 NPT (vi du: con nho):
+    Giam tru NPT them: 74.400.000 VND/nam
+    Thu nhap tinh thue: 0 VND (van bang 0, khong the am hon)
+    Thue phai nop    : 0 VND
+    Thue GIAM DC     : 0 VND — KHONG CO SU KHAC BIET
+
+  Khuyen nghi thuc te:
+  1. Thue hien tai = 0 VND, du co dang ky NPT hay khong.
+  2. Nen dang ky NPT truoc de chuan bi cho tuong lai neu thu nhap tang.
+     Vi du: neu thu nhap tang len 15 trieu/thang (180 trieu/nam) thi 1 NPT
+     se tiet kiem duoc ~74 trieu x 5% = khoang 3.720.000 VND/nam.
+  3. Thoi diem dang ky: co the dang ky bat cu luc nao trong nam, nhung
+     giam tru chi tinh tu thang dang ky. De vu loi toi da, dang ky dau nam.
+  4. Ho so dang ky NPT: Mau 02/DK-NPT + chung tu kem theo (CMND/CCCD con,
+     so ho khau/giay khai sinh noi la NPT).
+
+  Lien he bo phan ke toan neu can ho tro lam thu tuc dang ky NPT.
+
+============================================================
+  File tham khao:
+    output/tncn_personal_2026-05-20_18-13.txt  (ket qua tinh thue 0 NPT)
+============================================================
+  END OF REPORT
+============================================================

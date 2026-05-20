@@ -1,0 +1,121 @@
+============================================================
+  TU VAN THUE TNCN CA NHAN
+  Agent: tu-van-ca-nhan
+  Ngay lap: 20/05/2026
+============================================================
+
+I. THONG TIN NHAN VIEN
+------------------------------------------------------------
+  Ho ten           : Pham Minh Phuong (Pham Minh Phuong)
+  So CCCD          : 03030301
+  Nguon du lieu    : Google Sheets (ID: 1Ux1aaL2q9A73HTKpBQEOoari5F5tltI5J8-j65mlCmM)
+  So ky luong      : 2 ky
+    - Ky 1: Thang 1/2026 (Sheet "Tong thu nhap" — co BHXH, hop dong lao dong)
+    - Ky 2: 01.25      (Sheet "CTV" — thu nhap co dinh/khong BHXH)
+  Can cu phap ly   : Luat so 109/2025/QH15 (ap dung tu 01/01/2026)
+
+------------------------------------------------------------
+II. SO LIEU TAI CHINH DA XAC MINH
+------------------------------------------------------------
+  Thu nhap tung ky:
+    [Thang 1/2026 - PL01]
+      Tong thu nhap     :   10.300.000 VND
+      BHXH khau tru     :    1.050.000 VND
+      Thue TNCN da KT   :    6.837.500 VND
+
+    [01.25 - PL02/CTV]
+      Tong thu nhap     :   11.319.000 VND
+      Thue TNCN da KT   :    1.131.900 VND
+
+  CONG DON TOAN BO:
+    Tong thu nhap chiu thue  :   21.619.000 VND
+    BHXH da khau tru         :    1.050.000 VND
+    Thue TNCN da khau tru    :    7.969.400 VND
+
+------------------------------------------------------------
+III. TINH THUE TNCN — LUAT 109/2025/QH15
+------------------------------------------------------------
+  Thu nhap chiu thue         :   21.619.000 VND
+  Tru BHXH bat buoc          :  - 1.050.000 VND
+  Giam tru ban than (nam)    : -186.000.000 VND
+    (15.500.000 d/thang x 12 thang)
+  Giam tru phu thuoc (0 NTP) :            0 VND
+  --------------------------------------------------------
+  Thu nhap tinh thue         :            0 VND
+    (Am — tu dong tinh bang 0, khong co thue phai nop)
+
+  THUE TNCN PHAI NOP         :            0 VND
+  Thue suat hieu dung        :         0.00%
+  Thu nhap sau thue (NET)    :   20.569.000 VND
+
+  Ghi chu: Thue da khau tru (7.969.400 VND) > Thue phai nop (0 VND)
+           => Nhan vien NOPTHUE THUA: 7.969.400 VND
+           => Co quyen YEU CAU HOAN THUE hoac bu tru ky sau.
+
+------------------------------------------------------------
+IV. KET QUA TRA CUU LUAT — CAU HOI "KHI NAO PHAI QUYET TOAN?"
+------------------------------------------------------------
+  Nguon: Luat so 109/2025/QH15 | Muc: Quyet toan thue TNCN
+
+  Ca nhan co nghia vu quyet toan thue TNCN neu:
+    (1) Co so thue phai nop THEM so voi so da tam nop; HOAC
+    (2) Co yeu cau HOAN THUE hoac bu tru vao ky tiep theo.
+
+  Thoi han quyet toan:
+    * Ca nhan tu quyet toan   : cham nhat cuoi THANG 4 nam sau.
+                                 => Nam 2026: deadline 30/04/2027
+    * To chuc quyet toan thay : cham nhat cuoi THANG 3 nam sau.
+                                 => Nam 2026: deadline 31/03/2027
+
+  Luu y quan trong:
+    Ca nhan co the uy quyen cho to chuc tra thu nhap quyet toan thay
+    neu chi co MOT nguon thu nhap tu tien luong, tien cong.
+
+  Tham khao them: https://hiensn.github.io/mini-tool-tncn-2026/luat.html
+
+------------------------------------------------------------
+V. LOI TU VAN TONG HOP CHO PHAM MINH PHUONG
+------------------------------------------------------------
+
+  1. TINH TRANG THUE HIEN TAI:
+     Ban dang BI KHAU TRU THUE QUA MUC so voi so thue phai nop thuc te.
+     - Thue da bi giu lai: 7.969.400 VND
+     - Thue thuc te can nop: 0 VND
+     - Chenh lech (nop thua): 7.969.400 VND
+
+  2. CO NEN QUYET TOAN KHONG?
+     CO — ban DUOC HOAT DONG quyet toan de DOI LAI so thue da nop thua.
+     Day la quyen loi cua ban, khong phai nghia vu.
+
+  3. CACH THUC QUYET TOAN:
+     Lua chon 1 (khuyen nghi): Uy quyen cho cong ty quyet toan thay
+     - Dieu kien: chi co 1 nguon thu nhap chinh tu luong
+     - Cach lam: dien mau uy quyen, nop cho phong ket toan truoc 31/01/2027
+     - Cong ty se lam thay va hoan thue cho ban cung voi luong thang 3 hoac 4/2027
+
+     Luu y quan trong: Ban co 2 nguon thu nhap (PL01 va CTV), nen phai
+     tu quyet toan hoac bao cao day du ca 2 nguon cho cong ty.
+
+     Lua chon 2: Tu quyet toan
+     - Dang ky tai: https://canhan.gdt.gov.vn
+     - Deadline: 30/04/2027
+     - Mau to khai: 02/QTT-TNCN
+
+  4. LUU Y VE SO THUE:
+     - Ky trong bang luong thang 1 chi co 2 ky — du lieu chua du 12 thang.
+     - Khi quyet toan cu9i nam, can cong don TAT CA cac ky thu nhap trong nam 2026.
+     - Neu co them thu nhap tu cac nguon khac, can khai bao day du.
+
+  5. GIAM THIEU KHAU TRU THANG KE TIEP:
+     Hien tai thue dang bi giu 6.837.500 VND/thang (Thang 1) trong khi
+     thue phai nop ca nam chi la 0 VND. Ban co the:
+     - Yeu cau phong ke toan dieu chinh lai muc khau tru hang thang
+     - Cung cap thong tin nhan khau/NTP de giam tru dung muc
+
+============================================================
+  File lien quan:
+    - output/tncn_personal_2026-05-20_17-57.txt  (ket qua personal_calc)
+    - output/QuyetToanTNCN_2026.xls              (to khai quyet toan cong ty)
+    - output/QuyetToanTNCN_2026.xml              (file XML khai bao dien tu)
+  Luat ap dung: Luat so 109/2025/QH15
+============================================================
