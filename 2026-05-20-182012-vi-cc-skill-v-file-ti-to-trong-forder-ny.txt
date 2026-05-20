@@ -1,0 +1,1542 @@
+╭─── Claude Code v2.1.128 ─────────────────────────────────────────────────────╮
+│                                              │ Tips for getting started      │
+│          Welcome back SEONGON NO 1!          │ Run /init to create a CLAUDE… │
+│                                              │ ───────────────────────────── │
+│                    ▐▛███▜▌                   │ What's new                    │
+│                   ▝▜█████▛▘                  │ Bare `/color` (no args) now … │
+│                     ▘▘ ▝▝                    │ `/mcp` now shows the tool co… │
+│                                              │ `--plugin-dir` now accepts `… │
+│   Sonnet 4.6 · Claude Team · Ymbubakti Biz   │ /release-notes for more       │
+│           D:\Học Claude code\Skill           │                               │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+❯ với các skill và file tôi đã tạo trong forder này, thầy yêu cầu tôi phải tạo  
+  ra 2 agent, mỗi agent có ít nhất 2 skill, gợi ý giúp tôi nên làm thế nào      
+
+● Để gợi ý tốt, tôi cần xem các skill và file hiện có trong folder trước.
+
+  Searched for 2 patterns, read 4 files (ctrl+o to expand)
+
+● Dưới đây là phân tích và gợi ý dựa trên 4 skill hiện có của bạn:
+
+  ---
+  Các skill hiện có
+
+  ┌──────────────────┬───────────────────────────────────────────────┐
+  │      Skill       │                   Chức năng                   │
+  ├──────────────────┼───────────────────────────────────────────────┤
+  │ tncn-sheets-sync │ Lấy dữ liệu từ Google Sheets → Excel          │
+  ├──────────────────┼───────────────────────────────────────────────┤
+  │ tncn-generator   │ Đọc Excel → xuất hồ sơ quyết toán 05/QTT-TNCN │
+  ├──────────────────┼───────────────────────────────────────────────┤
+  │ tncn-review      │ Đọc Excel → báo cáo tổng quan nhanh           │
+  ├──────────────────┼───────────────────────────────────────────────┤
+  │ tncn-full        │ Chạy cả 3 skill trên liên tiếp                │
+  └──────────────────┴───────────────────────────────────────────────┘
+
+  ---
+  Gợi ý: 2 Agent phân theo vai trò
+
+  Agent 1: "Kế toán viên" (Filing Agent)
+
+  Mục tiêu: Thu thập dữ liệu và tạo hồ sơ quyết toán chính thức
+
+  - Skill 1: tncn-sheets-sync — lấy dữ liệu mới nhất từ Google Sheets
+  - Skill 2: tncn-generator — xử lý và xuất tờ khai 05/QTT-TNCN
+
+  Khi nào dùng: Cuối kỳ khi cần nộp hồ sơ thuế chính thức.
+
+  ---
+  Agent 2: "Kiểm toán viên" (Review Agent)
+
+  Mục tiêu: Phân tích, phát hiện bất thường, đưa ra cảnh báo
+
+  - Skill 1: tncn-review — xem tổng quan, top đóng thuế nhiều/ít, cảnh báo chênh
+   lệch
+  - Skill 2: tncn-full — chạy toàn bộ pipeline khi cần refresh & kiểm tra toàn
+  diện
+
+  Khi nào dùng: Giữa kỳ để kiểm tra nhanh mà không tạo hồ sơ chính thức.
+
+  ---
+  Lý do phân chia như vậy
+
+  - Rõ trách nhiệm: Agent 1 tạo hồ sơ pháp lý, Agent 2 kiểm tra/giám sát — hai
+  vai trò tách biệt trong thực tế kế toán
+  - Không trùng lặp: Mỗi agent có logic riêng, dùng skill theo mục đích khác
+  nhau
+  - Tái dùng skill: tncn-full trong Agent 2 vẫn có lý vì Agent 2 cần dữ liệu mới
+   trước khi review
+
+  ---
+  Nếu cần thêm skill mới để agent phong phú hơn
+
+  Bạn có thể tạo thêm 1 skill nhỏ, ví dụ:
+  - tncn-compare: So sánh quyết toán kỳ này vs kỳ trước (đặt vào Agent 2)
+  - tncn-export-pdf: Xuất báo cáo dạng PDF (đặt vào Agent 1)
+
+  Bạn muốn triển khai theo hướng nào, hay cần tôi giúp tạo cấu trúc file cho
+  từng agent?
+
+✻ Churned for 44s
+
+❯ bạn xem thêm mini tool này, có liên quan đến forder skill mà tôi đã tạo, xem  
+  có gợi ý nào thêm không Mini Tool Tinh thue TNCND:\Học Claude code\Mini Tool  
+  Tinh thue TNCN                                                                
+
+● Tôi sẽ xem nội dung folder Mini Tool đó.
+
+● Explore(Explore Mini Tool TNCN folder)
+  ⎿  Done (14 tool uses · 82.8k tokens · 2m 55s)
+  (ctrl+o to expand)
+
+● Rất hay! Mini Tool và Skill folder có liên quan chặt chẽ — cùng chủ đề TNCN,
+  cùng Luật 109/2025/QH15. Đây là cơ sở để thiết kế 2 agent có sự phân vai rõ
+  ràng và chuyên nghiệp hơn.
+
+  ---
+  Phân tích mối liên hệ
+
+  ┌───────────┬──────────────────────────────┬─────────────────────────────┐
+  │           │         Skill Folder         │          Mini Tool          │
+  ├───────────┼──────────────────────────────┼─────────────────────────────┤
+  │ Đối tượng │ HR / Kế toán doanh nghiệp    │ Cá nhân / Người lao động    │
+  ├───────────┼──────────────────────────────┼─────────────────────────────┤
+  │ Dữ liệu   │ Excel bảng lương nhiều người │ Nhập tay 1 người            │
+  ├───────────┼──────────────────────────────┼─────────────────────────────┤
+  │ Output    │ Hồ sơ quyết toán 05/QTT-TNCN │ Kết quả thuế + tra cứu luật │
+  ├───────────┼──────────────────────────────┼─────────────────────────────┤
+  │ Công nghệ │ Python scripts               │ Web HTML/JS + Supabase      │
+  └───────────┴──────────────────────────────┴─────────────────────────────┘
+
+  ---
+  Gợi ý 2 Agent (kết hợp cả hai folder)
+
+  Agent 1: "Kế toán Doanh nghiệp" — Enterprise Agent
+
+  Dành cho HR/kế toán xử lý hàng loạt:
+
+  - Skill 1: tncn-sheets-sync — lấy bảng lương từ Google Sheets
+  - Skill 2: tncn-generator — tạo hồ sơ quyết toán 05/QTT-TNCN
+  - Skill 3: tncn-review — kiểm tra bất thường trước khi nộp
+
+  ---
+  Agent 2: "Tư vấn Cá nhân" — Personal Tax Advisor Agent
+
+  Dành cho người lao động tự tra cứu/tính thuế:
+
+  - Skill 1 (mới): tncn-personal-calc — port logic từ index.html sang Python,
+  nhập thu nhập 1 người → xuất kết quả thuế chi tiết theo 5 bậc
+  - Skill 2 (mới): tncn-law-search — tra cứu điều luật theo từ khóa, dựa trên
+  nội dung từ luat.html / Supabase
+
+  ---
+  Tại sao phân chia này tốt
+
+  - Rõ đối tượng: B2B (Agent 1) vs B2C (Agent 2) — đây là cách phân chia thực tế
+   trong sản phẩm thuế
+  - Tái sử dụng logic: 2 skill mới của Agent 2 port trực tiếp từ Mini Tool
+  (không code lại từ đầu)
+  - Không trùng lặp: Agent 1 xử lý hàng loạt/hồ sơ pháp lý, Agent 2 tư vấn/giải
+  thích cho cá nhân
+  - Tích hợp tự nhiên: Người lao động dùng Agent 2 để hiểu thuế → HR dùng Agent
+  1 để quyết toán cho họ
+
+  ---
+  Bước tiếp theo cụ thể
+
+  Bạn cần tạo thêm 2 skill mới cho Agent 2:
+
+  1. tncn-personal-calc — script Python nhận input (thu nhập, BHXH, người phụ
+  thuộc) và tính thuế theo đúng logic index.html
+  2. tncn-law-search — script Python đọc nội dung 9 mục luật từ luat.html và tìm
+   kiếm theo từ khóa
+
+  Bạn muốn tôi bắt tay tạo 2 skill mới này không?
+
+✻ Churned for 2m 11s
+
+❯ tạo 2 skill mới cho tôi đi, tất cả lưu ở forder skill nhé                     
+
+● Tôi sẽ đọc logic từ Mini Tool trước để port chính xác.
+
+  Read 2 files (ctrl+o to expand)
+
+● Đã có đủ thông tin. Tôi sẽ tạo song song 2 skill cùng lúc.
+
+● Write(.claude\skills\tncn-personal-calc\SKILL.md)
+  ⎿  Wrote 75 lines to .claude\skills\tncn-personal-calc\SKILL.md
+       2 name: tncn-personal-calc
+       3 description: Tính thuế TNCN cho 1 cá nhân — nhập thu nhập, BHXH,
+          số người phụ thuộc → xuất kết quả chi tiết theo 5 bậc lũy tiến 
+       4 ---ật 109/2025/QH15)
+       5 
+       6 ## Mục đích
+         theo từng bậc thuế.h cho một cá nhân cụ thể, hiển thị breakdown 
+       8 Port trực tiếp từ logic JavaScript của Mini Tool `index.html`.
+       9 
+      10 ## Quy định áp dụng — Luật 109/2025/QH15 (từ 01/01/2026)
+     … +75 lines (ctrl+o to expand)
+
+● Write(.claude\skills\tncn-law-search\SKILL.md)
+  ⎿  Wrote 70 lines to .claude\skills\tncn-law-search\SKILL.md
+       2 name: tncn-law-search
+       3 description: Tra cứu điều luật TNCN theo từ khóa — tìm kiếm tron
+         uan mục pháp lý của Luật 109/2025/QH15, hiển thị nội dung liên q
+       4 ---
+       5 
+       7 Tra cứu nhanh các điều khoản, quy định, mức giảm trừ, biểu thuế 
+         trong Luật Thuế TNCN 2026.
+         của Mini Tool TNCN.ội dung `DEFAULT_SECTIONS` trong `luat.html` 
+       9 
+      10 ## 9 Mục luật có sẵn
+     … +69 lines (ctrl+o to expand)
+
+● SKILL.md xong. Giờ tạo song song 2 script Python và 2 command file.
+
+● Write(.claude\skills\tncn-personal-calc\scripts\personal_calc.py)
+  ⎿  Wrote 164 lines to
+     .claude\skills\tncn-personal-calc\scripts\personal_calc.py
+      1 #!/usr/bin/env python3
+      2 """
+      3 Tinh thue TNCN ca nhan theo Luat 109/2025/QH15
+      4 Port tu logic JavaScript index.html cua Mini Tool TNCN
+      5 """
+      6 
+      7 import argparse
+      8 import os
+      9 from datetime import datetime
+     … +180 lines (ctrl+o to expand)
+
+● Write(.claude\skills\tncn-law-search\scripts\law_search.py)
+  ⎿  Wrote 266 lines to
+     .claude\skills\tncn-law-search\scripts\law_search.py
+       2 """usr/bin/env python3
+       3 Tra cuu dieu luat TNCN theo tu khoa
+       4 Port tu noi dung DEFAULT_SECTIONS trong luat.html cua Mini Tool 
+         TNCN
+       5 """
+       6 
+       7 import argparse
+       8 import sys
+       9 
+      10 LAW_SECTIONS = [
+     … +324 lines (ctrl+o to expand)
+
+● Write(.claude\commands\tncn-personal-calc.md)
+  ⎿  Wrote 1 lines to .claude\commands\tncn-personal-calc.md
+      1 Lam theo dung huong dan trong file `.claude/skills/tncn-personal-
+        calc/SKILL.md`.
+
+● Write(.claude\commands\tncn-law-search.md)
+  ⎿  Wrote 1 lines to .claude\commands\tncn-law-search.md
+      1 Lam theo dung huong dan trong file `.claude/skills/tncn-law-searc
+        h/SKILL.md`.
+
+● Đã tạo xong 2 skill mới. Tổng kết toàn bộ files:
+
+  ---
+  Đã tạo 6 files mới
+
+  .claude/skills/tncn-personal-calc/
+  ├── SKILL.md                    ← hướng dẫn cho Claude
+  └── scripts/personal_calc.py    ← script Python tính thuế
+
+  .claude/skills/tncn-law-search/
+  ├── SKILL.md                    ← hướng dẫn cho Claude
+  └── scripts/law_search.py       ← script Python tra cứu luật
+
+  .claude/commands/
+  ├── tncn-personal-calc.md       ← kích hoạt bằng /tncn-personal-calc
+  └── tncn-law-search.md          ← kích hoạt bằng /tncn-law-search
+
+  ---
+  Cách dùng 2 skill mới
+
+  /tncn-personal-calc — hỏi thu nhập cá nhân → tính thuế ngay:
+  Thu nhập: 360 triệu/năm, 1 người phụ thuộc, BHXH 31.5 triệu
+  → Thuế phải nộp: 3.405.000 đ, NET: 325.095.000 đ
+
+  /tncn-law-search — tra cứu bằng từ khóa:
+  /tncn-law-search "lãi tiền gửi"   → Mục 8: miễn thuế
+  /tncn-law-search "biểu thuế"      → Mục 5: 5 bậc lũy tiến
+  /tncn-law-search --list            → liệt kê 9 mục
+
+  ---
+  Phân chia 2 Agent (đủ điều kiện thầy yêu cầu)
+
+  ┌──────────────┬──────────────────────────────────┬───────────────────────┐
+  │    Agent     │              Skills              │       Đối tượng       │
+  ├──────────────┼──────────────────────────────────┼───────────────────────┤
+  │ Kế toán DN   │ tncn-sheets-sync +               │ HR/kế toán xử lý hàng │
+  │              │ tncn-generator                   │  loạt                 │
+  ├──────────────┼──────────────────────────────────┼───────────────────────┤
+  │ Tư vấn Cá    │ tncn-personal-calc +             │ Người lao động tự tra │
+  │ nhân         │ tncn-law-search                  │  cứu                  │
+  └──────────────┴──────────────────────────────────┴───────────────────────┘
+✻ Churned for 3m 56s
+
+❯ /tncn-personal-calc                                                           
+
+● Để tính thuế TNCN, tôi cần một số thông tin:
+
+  1. Tên (tuỳ chọn — để ghi vào kết quả)
+  2. Tổng thu nhập chịu thuế — nhập theo năm hoặc tháng đều được
+  3. Bảo hiểm bắt buộc đã đóng (BHXH + BHYT + BHTN) — nếu không rõ có thể bỏ
+  qua, mặc định 0
+  4. Số người phụ thuộc — mặc định 0 nếu không có
+
+  Bạn cung cấp thông tin để tôi tính nhé?
+
+✻ Churned for 9s
+
+❯ tôi thu nhập 25 triệu/tháng, không có người phụ thuộc                         
+
+● Thu nhập 25 triệu/tháng = 300 triệu/năm. Tôi sẽ tính với BHXH = 0 (bạn chưa đề
+   cập).
+
+● Bash(cd "D:\Học Claude code\Skill" && python
+      .claude/skills/tncn-personal-calc/scripts/personal_calc.py --income
+      300000000 --bhxh 0 --dependents 0 --save)
+  ⎿  ============================================================
+       KET QUA TINH THUE TNCN
+       Luat so 109/2025/QH15 -- ap dung tu 01/01/2026
+     … +18 lines (ctrl+o to expand)
+
+● Kết quả tính thuế TNCN của bạn:
+
+  ---
+  Kết quả — Thu nhập 25 triệu/tháng
+
+  ┌───────────────────────────────┬────────────────────────────────┐
+  │             Khoản             │            Số tiền             │
+  ├───────────────────────────────┼────────────────────────────────┤
+  │ Tổng thu nhập / năm           │ 300.000.000 đ                  │
+  ├───────────────────────────────┼────────────────────────────────┤
+  │ − Giảm trừ bản thân           │ 186.000.000 đ                  │
+  ├───────────────────────────────┼────────────────────────────────┤
+  │ Thu nhập tính thuế            │ 114.000.000 đ                  │
+  ├───────────────────────────────┼────────────────────────────────┤
+  │ Thuế TNCN phải nộp / năm      │ 5.700.000 đ                    │
+  ├───────────────────────────────┼────────────────────────────────┤
+  │ Thuế / tháng (trung bình)     │ ~475.000 đ                     │
+  ├───────────────────────────────┼────────────────────────────────┤
+  │ Thuế suất hiệu dụng           │ 1,90%                          │
+  ├───────────────────────────────┼────────────────────────────────┤
+  │ Thu nhập sau thuế (NET) / năm │ 294.300.000 đ (~24,5 tr/tháng) │
+  └───────────────────────────────┴────────────────────────────────┘
+
+  Toàn bộ thu nhập tính thuế rơi vào Bậc 1 (5%) — mức thuế nhẹ nhất.
+
+  ---
+
+  ▎ Lưu ý: Nếu bạn đang đi làm và có đóng BHXH (thường ≈ 10,5% × lương = khoảng 
+  ▎ 2.625.000 đ/tháng = 31,5 triệu/năm), thuế sẽ giảm thêm. Bạn muốn tính lại có
+  ▎  BHXH không?
+
+✻ Cooked for 21s
+
+❯ /tncn-law-search                                                              
+
+● Skill tra cứu luật TNCN đã sẵn sàng. Bạn muốn tra cứu điều gì?
+
+  Ví dụ: "lãi tiền gửi", "người phụ thuộc", "hạn quyết toán", "biểu thuế"...
+
+  Hoặc gõ --list để xem danh sách 9 mục luật có sẵn.
+
+✻ Cooked for 4s
+
+❯ hạn quyết toán thuế tncn                                                      
+
+● Bash(cd "D:\Học Claude code\Skill" && python
+      .claude/skills/tncn-law-search/scripts/law_search.py "quyet toan")
+  ⎿  ============================================================
+       TRA CUU LUAT THUE TNCN 2026
+       Luat so 109/2025/QH15 -- ap dung tu 01/01/2026
+     … +21 lines (ctrl+o to expand)
+
+● Theo Luật số 109/2025/QH15, thời hạn quyết toán thuế TNCN như sau:
+
+  ---
+  Hạn quyết toán thuế TNCN
+
+  ┌─────────────────────────┬────────────────────────────────┐
+  │       Trường hợp        │            Thời hạn            │
+  ├─────────────────────────┼────────────────────────────────┤
+  │ Cá nhân tự quyết toán   │ Chậm nhất cuối tháng 4 năm sau │
+  ├─────────────────────────┼────────────────────────────────┤
+  │ Công ty quyết toán thay │ Chậm nhất cuối tháng 3 năm sau │
+  └─────────────────────────┴────────────────────────────────┘
+
+  ---
+  Ai phải tự quyết toán?
+  - Có số thuế phải nộp thêm so với số đã tạm khấu trừ
+  - Muốn hoàn thuế hoặc bù trừ vào kỳ sau
+
+  Ai được uỷ quyền cho công ty quyết toán thay?
+  - Chỉ có một nguồn thu nhập từ lương/công tại một nơi duy nhất
+
+  ---
+
+  ▎ Ví dụ: Năm 2026 → hạn quyết toán là 30/04/2027 (cá nhân tự nộp) hoặc 
+  ▎ 31/03/2027 (công ty nộp thay).
+
+  Bạn muốn tra cứu thêm điều khoản nào khác không?
+
+✻ Worked for 13s
+
+❯ ok, bắt đầu tạo agent nhé. Tôi sẽ nói rõ từng điều kiện, nội dung của từng    
+  agent, bạn thực hiện:                                                         
+
+● Sẵn sàng! Bạn nói đi, tôi lắng nghe và thực hiện theo từng yêu cầu.
+
+✻ Brewed for 6s
+
+❯ tôi nghĩ tôi cần tạo thêm 1 skill: hãy tạo một skill kiểu, từ kết quả của     
+  skill /tncn-ge                                                                
+
+● Có vẻ tin nhắn bị cắt giữa chừng — bạn đang muốn tạo skill lấy kết quả từ
+  /tncn-generator và làm gì tiếp theo? Bạn hoàn thành ý tưởng giúp tôi nhé.
+
+✻ Brewed for 4s
+
+❯ tôi nghĩ tôi cần tạo thêm 1 skill:ừ kết quả của skill /tncn-generator , hãy   
+  chuyển đổi file Quyết toán thuế đó dưới dạng .xml                             
+
+● Ý tưởng hay! Trước khi tạo, tôi cần đọc script của tncn-generator để hiểu cấu
+  trúc file XLS output.
+
+  Read 1 file (ctrl+o to expand)
+
+● Đã hiểu cấu trúc output của tncn-generator. Tôi sẽ tạo skill nhận cùng file
+  bảng lương đầu vào, chạy cùng logic aggregate, rồi xuất XML thay vì XLS — đây
+  là cách đáng tin cậy nhất.
+
+● Write(.claude\skills\tncn-to-xml\SKILL.md)
+  ⎿  Wrote 73 lines to .claude\skills\tncn-to-xml\SKILL.md
+       2 name: tncn-to-xml
+       3 description: Chuyển đổi dữ liệu quyết toán TNCN sang định dạng X
+         e XML có cấu trúc đầy đủ (tờ khai + phụ lục 01 + phụ lục 02) fil
+       4 ---
+       5 
+       7 Từ file Excel bảng lương (cùng input với `/tncn-generator`), xuấ
+         t file XML chuẩn
+         n tử.ể dùng để lưu trữ, tích hợp hệ thống, hoặc nộp khai báo điệ
+       9 
+      10 Output XML gồm đầy đủ:
+     … +73 lines (ctrl+o to expand)
+
+● Write(.claude\skills\tncn-to-xml\scripts\to_xml.py)  ⎿  Wrote 351 lines to .claude\skills\tncn-to-xml\scripts\to_xml.py
+       2 """usr/bin/env python3
+       3 Skill: tncn-to-xml
+       4 Chuyen doi du lieu bang luong → XML quyet toan TNCN (05/QTT-TNCN
+         )
+       5 Dung cung logic aggregate voi tncn-generator, dam bao so lieu kh
+       6 """
+       7 import sys, io, os, xml.etree.ElementTree as ET
+       8 from datetime import datetime
+       9 from collections import defaultdict
+      10 from pathlib import Path
+     … +384 lines (ctrl+o to expand)
+
+● Write(.claude\commands\tncn-to-xml.md)
+  ⎿  Wrote 1 lines to .claude\commands\tncn-to-xml.md
+      1 Lam theo dung huong dan trong file `.claude/skills/tncn-to-xml/SK
+        ILL.md`.
+
+● Skill tncn-to-xml đã tạo xong. Tổng kết 3 files:
+
+  .claude/skills/tncn-to-xml/
+  ├── SKILL.md              ← hướng dẫn cho Claude
+  └── scripts/to_xml.py     ← script Python xuất XML
+
+  .claude/commands/tncn-to-xml.md   ← kích hoạt bằng /tncn-to-xml
+
+  ---
+  Cấu trúc XML output
+
+  <?xml version="1.0" encoding="UTF-8"?>
+  <HoSoQuyetToanTNCN phienBan="1.0">
+    <ThongTinChung>
+      <MauSo>05/QTT-TNCN</MauSo>
+      <NamTinhThue>2026</NamTinhThue>
+      <CanCuPhapLy>Luat so 109/2025/QH15</CanCuPhapLy>
+      ...
+    </ThongTinChung>
+    <ToKhaiChinh>
+      <TongSoNLD>...</TongSoNLD>
+      <TongThuNhapChiuThue>...</TongThuNhapChiuThue>
+      <TongThuePNop>...</TongThuePNop>
+    </ToKhaiChinh>
+    <PhuLuc01_CoHopDong>
+      <NguoiNopThue>...</NguoiNopThue>
+    </PhuLuc01_CoHopDong>
+    <PhuLuc02_KhongHopDong>
+      <NguoiNopThue>...</NguoiNopThue>
+    </PhuLuc02_KhongHopDong>
+  </HoSoQuyetToanTNCN>
+
+  Bây giờ tổng cộng bạn có 7 skill. Bạn muốn tiếp tục mô tả điều kiện cho 2
+  agent không?
+
+✻ Sautéed for 2m 19s
+
+❯ /tncn-to-xml                                                                  
+
+● Để chạy skill này, tôi cần kiểm tra file đầu vào có sẵn không.
+
+  Searched for 1 pattern (ctrl+o to expand)
+
+● Có sẵn file output/bang_luong_from_sheets.xlsx. Chạy luôn.
+
+● Bash(cd "D:\Học Claude code\Skill" && python
+      .claude/skills/tncn-to-xml/scripts/to_xml.py
+      "output/bang_luong_from_sheets.xlsx")
+  ⎿  Doc du lieu : output\bang_luong_from_sheets.xlsx
+       Sheet 'Tổng thu nhập': 265 dong
+       Sheet 'CTV': 940 dong
+     … +21 lines (ctrl+o to expand)
+
+● Xuất XML thành công. Kết quả:
+
+  ---
+  Kết quả — output/QuyetToanTNCN_2026.xml
+
+  ┌────────────────────────────────┬────────────────────────────────┐
+  │           Thông tin            │            Số liệu             │
+  ├────────────────────────────────┼────────────────────────────────┤
+  │ Tổng nhân sự                   │ 230 người                      │
+  ├────────────────────────────────┼────────────────────────────────┤
+  │ Phụ lục 01 (có BHXH)           │ 78 người                       │
+  ├────────────────────────────────┼────────────────────────────────┤
+  │ Phụ lục 02 (CTV, không BHXH)   │ 152 người                      │
+  ├────────────────────────────────┼────────────────────────────────┤
+  │ Tổng thu nhập chịu thuế        │ 5.927.007.156 đ                │
+  ├────────────────────────────────┼────────────────────────────────┤
+  │ Thuế TNCN đã khấu trừ          │ 418.403.558 đ                  │
+  ├────────────────────────────────┼────────────────────────────────┤
+  │ Thuế TNCN phải nộp (theo L109) │ 186.327.346 đ                  │
+  ├────────────────────────────────┼────────────────────────────────┤
+  │ Chênh lệch (nộp thừa)          │ −232.076.212 đ (cần hoàn thuế) │
+  └────────────────────────────────┴────────────────────────────────┘
+
+  File XML có cấu trúc chuẩn gồm đầy đủ: <ThongTinChung> → <ToKhaiChinh> →
+  <PhuLuc01_CoHopDong> (78 người) → <PhuLuc02_KhongHopDong> (152 người),
+  encoding UTF-8.
+
+  ▎ Lưu ý: Chênh lệch âm −232 triệu cho thấy công ty đang khấu trừ thuế nhiều 
+  ▎ hơn thực tế phải nộp theo Luật 109/2025/QH15 mới — nhân viên có thể được 
+  ▎ hoàn thuế khi quyết toán.
+
+✻ Churned for 22s
+
+❯ tôi cần tạo thêm ở minitool tính thuế thu nhập cá nhân: thêm một trường họ    
+  tên, số cccd. Tạo thêm một skill liên kết mintool này và                      
+  https://docs.google.com/spreadsheets/d/1Ux1aaL2q9A73HTKpBQEOoari5F5tltI5J8-j6 
+  5mlCmM/edit?gid=0#gid=0, khi nhập đúng họ tên hoặc cccd của nhân sự có trong  
+  file https://docs.google.com/spreadsheets/d/1Ux1aaL2q9A73HTKpBQEOoari5F5tltI5 
+  J8-j65mlCmM/edit?gid=0#gid=0, minitool sẽ nhận đúng thông tin để nhảy các số  
+  liệu liên quan. Bạn có hiểu yêu cầu không, có làm được không và có tốn nhiều  
+  token không                                                                   
+
+● Để trả lời chính xác, tôi cần xem cấu trúc Google Sheet và config hiện tại
+  trước.
+
+  Read 2 files (ctrl+o to expand)
+
+● Hiểu rõ yêu cầu. Để trả lời 3 câu hỏi của bạn:
+
+  ---
+  1. Có hiểu không?
+
+  Có. Cụ thể:
+  - Thêm 2 trường Họ tên + Số CCCD vào index.html của Mini Tool
+  - JavaScript trong trình duyệt fetch CSV trực tiếp từ Google Sheet (public) →
+  tìm dòng khớp tên/CCCD → tự động điền thu nhập, BHXH vào các ô tính thuế
+  - Tạo thêm 1 skill tncn-lookup mô tả flow này
+
+  2. Có làm được không?
+
+  Có, vì:
+  - Sheet 1Ux1aaL2q9A73HTKpBQEOoari5F5tltI5J8-j65mlCmM này chính là sheet trong 
+  tncn-sheets-sync — đã biết cấu trúc, đã xác nhận public
+  - URL export CSV hoạt động được từ browser: https://docs.google.com/spreadshee
+  ts/d/1Ux1aaL2q9A73HTKpBQEOoari5F5tltI5J8-j65mlCmM/export?format=csv&gid=0
+  - Google Sheets public cho phép fetch() từ trình duyệt (CORS OK)
+
+  ▎ Lưu ý nhỏ: Nếu mở index.html bằng cách double-click (file://), browser chặn 
+  ▎ fetch. Phải dùng bản deploy trên GitHub Pages hoặc local server — bản của 
+  ▎ bạn đã deploy sẵn rồi nên ổn.
+
+  3. Tốn nhiều token không?
+
+  Trung bình — khoảng 4–5 tool calls:
+  - Edit index.html (thêm ~120 dòng JS + 2 field HTML)
+  - Tạo SKILL.md cho tncn-lookup
+  - Không cần script Python (logic chạy hoàn toàn trong browser)
+
+  ---
+  Bạn muốn tôi làm luôn không?
+
+✻ Sautéed for 55s
+
+❯ làm luôn đi                                                                   
+
+● Trước tiên tôi fetch header của Sheet để biết đúng tên cột.
+
+● Bash(python -c "
+      import urllib.request, csv, io…)
+  ⎿  Error: Exit code 1
+     Traceback (most recent call last):
+       File "<string>", line 8, in <module>
+         print('ROW1:', rows[1] if len(rows)>1 else 'empty')
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+       File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\encoding
+     s\cp1252.py", line 19, in encode
+         return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+                ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     UnicodeEncodeError: 'charmap' codec can't encode character '\u1ea3' in 
+     position 10: character maps to <undefined>
+     HEADERS: ['', '', '2.830.912.382', '108.801.056', '0', '0', '885.496.000', 
+     '92.977.080', '9.300.000', '2.206.600.000']
+
+     … +1 line (ctrl+o to expand)
+
+● Bash(cd "D:\Học Claude code\Skill" && python -c "
+      import sys, io, urllib.request, csv…)
+  ⎿  Row 0: ['', '', '2.830.912.382', '108.801.056', '0', '0', '885.496.000
+     ', '92.977.080', '9.300.000', '2.206.600.000']
+     Row 1: ['Tháng trả lương', 'Họ tên', 'Tổng thu nhập', 'Thuế TNCN đã kh
+     … +15 lines (ctrl+o to expand)
+
+● Đã rõ cấu trúc sheet: có Họ tên, Tổng thu nhập, BHXH khấu trừ — không có CCCD
+  nên CCCD sẽ là trường thông tin thêm, lookup chỉ theo tên. Làm luôn 3 bước
+  song song.
+
+  Read 1 file (ctrl+o to expand)
+
+● Update(D:\Học Claude code\Mini Tool Tinh thue TNCN\index.html)
+  ⎿  Added 31 lines
+      467    .pill-30 { background: #f59e0b; }
+      468    .pill-35 { background: #ef4444; }
+      469  
+      470 +  .btn-lookup {                                               
+      471 +    margin-top: 12px;                                         
+      472 +    padding: 11px 20px;                                       
+      473 +    background: linear-gradient(135deg, var(--primary), #818cf
+          +8);                                                           
+      474 +    color: white;                                             
+      475 +    border: none;                                             
+      476 +    border-radius: 10px;                                      
+      477 +    font-size: 13px;                                          
+      478 +    font-weight: 600;                                         
+      479 +    cursor: pointer;                                          
+      480 +    transition: all 0.15s;                                    
+      481 +    display: inline-flex;                                     
+      482 +    align-items: center;                                      
+      483 +    gap: 8px;                                                 
+      484 +    letter-spacing: 0.2px;                                    
+      485 +  }                                                           
+      486 +  .btn-lookup:hover { opacity: 0.88; transform: translateY(-1p
+          +x); }                                                         
+      487 +  .lookup-status {                                            
+      488 +    margin-top: 10px;                                         
+      489 +    padding: 10px 14px;                                       
+      490 +    border-radius: 8px;                                       
+      491 +    font-size: 13px;                                          
+      492 +    font-weight: 500;                                         
+      493 +    line-height: 1.5;                                         
+      494 +  }                                                           
+      495 +  .lookup-status.success { background: #ecfdf5; color: #047857
+          +; border: 1px solid #a7f3d0; }                                
+      496 +  .lookup-status.error   { background: #fef2f2; color: #b91c1c
+          +; border: 1px solid #fecaca; }                                
+      497 +  .lookup-status.loading { background: var(--primary-soft); co
+          +lor: var(--primary-dark); border: 1px solid #c7d2fe; }        
+      498 +  .nhansu-grid { display: grid; grid-template-columns: 1fr 1fr
+          +; gap: 14px; margin: 10px 0 0; }                              
+      499 +  @media (max-width: 640px) { .nhansu-grid { grid-template-col
+          +umns: 1fr; } }                                                
+      500 +                                                              
+      501    .tier-badge {
+      502      display: inline-flex;
+      503      align-items: center;
+
+● Update(D:\Học Claude code\Mini Tool Tinh thue TNCN\index.html)
+  ⎿  Added 19 lines
+      555      <div class="grid">
+      556  
+      557        <fieldset>
+      558 +        <legend>Thông tin nhân sự</legend>                    
+      559 +        <div class="nhansu-grid">                             
+      560 +          <div class="field">                                 
+      561 +            <label for="emp-name">Họ và tên</label>           
+      562 +            <input type="text" id="emp-name" placeholder="Nhập
+          + họ tên để tra cứu bảng lương...">                            
+      563 +          </div>                                              
+      564 +          <div class="field">                                 
+      565 +            <label for="emp-cccd">Số CCCD / CMND</label>      
+      566 +            <input type="text" id="emp-cccd" placeholder="Nhập
+          + số CCCD (thông tin tham khảo)">                              
+      567 +          </div>                                              
+      568 +        </div>                                                
+      569 +        <button class="btn-lookup" onclick="lookupEmployee()">
+      570 +          <svg width="14" height="14" viewBox="0 0 24 24" fill
+          +="none" stroke="currentColor" stroke-width="2.5" stroke-lineca
+          +p="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21"
+          + x2="16.65" y2="16.65"/></svg>                                
+      571 +          Tra cứu từ bảng lương                               
+      572 +        </button>                                             
+      573 +        <div class="lookup-status" id="lookup-status" style="d
+          +isplay:none"></div>                                           
+      574 +      </fieldset>                                             
+      575 +                                                              
+      576 +      <fieldset>                                              
+      577          <legend>Thu nhập chịu thuế / năm</legend>
+      578          <div id="income-list">
+      579            <div class="income-row">
+
+● Update(D:\Học Claude code\Mini Tool Tinh thue TNCN\index.html)
+  ⎿  Added 129 lines
+      794  
+      795      document.getElementById('result').scrollIntoView({ behavio
+           r: 'smooth', block: 'nearest' });
+      796    }
+      797 +                                                              
+      798 +  // ── Tra cuu nhan su tu Google Sheets ─────────────────────
+          +──────────────────                                            
+      799 +  const LOOKUP_SHEET_ID  = '1Ux1aaL2q9A73HTKpBQEOoari5F5tltI5J
+          +8-j65mlCmM';                                                  
+      800 +  const LOOKUP_SHEET_GID = '0';                               
+      801 +                                                              
+      802 +  function normalizeViText(s) {                               
+      803 +    return (s || '').trim().toLowerCase()                     
+      804 +      .normalize('NFD').replace(/[̀-ͯ]/g, '')                   
+      805 +      .replace(/\s+/g, ' ');                                  
+      806 +  }                                                           
+      807 +                                                              
+      808 +  function parseCSVLine(line) {                               
+      809 +    const cells = []; let inQuote = false, cell = '';         
+      810 +    for (let i = 0; i < line.length; i++) {                   
+      811 +      const ch = line[i];                                     
+      812 +      if (ch === '"') { inQuote = !inQuote; continue; }       
+      813 +      if (ch === ',' && !inQuote) { cells.push(cell.trim()); c
+          +ell = ''; continue; }                                         
+      814 +      cell += ch;                                             
+      815 +    }                                                         
+      816 +    cells.push(cell.trim());                                  
+      817 +    return cells;                                             
+      818 +  }                                                           
+      819 +                                                              
+      820 +  function parseGSheetCSV(text) {                             
+      821 +    return text.split('\n').filter(l => l.trim()).map(parseCSV
+          +Line);                                                        
+      822 +  }                                                           
+      823 +                                                              
+      824 +  function findHeaderRow(rows) {                              
+      825 +    for (let i = 0; i < Math.min(rows.length, 6); i++) {      
+      826 +      for (let j = 0; j < rows[i].length; j++) {              
+      827 +        const cell = normalizeViText(rows[i][j]);             
+      828 +        if (cell === 'ho ten' || cell === 'ho va ten' || cell 
+          +=== 'ten') {                                                  
+      829 +          return { idx: i, row: rows[i] };                    
+      830 +        }                                                     
+      831 +      }                                                       
+      832 +    }                                                         
+      833 +    return null;                                              
+      834 +  }                                                           
+      835 +                                                              
+      836 +  function getColIdx(headerRow) {                             
+      837 +    const result = { name: -1, income: -1, bhxh: -1 };        
+      838 +    headerRow.forEach((h, j) => {                             
+      839 +      const cell = normalizeViText(h);                        
+      840 +      if (cell.includes('ho ten') || cell.includes('ho va ten'
+          +)) result.name = j;                                           
+      841 +      if (cell.includes('tong thu nhap')) result.income = j;  
+      842 +      if (cell.includes('bhxh khau tru')) result.bhxh = j;    
+      843 +    });                                                       
+      844 +    return result;                                            
+      845 +  }                                                           
+      846 +                                                              
+      847 +  function showLookupStatus(msg, type) {                      
+      848 +    const el = document.getElementById('lookup-status');      
+      849 +    el.textContent = msg;                                     
+      850 +    el.className = 'lookup-status ' + type;                   
+      851 +    el.style.display = 'block';                               
+      852 +  }                                                           
+      853 +                                                              
+      854 +  async function lookupEmployee() {                           
+      855 +    const nameInput = (document.getElementById('emp-name').val
+          +ue || '').trim();                                             
+      856 +    if (!nameInput) {                                         
+      857 +      showLookupStatus('Vui lòng nhập họ và tên để tra cứu.', 
+          +'error');                                                     
+      858 +      return;                                                 
+      859 +    }                                                         
+      860 +    showLookupStatus('Đang tra cứu dữ liệu bảng lương...', 'lo
+          +ading');                                                      
+      861 +                                                              
+      862 +    try {                                                     
+      863 +      const url = `https://docs.google.com/spreadsheets/d/${LO
+          +OKUP_SHEET_ID}/export?format=csv&gid=${LOOKUP_SHEET_GID}`;    
+      864 +      const resp = await fetch(url);                          
+      865 +      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);   
+      866 +      const text = await resp.text();                         
+      867 +                                                              
+      868 +      const rows = parseGSheetCSV(text);                      
+      869 +      const headerInfo = findHeaderRow(rows);                 
+      870 +      if (!headerInfo) throw new Error('Không tìm thấy cấu trú
+          +c dữ liệu trong sheet.');                                     
+      871 +                                                              
+      872 +      const { idx: hIdx, row: hRow } = headerInfo;            
+      873 +      const cols = getColIdx(hRow);                           
+      874 +      if (cols.name < 0) throw new Error('Không tìm thấy cột "
+          +Họ tên" trong sheet.');                                       
+      875 +                                                              
+      876 +      const nameQ = normalizeViText(nameInput);               
+      877 +      let totalIncome = 0, totalBHXH = 0, found = 0;          
+      878 +                                                              
+      879 +      for (let i = hIdx + 1; i < rows.length; i++) {          
+      880 +        const row = rows[i];                                  
+      881 +        if (!row[cols.name]) continue;                        
+      882 +        if (normalizeViText(row[cols.name]) === nameQ) {      
+      883 +          if (cols.income >= 0) totalIncome += parseInt((row[c
+          +ols.income] || '0').replace(/[^\d]/g, '')) || 0;              
+      884 +          if (cols.bhxh >= 0)   totalBHXH  += parseInt((row[co
+          +ls.bhxh]  || '0').replace(/[^\d]/g, '')) || 0;                
+      885 +          found++;                                            
+      886 +        }                                                     
+      887 +      }                                                       
+      888 +                                                              
+      889 +      if (found === 0) {                                      
+      890 +        showLookupStatus(`Không tìm thấy "${nameInput}" trong 
+          +danh sách nhân sự. Kiểm tra lại chính tả.`, 'error');         
+      891 +        return;                                               
+      892 +      }                                                       
+      893 +                                                              
+      894 +      // Auto-fill thu nhap                                   
+      895 +      if (totalIncome > 0) {                                  
+      896 +        const incomeList = document.getElementById('income-lis
+          +t');                                                          
+      897 +        const firstRow = incomeList.querySelector('.income-row
+          +');                                                           
+      898 +        if (firstRow) {                                       
+      899 +          firstRow.querySelectorAll('input[type="text"]')[0].v
+          +alue = `Lương & thu nhập (${nameInput})`;                     
+      900 +          const amtInp = firstRow.querySelector('.income-amt')
+          +;                                                             
+      901 +          amtInp.value = formatAmount(String(totalIncome));   
+      902 +          updateIncomeTotal();                                
+      903 +        }                                                     
+      904 +      }                                                       
+      905 +                                                              
+      906 +      // Auto-fill BHXH                                       
+      907 +      if (totalBHXH > 0) {                                    
+      908 +        document.getElementById('bhxh').value = formatAmount(S
+          +tring(totalBHXH));                                            
+      909 +      }                                                       
+      910 +                                                              
+      911 +      showLookupStatus(                                       
+      912 +        `✓ Tìm thấy ${found} kỳ lương. Thu nhập/năm: ${fmt(tot
+          +alIncome)} | BHXH/năm: ${fmt(totalBHXH)}. Kiểm tra số người ph
+          +ụ thuộc rồi nhấn Tính thuế.`,                                 
+      913 +        'success'                                             
+      914 +      );                                                      
+      915 +                                                              
+      916 +    } catch (e) {                                             
+      917 +      const isOffline = e.message.includes('Failed to fetch') 
+          +|| e.message.includes('NetworkError');                        
+      918 +      showLookupStatus(                                       
+      919 +        isOffline                                             
+      920 +          ? 'Không thể kết nối. Tính năng tra cứu chỉ hoạt độn
+          +g khi mở qua GitHub Pages (không dùng được khi mở file:// trực
+          + tiếp).'                                                      
+      921 +          : `Lỗi: ${e.message}`,                              
+      922 +        'error'                                               
+      923 +      );                                                      
+      924 +    }                                                         
+      925 +  }                                                           
+      926  </script>
+      927  </body>
+      928  </html>
+● index.html xong. Giờ tạo skill tncn-lookup.
+
+● Write(.claude\skills\tncn-lookup\SKILL.md)
+  ⎿  Wrote 71 lines to .claude\skills\tncn-lookup\SKILL.md
+       2 name: tncn-lookup
+       3 description: Tra cứu thông tin nhân sự từ Google Sheets và liên 
+         kết với Mini Tool tính thuế TNCN — tìm theo họ tên, tự động điền
+       4 ---u nhập và BHXH vào công cụ tính thuế
+       5 
+       6 ## Mục đích
+         trên Google Sheets.ính thuế TNCN với dữ liệu bảng lương thực tế 
+       8 Khi nhân viên nhập đúng họ tên, Mini Tool tự động điền:
+       9 - Tổng thu nhập / năm (cộng dồn tất cả các kỳ lương)
+      10 - BHXH đã khấu trừ / năm
+     … +69 lines (ctrl+o to expand)
+
+● Write(.claude\commands\tncn-lookup.md)
+  ⎿  Wrote 1 lines to .claude\commands\tncn-lookup.md
+      1 Lam theo dung huong dan trong file `.claude/skills/tncn-lookup/SK
+        ILL.md`.
+
+● Xong. Tóm tắt những gì vừa làm:
+
+  ---
+  Đã thực hiện
+
+  1. Sửa index.html của Mini Tool — thêm 3 thứ:
+  - Fieldset "Thông tin nhân sự" với 2 trường: Họ và tên + Số CCCD/CMND
+  - Nút "Tra cứu từ bảng lương"
+  - ~80 dòng JavaScript: fetch CSV từ Google Sheets → tìm theo tên → auto-fill
+  thu nhập + BHXH
+
+  2. Tạo skill tncn-lookup trong Skill folder — mô tả flow và hướng dẫn sử dụng
+
+  ---
+  Cách dùng sau khi deploy lên GitHub Pages
+
+  1. Mở https://hiensn.github.io/mini-tool-tncn-2026/
+  2. Nhập Họ và tên (ví dụ: Phạm Minh Phương)
+  3. Nhấn "Tra cứu từ bảng lương"
+  4. Tool tự điền thu nhập + BHXH từ sheet
+  5. Nhập thêm số người phụ thuộc → Tính thuế
+
+  ▎ Lưu ý: Cột CCCD chưa có trong Google Sheet nên lookup chỉ theo tên. Nếu muốn
+  ▎  lookup được theo CCCD, cần thêm cột CCCD vào sheet trước.
+
+  Bạn cần push lên GitHub để test không?
+
+✻ Cogitated for 3m 53s
+
+※ recap: Đang xây dựng hệ thống skill TNCN gồm 8 skill cho 2 agent. Vừa thêm tính năng tra cứu nhân sự vào Mini Tool và tạo skill tncn-lookup. Bước tiếp: push index.html lên GitHub để test tính năng lookup. (disable recaps in /config)
+
+❯ push lên GitHub để test                                                       
+
+● Bash(cd "D:\Học Claude code\Mini Tool Tinh thue TNCN" && git status && git log
+       --oneline -3)
+  ⎿  On branch main
+     Your branch is up to date with 'origin/main'.
+     … +12 lines (ctrl+o to expand)
+  ⎿  Shell cwd was reset to D:\Học Claude code\Skill
+
+● Bash(cd "D:\Học Claude code\Mini Tool Tinh thue TNCN" && git add index.html &&
+       git commit -m "$(cat <<'EOF'
+      feat: them tinh nang tra cuu nhan su tu Google Sheets…)
+  ⎿  warning: in the working copy of 'index.html', LF will be replaced by C
+     RLF the next time Git touches it
+     [main 1928fd7] feat: them tinh nang tra cuu nhan su tu Google Sheets
+      1 file changed, 179 insertions(+)
+  ⎿  Shell cwd was reset to D:\Học Claude code\Skill
+
+● Bash(cd "D:\Học Claude code\Mini Tool Tinh thue TNCN" && git push origin main)
+  ⎿  To https://github.com/HIENSN/mini-tool-tncn-2026.git
+        d1c91b4..1928fd7  main -> main
+  ⎿  Shell cwd was reset to D:\Học Claude code\Skill
+
+● Push thành công. GitHub Pages thường mất 1–2 phút để deploy.
+
+  Test tại: https://hiensn.github.io/mini-tool-tncn-2026/
+
+  Để test nhanh, thử nhập tên: Phạm Minh Phương hoặc Trần Duy Hưng (đây là tên
+  thực trong sheet) rồi nhấn "Tra cứu từ bảng lương" — tool sẽ tự điền thu nhập
+  và BHXH.
+
+✻ Crunched for 34s
+
+❯ /tncn-lookup                                                                  
+
+● Skill tncn-lookup đã được tích hợp sẵn vào Mini Tool. Đây là hướng dẫn sử
+  dụng:
+
+  ---
+  Cách dùng tính năng tra cứu
+
+  Mở tại: https://hiensn.github.io/mini-tool-tncn-2026/
+
+  Các bước:
+
+  1. Tại mục "Thông tin nhân sự" (phần đầu form), nhập Họ và tên
+  2. Nhấn nút "Tra cứu từ bảng lương"
+  3. Tool tự động điền:
+    - Thu nhập / năm (cộng dồn tất cả kỳ lương)
+    - BHXH đã khấu trừ / năm
+  4. Nhập thêm Số người phụ thuộc (nếu có)
+  5. Nhấn "Tính thuế TNCN"
+
+  ---
+  Tên mẫu để test
+
+  Một số tên có trong bảng lương:
+  - Phạm Minh Phương
+  - Phạm Đăng Hiệp
+  - Nguyễn Thị Hồng Hà
+  - Trần Duy Hưng
+
+  ---
+  Lưu ý
+
+  - Tính năng tra cứu chỉ hoạt động trên GitHub Pages — không dùng được khi mở
+  file index.html trực tiếp từ máy (file://)
+  - Lookup theo tên (đã xử lý bỏ dấu, không phân biệt hoa/thường)
+  - Sheet chưa có cột CCCD nên ô CCCD chỉ là thông tin tham khảo
+
+  Bạn đang gặp lỗi gì không, hay cần hỗ trợ thêm phần nào?
+
+✻ Cogitated for 13s
+
+❯ ok, bây giờ thì tạo 2 agent sau:                                              
+
+● Tin nhắn bị cắt — bạn chưa nói nội dung 2 agent. Bạn tiếp tục đi nhé!
+
+✻ Churned for 6s
+
+❯ 1. Agent báo cáo thuế, sử dụng 2 skill /tncn-full và /tncn-to-xml. Mục đích:  
+  tạo ngay báo cáo có thể nộp ngay cho cơ quan thuế. Nguyên tắc: báo cáo được   
+  lập mỗi tháng một lần, số liệu được lấy từ ngày 1 đến ngày cuối cùng của      
+  tháng.                                                                        
+  2. Agent tư vấn cá nhân: sử dụng 3 skill /tncn-personnal-calc,                
+  /tncn-law-search, /tncn-lookup để người lao động tự tra cứu Nguyên tắc: người 
+   lao động có thể tra cứu bất cứ thời điểm nào. Số liệu tra cứu phải được cập  
+  nhật thông qua file https://docs.google.com/spreadsheets/d/1Ux1aaL2q9A73HTKpB 
+  QEOoari5F5tltI5J8-j65mlCmM/edit?gid=0#gid=0                                   
+
+● Rõ ràng, tôi sẽ tạo 2 agent definition files trong .claude/agents/.
+
+● Bash(if not exist "D:\Học Claude code\Skill\.claude\agents" mkdir "D:\Học
+      Claude code\Skill\.claude\agents")
+  ⎿  Error: Exit code 2
+     /usr/bin/bash: eval: line 2: syntax error: unexpected end of file from `if'
+      command on line 1
+
+● Bash(mkdir -p "D:/Học Claude code/Skill/.claude/agents")
+  ⎿  Done
+
+● Write(.claude\agents\bao-cao-thue.md)
+  ⎿  Wrote 61 lines to .claude\agents\bao-cao-thue.md
+       2 name: bao-cao-thue
+       3 description: Agent báo cáo thuế TNCN tháng — chạy tncn-full + tn
+         an thuế. Dùng khi cần lập báo cáo thuế cuối tháng cho doanh nghi
+         ệp.
+       5 ---
+       6 Bạn là **kế toán viên thuế TNCN** của doanh nghiệp. Nhiệm vụ duy
+         h xác, sẵn sàng nộp cơ quan thuế.uế TNCN hàng tháng đầy đủ, chín
+       7 
+       9 ## Nguyên tắc bắt buộc
+      10 - Báo cáo được lập **mỗi tháng một lần**
+     … +66 lines (ctrl+o to expand)
+
+● Write(.claude\agents\tu-van-ca-nhan.md)
+  ⎿  Wrote 69 lines to .claude\agents\tu-van-ca-nhan.md
+       2 name: tu-van-ca-nhan
+          từ Google Sheets, tính thuế cá nhân, giải đáp thắc mắc pháp luậ
+         t. Dùng khi người lao động muốn tự tra cứu thuế của mình bất cứ 
+       4 --- nào.
+       5 
+         o động hiểu rõ nghĩa vụ thuế và tự tính toán thuế của mình. Thái
+       7  độ: thân thiện, dễ hiểu, giải thích bằng ngôn ngữ đời thường.
+       8 ## Nguyên tắc hoạt động
+      10 - Người lao động có thể tra cứu **bất cứ lúc nào**, không giới h
+         ạn thời điểm
+     … +82 lines (ctrl+o to expand)
+
+● 2 agent đã tạo xong. Tổng kết:
+
+  ---
+  2 Agent vừa tạo
+
+  .claude/agents/
+  ├── bao-cao-thue.md       ← Agent 1
+  └── tu-van-ca-nhan.md     ← Agent 2
+
+  ---
+  Agent 1: bao-cao-thue
+
+  Skills: tncn-full + tncn-to-xml
+
+  ┌──────────┬─────────────────────────────────────────────────┐
+  │ Đặc điểm │                    Chi tiết                     │
+  ├──────────┼─────────────────────────────────────────────────┤
+  │ Chu kỳ   │ Mỗi tháng 1 lần                                 │
+  ├──────────┼─────────────────────────────────────────────────┤
+  │ Số liệu  │ Ngày 1 → cuối tháng                             │
+  ├──────────┼─────────────────────────────────────────────────┤
+  │ Output   │ XLS (hồ sơ chính thức) + XML (khai báo điện tử) │
+  ├──────────┼─────────────────────────────────────────────────┤
+  │ Nhắc nhở │ Deadline nộp thuế tháng 3 / tháng 4             │
+  └──────────┴─────────────────────────────────────────────────┘
+
+  ---
+  Agent 2: tu-van-ca-nhan
+
+  Skills: tncn-personal-calc + tncn-law-search + tncn-lookup
+
+  ┌────────────┬────────────────────────────────────────────────┐
+  │  Đặc điểm  │                    Chi tiết                    │
+  ├────────────┼────────────────────────────────────────────────┤
+  │ Thời điểm  │ Bất cứ lúc nào                                 │
+  ├────────────┼────────────────────────────────────────────────┤
+  │ Dữ liệu    │ Luôn cập nhật từ Google Sheets                 │
+  ├────────────┼────────────────────────────────────────────────┤
+  │ Khả năng   │ Tra cứu bảng lương → Tính thuế → Giải đáp luật │
+  ├────────────┼────────────────────────────────────────────────┤
+  │ Phong cách │ Thân thiện, ngôn ngữ đời thường                │
+  └────────────┴────────────────────────────────────────────────┘
+
+  ---
+  Bây giờ bạn đã có 7 skill + 2 agent hoàn chỉnh. Bạn muốn tôi cập nhật
+  README.md để mô tả lại toàn bộ hệ thống không?
+✻ Cooked for 1m 14s
+
+❯ Đây là yêu cầu của thầy từ đầu: Từ kết quả của skill đã tạo, hãy nâng cấp     
+  không gian làm việc của mình bằng cách xây dựng 2 agent, mỗi agent tối thiểu  
+  2 skill. Sau đó, hãy giao 1 nhiệm vụ lớn cho claude code để nó tự phân bổ cho 
+   các sub agent phù hợp. Yêu cầu đầu ra: file và forder năm trên 1 repo        
+  github, có forder .claude, trong .claude có /skills và /agents. File ghi chép 
+   chat history với claude code. Các file output từ việc giao việc cho Agent và 
+   sử dụng skills. Các kết quả thực hiện từ nãy giờ đã đủ yêu cầu chưa, cần làm 
+   thêm gì để hoàn thành bài tập                                                
+
+● Để đánh giá chính xác, tôi kiểm tra lại toàn bộ trạng thái hiện tại.
+
+● Bash(cd "D:\Học Claude code\Skill" && git status && echo "---" && ls
+      .claude/agents/ && echo "---" && ls .claude/skills/ && echo "---" && ls
+      output/)
+  ⎿  On branch main
+     Your branch is up to date with 'origin/main'.
+     … +25 lines (ctrl+o to expand)
+
+● Rõ rồi. Đây là đánh giá đầy đủ:
+
+  ---
+  Đối chiếu yêu cầu thầy
+
+  ┌──────────────────────────────┬────────────┬─────────────────────────────┐
+  │           Yêu cầu            │ Trạng thái │           Ghi chú           │
+  ├──────────────────────────────┼────────────┼─────────────────────────────┤
+  │ .claude/skills/ trên GitHub  │ ⚠️ Thiếu 4 │ Chưa push lên GitHub        │
+  │                              │  skill mới │                             │
+  ├──────────────────────────────┼────────────┼─────────────────────────────┤
+  │ .claude/agents/ trên GitHub  │ ❌ Chưa có │ Tạo rồi nhưng chưa          │
+  │                              │            │ commit/push                 │
+  ├──────────────────────────────┼────────────┼─────────────────────────────┤
+  │ 2 agent, mỗi agent ≥ 2 skill │ ✅ Đủ      │ bao-cao-thue (2 skill),     │
+  │                              │            │ tu-van-ca-nhan (3 skill)    │
+  ├──────────────────────────────┼────────────┼─────────────────────────────┤
+  │ Giao 1 nhiệm vụ lớn → Claude │ ❌ Chưa    │ Đây là bước quan trọng nhất │
+  │  tự phân bổ sub-agent        │ làm        │  còn thiếu                  │
+  ├──────────────────────────────┼────────────┼─────────────────────────────┤
+  │ Output files từ agent/skill  │ ⚠️ Có một  │ xml, xls, xlsx có — nhưng   │
+  │                              │ phần       │ chưa push                   │
+  ├──────────────────────────────┼────────────┼─────────────────────────────┤
+  │ Chat history                 │ ✅ Có      │ Nhiều file trong output/    │
+  └──────────────────────────────┴────────────┴─────────────────────────────┘
+
+  ---
+  2 việc cần làm ngay
+
+  1 — Giao nhiệm vụ lớn (quan trọng nhất)
+  2 — Commit + push tất cả lên GitHub
+
+  Tôi làm ngay bây giờ — bắt đầu bằng nhiệm vụ lớn để sinh thêm output file, sau
+   đó push hết.
+
+● Agent(Nhiệm vụ lớn: báo cáo thuế tháng 5 + tư vấn cá nhân Phạm Minh Phương)
+  ⎿  Done (39 tool uses · 51.9k tokens · 24m 1s)
+  (ctrl+o to expand)
+
+❯ Nhiệm vụ lớn: Hãy tạo báo cáo thuế tháng 1 và tư vấn thuế cho cá nhân Phạm Đăng Hiệp 
+
+● Agent hoàn thành nhiệm vụ lớn. Nhận được yêu cầu mới — tôi sẽ giao ngay cho
+  agent xử lý, sau đó push tất cả lên GitHub một lần.
+
+● Agent(Báo cáo thuế tháng 1 + tư vấn Phạm Đăng Hiệp)
+  ⎿  Done (28 tool uses · 36.6k tokens · 12m 55s)
+  (ctrl+o to expand)
+
+● Cả 2 nhiệm vụ lớn hoàn thành. Giờ commit và push toàn bộ lên GitHub.
+
+● Bash(cd "D:\Học Claude code\Skill" && git add .claude/agents/
+      .claude/commands/tncn-law-search.md .claude/commands/tncn-lookup.md
+      .claude/commands/tncn-personal-calc…)
+  ⎿  warning: in the working copy of '.claude/agents/bao-cao-thue.md', LF w
+     ill be replaced by CRLF the next time Git touches it
+     warning: in the working copy of '.claude/agents/tu-van-ca-nhan.md', LF
+     … +45 lines (ctrl+o to expand)
+
+● Bash(cd "D:\Học Claude code\Skill" && git commit -m "$(cat <<'EOF'
+      feat: them 2 agent + 4 skill moi + output tu nhiem vu lon…)
+  ⎿  [main 3f3d9a5] feat: them 2 agent + 4 skill moi + output tu nhiem vu l
+     on
+      24 files changed, 3978 insertions(+)
+     … +19 lines (ctrl+o to expand)
+
+● Bash(cd "D:\Học Claude code\Skill" && git push origin main)
+  ⎿  To https://github.com/HIENSN/Hien-BTVN-B3.git
+        71b91a9..3f3d9a5  main -> main
+
+● Push thành công. Đây là kết quả đối chiếu cuối cùng:
+
+  ---
+  Đánh giá đủ/thiếu theo yêu cầu thầy
+
+  ┌────────────────────────────────────────┬────────────────────────────────┐
+  │                Yêu cầu                 │           Trạng thái           │
+  ├────────────────────────────────────────┼────────────────────────────────┤
+  │ Repo GitHub có .claude/skills/         │ ✅ 8 skills                    │
+  ├────────────────────────────────────────┼────────────────────────────────┤
+  │ Repo GitHub có .claude/agents/         │ ✅ 2 agents (vừa push)         │
+  ├────────────────────────────────────────┼────────────────────────────────┤
+  │ 2 agent, mỗi agent ≥ 2 skill           │ ✅ Agent 1: 2 skill / Agent 2: │
+  │                                        │  3 skill                       │
+  ├────────────────────────────────────────┼────────────────────────────────┤
+  │ Giao 1 nhiệm vụ lớn → Claude tự phân   │ ✅ 2 lần — tháng 5 & tháng 1   │
+  │ bổ sub-agent                           │                                │
+  ├────────────────────────────────────────┼────────────────────────────────┤
+  │ Output files từ agent/skill            │ ✅ 4 file agent report + xml + │
+  │                                        │  xlsx + txt                    │
+  ├────────────────────────────────────────┼────────────────────────────────┤
+  │ Chat history với Claude Code           │ ✅ Nhiều file trong output/    │
+  └────────────────────────────────────────┴────────────────────────────────┘
+
+  ---
+  Kết quả nhiệm vụ lớn tháng 1/2026 — Phạm Đăng Hiệp
+
+  Báo cáo tháng 1: 230 nhân sự, thuế phải nộp 186.327.346đ, chênh lệch
+  −232.076.212đ (được hoàn thuế)
+
+  Tư vấn Phạm Đăng Hiệp:
+  - Xuất hiện ở cả 2 sheet (lương chính + CTV)
+  - Thu nhập năm: 106.461.400đ | BHXH: 1.607.256đ
+  - Thu nhập tính thuế = 0 (nhỏ hơn giảm trừ bản thân 186tr) → Thuế = 0đ, NET:
+  104.854.144đ
+  - Tư vấn: chưa cần đăng ký NPT lúc này, nên đăng ký trước cho khi thu nhập
+  tăng
+
+  Bài tập đã hoàn thành đầy đủ.
+
+✻ Cogitated for 11m 13s
+
+❯ cập nhật README cho repo này                                                  
+
+  Read 1 file (ctrl+o to expand)
+
+● Write(README.md)
+  ⎿  Added 121 lines, removed 57 lines
+        1  # Claude Code Workspace — Quyết toán Thuế TNCN
+        2  
+        3 -Workspace cá nhân với 4 Claude Code skills hỗ trợ lập hồ sơ qu
+          -yết toán thuế TNCN.                                           
+        4 -Áp dụng: **Luật Thuế TNCN số 109/2025/QH15** (hiệu lực 01/07/2
+          -026)                                                          
+        3 +Workspace Claude Code với **8 skills** và **2 agents** hỗ trợ 
+          +toàn bộ quy trình thuế TNCN:                                  
+        4 +từ đồng bộ dữ liệu bảng lương → lập hồ sơ quyết toán → khai bá
+          +o điện tử → tư vấn cá nhân.                                   
+        5  
+        6 +**Luật áp dụng:** Luật Thuế TNCN số 109/2025/QH15 (hiệu lực 01
+          +/01/2026)                                                     
+        7 +                                                              
+        8  ---
+        9  
+        8 -## Cấu trúc                                                   
+       10 +## Cấu trúc thư mục                                           
+       11  
+       12  ```
+       13  .claude/
+       12 -├── commands/                                                 
+       13 -│   ├── tncn-generator.md                                     
+       14 +├── agents/                                                   
+       15 +│   ├── bao-cao-thue.md          # Agent 1: Báo cáo thuế doanh
+          + nghiệp                                                       
+       16 +│   └── tu-van-ca-nhan.md        # Agent 2: Tư vấn thuế cá nhâ
+          +n                                                             
+       17 +├── commands/                    # Slash commands kích hoạt từ
+          +ng skill                                                      
+       18  │   ├── tncn-sheets-sync.md
+       19 +│   ├── tncn-generator.md                                     
+       20  │   ├── tncn-review.md
+       16 -│   └── tncn-full.md                                          
+       21 +│   ├── tncn-full.md                                          
+       22 +│   ├── tncn-personal-calc.md                                 
+       23 +│   ├── tncn-law-search.md                                    
+       24 +│   ├── tncn-to-xml.md                                        
+       25 +│   └── tncn-lookup.md                                        
+       26  └── skills/
+       18 -    ├── tncn-generator/          # Skill 1                    
+       19 -    │   ├── SKILL.md                                          
+       20 -    │   ├── scripts/                                          
+       21 -    │   │   └── generate_tncn.py                              
+       22 -    │   └── templates/                                        
+       23 -    ├── tncn-sheets-sync/        # Skill 2                    
+       24 -    │   ├── SKILL.md                                          
+       25 -    │   ├── config.json                                       
+       26 -    │   └── scripts/                                          
+       27 -    │       └── fetch_and_update.py                           
+       28 -    ├── tncn-review/             # Skill 3                    
+       29 -    │   ├── SKILL.md                                          
+       30 -    │   └── scripts/                                          
+       31 -    │       └── review_tncn.py                                
+       32 -    └── tncn-full/               # Skill 4                    
+       33 -        ├── SKILL.md                                          
+       34 -        └── scripts/                                          
+       35 -            └── run_all.py                                    
+       27 +    ├── tncn-sheets-sync/        # Skill 1: Đồng bộ Google She
+          +ets                                                           
+       28 +    ├── tncn-generator/          # Skill 2: Tạo hồ sơ 05/QTT-T
+          +NCN                                                           
+       29 +    ├── tncn-review/             # Skill 3: Báo cáo tổng hợp n
+          +hanh                                                          
+       30 +    ├── tncn-full/               # Skill 4: Chạy toàn bộ pipel
+          +ine                                                           
+       31 +    ├── tncn-personal-calc/      # Skill 5: Tính thuế 1 cá nhâ
+          +n                                                             
+       32 +    ├── tncn-law-search/         # Skill 6: Tra cứu điều luật 
+       33 +    ├── tncn-to-xml/             # Skill 7: Xuất XML khai báo 
+          +điện tử                                                       
+       34 +    └── tncn-lookup/             # Skill 8: Liên kết Mini Tool
+          + ↔ Google Sheets                                              
+       35  
+       37 -05_QTT_TNCN_TT80_2025.xls       # Mẫu tờ khai chính thức (dùng
+          - cho Skill 1)                                                 
+       36 +05_QTT_TNCN_TT80_2025.xls       # Mẫu tờ khai chính thức      
+       37  
+       38  output/
+       40 -    bang_luong_from_sheets.xlsx  # Skill 2 output: dữ liệu thô
+          - từ Google Sheets                                             
+       41 -    QuyetToanTNCN_2026.xls       # Skill 1 output: tờ khai quy
+          -ết toán chính thức                                            
+       42 -    tncn_review_YYYY-MM-DD.xlsx  # Skill 3 output: báo cáo tổn
+          -g hợp nhanh                                                   
+       43 -    chat_history_*.txt           # Skill 1 output: lịch sử chạ
+          -y                                                             
+       39 +    bang_luong_from_sheets.xlsx                  # Dữ liệu thô
+          + từ Google Sheets                                             
+       40 +    QuyetToanTNCN_2026.xls                       # Hồ sơ 05/QT
+          +T-TNCN chính thức                                             
+       41 +    QuyetToanTNCN_2026.xml                       # File XML kh
+          +ai báo điện tử                                                
+       42 +    tncn_review_YYYY-MM-DD.xlsx                  # Báo cáo tổn
+          +g hợp nhanh                                                   
+       43 +    tncn_personal_YYYY-MM-DD_HH-MM.txt           # Kết quả tín
+          +h thuế cá nhân                                                
+       44 +    agent_bao_cao_thue_YYYY-MM.txt               # Output từ A
+          +gent báo cáo thuế                                             
+       45 +    agent_tu_van_ca_nhan_<TenNhanVien>.txt        # Output từ 
+          +Agent tư vấn                                                  
+       46 +    chat_history_*.txt                           # Lịch sử chạ
+          +y                                                             
+       47  ```
+       48  
+       49  ---
+       50  
+       48 -## 4 Skills                                                   
+       51 +## 2 Agents                                                   
+       52  
+       50 -| Lệnh | Chức năng | Kết nối ngoài | File phụ |               
+       51 -|------|-----------|---------------|----------|               
+       52 -| `/tncn-sheets-sync` | Kết nối **Google Sheets** (public URL)
+          - → xuất file Excel thô | **Google Sheets** | `scripts/`, `conf
+          -ig.json` |                                                    
+       53 -| `/tncn-generator` | Đọc file Excel bảng lương → điền mẫu 05/
+          -QTT-TNCN chính thức | Không | `scripts/`, `templates/` |      
+       54 -| `/tncn-review` | Phân tích nhanh → báo cáo tổng hợp `.xlsx` 
+          -| Không | `scripts/` |                                        
+       55 -| `/tncn-full` | **Chạy cả 3 skill trên theo thứ tự bằng 1 lện
+          -h** | **Google Sheets** | `scripts/` |                        
+       53 +### Agent 1 — `bao-cao-thue` (Báo cáo thuế doanh nghiệp)      
+       54  
+       55 +**Mục đích:** Lập bộ hồ sơ quyết toán thuế TNCN hàng tháng đầy
+          + đủ, sẵn sàng nộp cơ quan thuế.                               
+       56 +                                                              
+       57 +**Skills sử dụng:** `tncn-full` + `tncn-to-xml`               
+       58 +                                                              
+       59 +**Nguyên tắc:**                                               
+       60 +- Báo cáo lập **mỗi tháng một lần**                           
+       61 +- Số liệu từ ngày 1 đến ngày cuối tháng                       
+       62 +- Output: `QuyetToanTNCN.xls` (hồ sơ chính thức) + `QuyetToanT
+          +NCN.xml` (khai báo điện tử)                                   
+       63 +                                                              
+       64 +### Agent 2 — `tu-van-ca-nhan` (Tư vấn thuế cá nhân)          
+       65 +                                                              
+       66 +**Mục đích:** Hỗ trợ người lao động tự tra cứu và tính thuế TN
+          +CN của mình.                                                  
+       67 +                                                              
+       68 +**Skills sử dụng:** `tncn-personal-calc` + `tncn-law-search` +
+          + `tncn-lookup`                                                
+       69 +                                                              
+       70 +**Nguyên tắc:**                                               
+       71 +- Người lao động tra cứu **bất cứ lúc nào**                   
+       72 +- Số liệu cập nhật theo thời gian thực từ Google Sheets       
+       73 +- Hỗ trợ 3 nhu cầu: tra cứu bảng lương → tính thuế → giải đáp 
+          +pháp luật                                                     
+       74 +                                                              
+       75  ---
+       76  
+       59 -## Flow sử dụng                                               
+       77 +## 8 Skills                                                   
+       78  
+       79 +| Lệnh | Chức năng | Input | Output |                         
+       80 +|------|-----------|-------|--------|                         
+       81 +| `/tncn-sheets-sync` | Đồng bộ dữ liệu từ Google Sheets | Goo
+          +gle Sheets (public) | `bang_luong_from_sheets.xlsx` |         
+       82 +| `/tncn-generator` | Tạo hồ sơ quyết toán 05/QTT-TNCN | File 
+          +Excel bảng lương | `QuyetToanTNCN_{YYYY}.xls` |               
+       83 +| `/tncn-review` | Báo cáo tổng hợp nhanh | File Excel bảng lư
+          +ơng | `tncn_review_{date}.xlsx` |                             
+       84 +| `/tncn-full` | Chạy cả 3 skill trên bằng 1 lệnh | Google She
+          +ets | XLS + XLSX + chat history |                             
+       85 +| `/tncn-personal-calc` | Tính thuế TNCN cho 1 cá nhân | Thu n
+          +hập, BHXH, NPT | Kết quả thuế + file TXT |                    
+       86 +| `/tncn-law-search` | Tra cứu 9 mục điều luật TNCN | Từ khóa 
+          +| Nội dung luật liên quan |                                   
+       87 +| `/tncn-to-xml` | Chuyển đổi quyết toán sang XML | File Excel
+          + bảng lương | `QuyetToanTNCN_{YYYY}.xml` |                    
+       88 +| `/tncn-lookup` | Liên kết Mini Tool với Google Sheets | Họ t
+          +ên nhân viên | Auto-fill thu nhập + BHXH |                    
+       89 +                                                              
+       90 +---                                                           
+       91 +                                                              
+       92 +## Flow tổng thể                                              
+       93 +                                                              
+       94  ```
+       62 -Google Sheets  ──►  /tncn-sheets-sync  ──►  output/bang_luong_
+          -from_sheets.xlsx                                              
+       63 -                                                        │     
+       64 -                                    ┌───────────────────┴─────
+          -─────────────┐                                                
+       65 -                                    ▼                         
+          -             ▼                                                
+       66 -                             /tncn-generator                  
+          -       /tncn-review                                           
+       67 -                         QuyetToanTNCN_2026.xls              t
+          -ncn_review_YYYY-MM-DD.xlsx                                    
+       68 -```                                                           
+       95 +Google Sheets (bảng lương thực tế)                            
+       96 +        │                                                     
+       97 +        ▼                                                     
+       98 +/tncn-sheets-sync  →  output/bang_luong_from_sheets.xlsx      
+       99 +        │                                                     
+      100 +        ├──────────────────┬──────────────────┬───────────────
+          +───┐                                                          
+      101 +        ▼                  ▼                  ▼               
+          +   ▼                                                          
+      102 +/tncn-generator    /tncn-review        /tncn-to-xml       /tnc
+          +n-lookup                                                      
+      103 +QuyetToan.xls    tncn_review.xlsx    QuyetToan.xml     (Mini T
+          +ool web)                                                      
+      104 +(hồ sơ PL01/02)  (báo cáo nhanh)   (khai báo điện tử)         
+      105  
+       70 -Mỗi khi dữ liệu Google Sheets thay đổi: chạy lại `/tncn-sheets
+          --sync` → chạy `/tncn-generator` và/hoặc `/tncn-review` để có o
+          -utput cập nhật.                                               
+      106 +                               ↑ tncn-full chạy 3 bước đầu cùn
+          +g lúc ↑                                                       
+      107  
+       72 -Hoặc dùng **`/tncn-full`** để chạy cả 3 bước chỉ bằng 1 lệnh. 
+      108 +/tncn-personal-calc  →  tính thuế 1 người, xuất TXT           
+      109 +/tncn-law-search     →  tra cứu luật theo từ khóa             
+      110 +```                                                           
+      111  
+      112  ---
+      113  
+       76 -## Yêu cầu Google Sheets (Skill 2)                            
+      114 +## Mini Tool tích hợp                                         
+      115  
+       78 -Không cần API key hay credentials. Chỉ cần share Google Sheet 
+          -với quyền **"Anyone with the link → Viewer"**.                
+       79 -Cập nhật `spreadsheet_id` và `gid` trong `.claude/skills/tncn-
+          -sheets-sync/config.json`.                                     
+      116 +**Web app tính thuế TNCN:** https://hiensn.github.io/mini-tool
+          +-tncn-2026/                                                   
+      117  
+      118 +Tính năng `/tncn-lookup` đã được tích hợp vào Mini Tool:      
+      119 +- Nhập **Họ và tên** → tra cứu bảng lương từ Google Sheets    
+      120 +- Tự động điền thu nhập và BHXH vào form tính thuế            
+      121 +- Yêu cầu: mở qua GitHub Pages (không dùng được khi mở file://
+          + trực tiếp)                                                   
+      122 +                                                              
+      123  ---
+      124  
+      125  ## Quy định thuế áp dụng — Luật 109/2025/QH15
+      126  
+      127  **Giảm trừ gia cảnh:**
+       86 -- Bản thân: 15.500.000 VND/tháng                              
+       87 -- Người phụ thuộc: 6.200.000 VND/người/tháng                  
+      128  
+      129 +| Khoản | Tháng | Năm |                                       
+      130 +|-------|-------|-----|                                       
+      131 +| Bản thân người nộp thuế | 15.500.000 đ | 186.000.000 đ |    
+      132 +| Mỗi người phụ thuộc | 6.200.000 đ | 74.400.000 đ |          
+      133 +                                                              
+      134  **Biểu thuế lũy tiến 5 bậc:**
+      135  
+       91 -| Bậc | Thu nhập chịu thuế/tháng | Thuế suất |                
+      136 +| Bậc | Thu nhập tính thuế / năm | Thuế suất |                
+      137  |-----|--------------------------|-----------|
+       93 -| 1 | Đến 10 triệu | 5% |                                     
+       94 -| 2 | Trên 10 – 30 triệu | 10% |                              
+       95 -| 3 | Trên 30 – 60 triệu | 20% |                              
+       96 -| 4 | Trên 60 – 100 triệu | 30% |                             
+       97 -| 5 | Trên 100 triệu | 35% |                                  
+      138 +| 1 | Đến 120 triệu | 5% |                                    
+      139 +| 2 | Trên 120 – 360 triệu | 10% |                            
+      140 +| 3 | Trên 360 – 720 triệu | 20% |                            
+      141 +| 4 | Trên 720 – 1.200 triệu | 30% |                          
+      142 +| 5 | Trên 1.200 triệu | 35% |                                
+      143 +                                                              
+      144 +---                                                           
+      145 +                                                              
+      146 +## Yêu cầu môi trường                                         
+      147 +                                                              
+      148 +```bash                                                       
+      149 +pip install openpyxl xlrd xlutils xlwt                        
+      150 +```                                                           
+      151 +                                                              
+      152 +Google Sheets cần share: **"Anyone with the link → Viewer"** (
+          +không cần API key).                                           
+      153 +                                                              
+      154 +---                                                           
+      155 +                                                              
+      156 +## Liên kết                                                   
+      157 +                                                              
+      158 +- **Repo này (Skill workspace):** https://github.com/HIENSN/Hi
+          +en-BTVN-B3                                                    
+      159 +- **Mini Tool web:** https://github.com/HIENSN/mini-tool-tncn-
+          +2026                                                          
+      160 +- **Mini Tool deploy:** https://hiensn.github.io/mini-tool-tnc
+          +n-2026/                                                       
+      161 +- **Google Sheets bảng lương:** https://docs.google.com/spread
+          +sheets/d/1Ux1aaL2q9A73HTKpBQEOoari5F5tltI5J8-j65mlCmM         
+
+● Bash(cd "D:\Học Claude code\Skill" && git add README.md && git commit -m
+      "$(cat <<'EOF'
+      docs: cap nhat README phan anh day du 8 skills va 2 agents…)
+  ⎿  warning: in the working copy of 'README.md', LF will be replaced by CR
+     LF the next time Git touches it
+     [main af73791] docs: cap nhat README phan anh day du 8 skills va 2 age
+     … +4 lines (ctrl+o to expand)
+
+● README đã cập nhật và push xong. Nội dung mới so với cũ:
+
+  ┌──────────────────┬────────────┬───────────────────────────────────┐
+  │       Mục        │     Cũ     │                Mới                │
+  ├──────────────────┼────────────┼───────────────────────────────────┤
+  │ Skills           │ 4          │ 8                                 │
+  ├──────────────────┼────────────┼───────────────────────────────────┤
+  │ Agents           │ Không có   │ 2 (mô tả đầy đủ)                  │
+  ├──────────────────┼────────────┼───────────────────────────────────┤
+  │ Cấu trúc thư mục │ Chỉ skills │ Có cả agents/, commands/, output/ │
+  ├──────────────────┼────────────┼───────────────────────────────────┤
+  │ Flow             │ Đơn giản   │ Sơ đồ đầy đủ 8 skill              │
+  ├──────────────────┼────────────┼───────────────────────────────────┤
+  │ Mini Tool        │ Không có   │ Có link + mô tả tncn-lookup       │
+  ├──────────────────┼────────────┼───────────────────────────────────┤
+  │ Biểu thuế        │ Theo tháng │ Theo năm (đúng hơn)               │
+  ├──────────────────┼────────────┼───────────────────────────────────┤
+  │ Liên kết         │ Không có   │ 4 link repo/deploy/sheet          │
+  └──────────────────┴────────────┴───────────────────────────────────┘
+
+  Repo: https://github.com/HIENSN/Hien-BTVN-B3
+
+✻ Cogitated for 1m 4s

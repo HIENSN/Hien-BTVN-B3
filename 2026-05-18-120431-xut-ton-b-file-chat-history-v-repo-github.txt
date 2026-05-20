@@ -86,6 +86,7 @@
   ⎿  File must be read first
 
 ● Update(.claude\commands\tncn-sheets-sync.md)
+
   ⎿  File must be read first
 
 ● Update(.claude\commands\tncn-generator.md)  ⎿  File must be read first
